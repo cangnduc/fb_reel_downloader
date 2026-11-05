@@ -1,0 +1,11 @@
+# Focus is a Feature: Keyboard Accessibility
+2026-07-08 · https://www.facebook.com/reel/4421962048072389
+
+[00:00] Press Tab. Where did the focus go?
+[00:02] Outline none is not a style choice. It's a lawsuit.
+[00:06] A ring needs two pixels, an offset, and contrast on every background. If you kill the default, ship a better one.
+[00:12] Mouse users never asked for a ring. Keyboard users can't work without one. :focus-visible tells them apart. Click, no ring. Tab, ring. Both sides win.
+[00:23] Focus follows the DOM, not your layout. Reorder columns with CSS and tab starts teleporting across the page. Visual order and DOM order have to match.
+[00:32] A modal opens. Focus must lock inside. Tab cycles through the dialogue and wraps around. Escape closes it and hands focus back to the button that opened it.
+[00:42] 40 links stand between tab and your content. A skip link jumps past all of them in one press. Invisible until focused. First element on the page.
+[00:52] Focus is a feature. Follow for more UX engineering. Save this for your next accessibility pass.

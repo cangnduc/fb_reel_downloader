@@ -1,0 +1,11 @@
+# 5 Rules for Better Empty States
+2026-04-16 · https://www.facebook.com/reel/1626204088711096
+
+[00:00] Your empty state is your first impression. Most apps waste it.
+[00:02] 5 rules most apps miss.
+[00:03] First rule: A blank screen tells users nothing is wrong. One tiny illustration changes everything.
+[00:09] Second: Error copy sounds corporate. Your empty state should sound human, like a product, not a log file.
+[00:15] Third: Every empty state needs a primary action, not a refresh. The next step users would take if they knew what to do.
+[00:21] Fourth: There are four kinds of empty. First run is different from no results. Error is different from filtered out. Design each one.
+[00:29] Fifth: The empty state is your best onboarding moment. Use it to teach what the feature does before users touch it.
+[00:35] Save this for your next empty screen. Follow for more UX rules.

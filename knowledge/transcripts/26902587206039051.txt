@@ -1,0 +1,11 @@
+# 6 Essential Form States for Better UX
+2026-04-29 · https://www.facebook.com/reel/26902587206039051
+
+[00:00] Most apps ship two.
+[00:02] State one: Default. Anatomy of a field nobody is touching. Label outside, helper text below. Don't hide the label inside the placeholder. It vanishes the moment the user types.
+[00:10] State two: Focus. The user is typing — make their target obvious. The ring needs 3:1 contrast against the background. Most apps ship a soft blue glow that fails accessibility.
+[00:19] State three: Error. Validation failed. Be loud, clear, and accessible. You need three things: a color shift, an icon, and a message below. A red border alone is invisible to 12% of users with color vision deficiency.
+[00:29] State four: Success. It worked. Confirm in-place — feedback lands where attention is. A green check inside the field, not a toast. The field itself confirms what just happened.
+[00:35] State five: Disabled. Locked. Visible to readers, untouchable to clicks. Use a grayscale background, not opacity 50%. Cursor not-allowed. Hides intent without hiding the field from screen readers.
+[00:44] State six: Loading. Async in flight. Disable input, show progress, prevent the double submit. Spinner inside input disabled. Prevents the double submit bug that ships in production every week. Async forms need this state.
+[00:53] Six states, one system. One forgotten equals one perceived bug. Save this for your next form. Follow for more system thinking.

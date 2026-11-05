@@ -1,0 +1,10 @@
+# Search Bar Design System
+2026-05-16 · https://www.facebook.com/reel/1487183219540241
+
+[00:00] Search is a system. Five parts. Most apps skip them.
+[00:03] Placeholder copy is your first onboarding. 'Search' tells nothing. 'Search by name, SKU, or brand' tells everything.
+[00:10] Empty state isn't empty. Recent searches load when users focus. One click fills the bar. Friction drops to zero.
+[00:18] Autocomplete ranks results by clicks, not alphabet. Each option shows a category badge. Three results beat ten.
+[00:25] Arrow keys navigate results. Enter selects, Escape closes. The focus ring must stay visible.
+[00:33] Zero results shouldn't be a dead end. Suggest alternatives: popular searches or category jumps. Bad empty states lose users at the worst moment.
+[00:42] Follow for more UI systems. Save this for your next search bar. The best UI feels invisible until it fails.

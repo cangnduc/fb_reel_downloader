@@ -1,0 +1,17 @@
+# Mastering CSS View Transitions
+2026-10-01 · https://www.facebook.com/reel/1617431583257999
+
+[00:00] A card becomes a page. One line of CSS, no animation library.
+[00:04] Give the card image and the page header the same view-transition-name. The browser snapshots both states and morphs one into the other.
+[00:12] Size, position, corners, all interpolated.
+[00:16] In a single page app, one startViewTransition call wraps the DOM update.
+[00:21] Reorder a list? Give every item its own unique name. Sort, filter, delete. Each row slides to its new spot for free.
+[00:30] Two items with the same name, and the whole transition is skipped.
+[00:34] Theme toggle. The whole page is one snapshot called root. Animate a clip-path circle on view-transition-new of root.
+[00:42] Dark mode spreads out from the button you clicked.
+[00:45] A modal that grows from its button. The button holds the name. On open, the name moves to the dialog.
+[00:51] It expands out of the place you tapped instead of fading in from nowhere.
+[00:55] It works across real page loads too. One @rule, navigation: auto on both pages.
+[01:01] Multi-page site, no framework, same morph. Chrome and Safari ship it today.
+[01:07] Without support, you get an instant swap. Nothing breaks.
+[01:11] Four morphs. One property. Think like a senior UX designer.

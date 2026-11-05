@@ -1,0 +1,10 @@
+# 5 Loading Patterns for Better UX
+2026-04-20 · https://www.facebook.com/reel/966287759692721
+
+[00:00] Stop using skeletons for everything. Loading is a system. 1 right choice per context.
+[00:03] 01 Skeleton. Skeleton when you know the shape. Content like cards, lists, articles and the wait is over 300 milliseconds. It tricks the brain into thinking the page already loaded.
+[00:13] 02 Spinner. Spinner is for short waits under three seconds. When you do not know the duration and you just need to say something is happening. Never for full page loads.
+[00:21] 03 Progress Bar. Progress bar when you know the percentage. File uploads, installs, anything over three seconds. It builds trust because users see the end coming.
+[00:30] 04 Optimistic UI. Optimistic UI is the pro move. Likes, saves, bookmarks, mutations that succeed 99% of the time. Show the result instantly and roll back only if it fails.
+[00:39] 05 Show Nothing. And the rule nobody tells you. Under 300 milliseconds, show nothing. A flash of loading state is worse than a slight delay. Your brain reads it as a bug.
+[00:48] Save this for your next UI. Follow for more design systems.

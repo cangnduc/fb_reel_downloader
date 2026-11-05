@@ -1,0 +1,17 @@
+# Six Rules for Resizable Panels
+2026-08-15 · https://www.facebook.com/reel/881135991496149
+
+[00:00] This layout looks fine until you drag the divider off the screen.
+[00:03] One drag from broken.
+[00:04] The visible divider is one pixel. The grab target has to be 12.
+[00:08] Miss it and the resize feels stuck.
+[00:11] Clamp every drag between a min and a max width so a panel can never collapse into something you cannot reopen.
+[00:17] Limits are the feature.
+[00:19] Near the edge, snap it fully closed instead of leaving a sliver.
+[00:23] Halfway states read like bugs. Commit to open or shut.
+[00:27] While dragging, drop an invisible overlay over the whole page.
+[00:31] Otherwise an iframe or a text selection eats the mouse and the panel freezes mid-drag.
+[00:37] Set the resize cursor on the whole body, not the handle alone.
+[00:41] The arrow shouldn't flicker when you drift a pixel off. Keep it locked.
+[00:46] Remember the width across reloads or you throw away the exact layout the user set by hand.
+[00:51] Go to designmotionhq.com for more. Link in bio.

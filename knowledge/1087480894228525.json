@@ -1,0 +1,74 @@
+{
+  "title": "Mastering the Copy Button UX",
+  "summary": "This reel outlines five essential best practices for designing copy-to-clipboard buttons. It covers instant feedback, state resets, data integrity, accessibility, and error handling for insecure origins.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "One click, one checkmark. You pasted absolutely nothing."
+    },
+    {
+      "t": "00:04",
+      "text": "The copy icon should flip to a check the instant the copy fires. No spinner, no delay."
+    },
+    {
+      "t": "00:09",
+      "text": "Hold the check for about two seconds, then let it fade back to the copy icon. Leave it stuck forever and the next copy gives no signal at all."
+    },
+    {
+      "t": "00:17",
+      "text": "Copy the raw value, not the formatted span with its line breaks and hidden zero-width characters. Paste that into a terminal. Watch it break."
+    },
+    {
+      "t": "00:27",
+      "text": "Screen readers hear nothing when an icon quietly changes. Announce \"copied\" out loud through a live region, because silent success is still a failure for someone."
+    },
+    {
+      "t": "00:36",
+      "text": "On an insecure origin, the clipboard call fails without a word. Fall back to a copy command. A silent button lies."
+    },
+    {
+      "t": "00:44",
+      "text": "Copy needs proof. Go to designmotionhq.com for more. Link in bio."
+    }
+  ],
+  "on_screen_text": [
+    "You pasted nothing.",
+    "INSTANT FEEDBACK: Flip the instant it fires.",
+    "AUTO RESET: Hold, then fade back.",
+    "CLEAN VALUE: Copy the raw value.",
+    "SCREEN READERS: Say it out loud.",
+    "INSECURE ORIGIN: Fall back, don't lie.",
+    "Copy needs proof.",
+    "Flip instantly — no spinner",
+    "Reset after two seconds",
+    "Copy the raw value",
+    "Announce via a live region",
+    "Fall back on insecure origins"
+  ],
+  "ui_patterns": [
+    "Copy-to-clipboard button",
+    "Success state checkmark",
+    "Aria-live region",
+    "Terminal input",
+    "Loading spinner"
+  ],
+  "design_principles": [
+    "Instant Feedback: Avoid spinners for instantaneous actions like copying.",
+    "State Reset: Revert success icons to their original state after a short delay (e.g., 2 seconds).",
+    "Data Integrity: Ensure the clipboard receives raw data rather than formatted text that might include hidden characters.",
+    "Accessibility: Use aria-live to announce state changes to screen reader users.",
+    "Graceful Degradation: Provide fallbacks for API failures on insecure origins."
+  ],
+  "before_after": "Demonstrates the difference between a basic, often broken copy button and a robust, accessible implementation.",
+  "tags": [
+    "UX Design",
+    "UI Design",
+    "Accessibility",
+    "Frontend Development",
+    "Micro-interactions"
+  ],
+  "id": "1087480894228525",
+  "date": "2026-08-20",
+  "url": "https://www.facebook.com/reel/1087480894228525",
+  "file": "2026-08-20_1087480894228525.mp4"
+}

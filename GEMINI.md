@@ -1,0 +1,1 @@
+Read `CLAUDE.md` first — it is the source of truth for this project: what exists, where to start for each task, and the non-obvious constraints (FB cookie auth, bare-request GraphQL quirk, resumable scripts, security notes).

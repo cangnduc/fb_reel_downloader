@@ -1,0 +1,10 @@
+# Toasts done right.
+2026-04-18 · https://www.facebook.com/reel/2149760112506033
+
+[00:00] Most toasts break three of these five rules.
+[00:02] Rule 1: Position. Desktop toasts live bottom-right. Mobile goes top. Never center. Center blocks what users are actually doing.
+[00:10] Rule 2: Timing. Info dismisses at 4 seconds. Warnings hold 7. Errors stay until the user acknowledges. A fixed timer is a bug.
+[00:19] Rule 3: Stacking. Maximum three visible. New ones push old ones up with spring physics. Damping 20, stiffness 180. Anything else feels cheap.
+[00:28] Rule 4: Always dismissible. A close button, swipe on mobile, pause on hover. If users can't escape your toast, it's not a toast, it's a modal.
+[00:36] Rule 5: Color coding. Each type needs an icon plus a left border color. Background tint alone isn't enough. 6% of users can't distinguish it.
+[00:44] Five rules. Zero excuses. Follow for more design details. Save this for your next toast implementation.

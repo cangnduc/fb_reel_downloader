@@ -1,0 +1,18 @@
+# Drag-and-Drop Interaction Patterns
+2026-06-01 · https://www.facebook.com/reel/860578686523731
+
+[00:00] Grab a card. The board does the thinking.
+[00:02] Three signals. One grab.
+[00:03] Cursor changes. Card lifts. Background fades.
+[00:06] Three signals say "I'm holding this". No signal feels stuck.
+[00:10] Drop zones speak first.
+[00:11] Hover a column, insertion line. Hover a zone, fill highlight.
+[00:16] No preview equals blind drop.
+[00:19] Snap matches structure. Free matches canvas.
+[00:20] Kanban snaps to columns. Figma drops anywhere.
+[00:23] Snap for structured lists. Free for canvas.
+[00:26] Pick the wrong one and users fight your UI.
+[00:29] Bad drop. Toast. Five seconds to undo.
+[00:31] Happens. Toast pops. Moved to Done. Undo.
+[00:33] Five seconds to take it back. Saves the panic.
+[00:36] Follow for more interaction patterns. Save this for your next board.

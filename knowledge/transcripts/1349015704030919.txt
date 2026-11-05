@@ -1,0 +1,10 @@
+# 5 Tips for Better Color Pickers
+2026-06-25 · https://www.facebook.com/reel/1349015704030919
+
+[00:00] Pick a color. Your whole UI answers.
+[00:03] Hex is for machines. OKLCH reads like a human. Lightness, Chroma, Hue. Change one number, get a predictable shade.
+[00:12] A picker without memory wastes your day. Recent swatches, saved palettes. Your last five picks. One tap away.
+[00:20] Check contrast at pick time, not in review. A live ratio badge flips red to green. Bad pairs die before they ship.
+[00:29] Transparency lies on white. A checkerboard tells the truth. Preview alpha on light and dark before you commit.
+[00:36] One pick builds the system. Generate tints and shades from a single hue. 10 tokens, 1 decision.
+[00:43] Follow for more design tooling. Save this for your next design system.

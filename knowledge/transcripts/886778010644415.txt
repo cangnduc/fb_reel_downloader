@@ -1,0 +1,18 @@
+# The Grammar of Swipe Gestures
+2026-07-12 · https://www.facebook.com/reel/886778010644415
+
+[00:00] Swipe right, archived. Swipe left, gone.
+[00:02] Every swipe hides two thresholds.
+[00:04] A short pull reveals the buttons, a pause, a choice.
+[00:08] Pull further and you cross the commit line. The action fires on release.
+[00:12] Under the finger, the row resists like a rubber band.
+[00:16] At the commit point, the icon pops and the resistance dies.
+[00:19] That tiny haptic beat is the whole interaction talking to you.
+[00:23] Direction is a language. Right for safe actions: archive, mark as read.
+[00:28] Left for destructive ones. Swap the sides and muscle memory deletes the wrong email.
+[00:33] Gestures are invisible. New users never find them alone.
+[00:37] So peek the first row on first launch. Buttons half-revealed... then settle back.
+[00:42] One hint and the pattern is learned for good.
+[00:45] A full swipe deletes in one motion. No dialog.
+[00:49] That speed only works with a net. A toast slides in: undo. Five seconds of grace.
+[00:54] Follow for more mobile UX. Save this for your next app.

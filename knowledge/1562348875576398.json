@@ -1,0 +1,83 @@
+{
+  "title": "De-AI Your UI: 5 Dashboard Fixes",
+  "summary": "This lesson identifies common 'tells' of AI-generated UI designs and provides five specific fixes to make dashboards look more professional. It covers gradients, icon tiles, hierarchy, shadows, and copy refinement.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Your dashboard looks AI-made. 5 tells, 5 fixes."
+    },
+    {
+      "t": "00:04",
+      "text": "Tell 1: The gradient. Purple to blue on the header, the button, the chart fill. A generated UI paints gradients where it has nothing to say. One flat accent. Now color means something."
+    },
+    {
+      "t": "00:16",
+      "text": "Tell 2: Icons in pastel tiles. Blue, green, purple, orange, one per card. Four colors for four numbers is decoration, not information. Drop the tiles. The number is the hero."
+    },
+    {
+      "t": "00:29",
+      "text": "Tell 3: Hierarchy. Four identical cards, same size, same weight, same green badge. A dashboard with no hierarchy is a spreadsheet with padding. One primary metric, big. Three secondary, small. Your eye lands once."
+    },
+    {
+      "t": "00:43",
+      "text": "Tell 4: Shadows. 16 pixel corners and a drop shadow on everything. Cards, inputs, badges, the chart. When every card floats, nothing does. Hairline borders, tighter radius on smaller parts, shadow only on what opens above the page."
+    },
+    {
+      "t": "00:59",
+      "text": "Tell 5: Copy. Welcome back, Jordan, waving hand. +12.5% from last month. Placeholder copy and numbers with no shape. Name the period. Tabular digits. A sparkline instead of a badge."
+    },
+    {
+      "t": "01:13",
+      "text": "5 tells gone. Or type /restyle. UX Engine, the Claude code plugin that kills the AI look. Link in bio."
+    }
+  ],
+  "on_screen_text": [
+    "DE-AI YOUR UI - 01",
+    "Your dashboard looks AI-made.",
+    "5 tells - 5 fixes",
+    "TELL 01 - THE GRADIENT",
+    "Gradients with nothing to say.",
+    "One flat accent",
+    "TELL 02 - ICON TILES",
+    "Four colors, four numbers.",
+    "The number is the hero",
+    "TELL 03 - HIERARCHY",
+    "Same size, same weight.",
+    "One primary. Three secondary.",
+    "TELL 04 - SHADOWS",
+    "When everything floats.",
+    "Shadow only on what floats",
+    "TELL 05 - COPY",
+    "Welcome back, Jordan.",
+    "Five tells, gone."
+  ],
+  "ui_patterns": [
+    "Dashboard",
+    "Metric Cards",
+    "Line Chart",
+    "Data Table",
+    "Sparklines",
+    "Sidebar Navigation",
+    "Search Bar"
+  ],
+  "design_principles": [
+    "Visual Hierarchy",
+    "Information Density",
+    "Intentional Color Usage",
+    "Elevation and Shadows",
+    "Microcopy Refinement",
+    "Tabular Digits for Data Alignment"
+  ],
+  "before_after": "A generic, AI-generated dashboard with excessive gradients and shadows is transformed into a professional interface with clear hierarchy, flat accents, and precise data visualization.",
+  "tags": [
+    "UI Design",
+    "Dashboard Design",
+    "UX Design",
+    "Visual Hierarchy",
+    "Design Tips"
+  ],
+  "id": "1562348875576398",
+  "date": "2026-09-08",
+  "url": "https://www.facebook.com/reel/1562348875576398",
+  "file": "2026-09-08_1562348875576398.mp4"
+}

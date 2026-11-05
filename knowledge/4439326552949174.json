@@ -1,0 +1,100 @@
+{
+  "title": "Inline Editing: A UX System",
+  "summary": "This lesson breaks down the technical and design requirements for seamless inline editing, focusing on affordances, layout stability, and state management. It emphasizes that inline editing is not just a UI swap but a system of behaviors including keyboard semantics and optimistic updates.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Click the title. It's an input now. Nothing moved."
+    },
+    {
+      "t": "00:02",
+      "text": "Editable text has to whisper it. A pencil on hover, a soft background tint."
+    },
+    {
+      "t": "00:06",
+      "text": "No signal, and users file tickets to change a title."
+    },
+    {
+      "t": "00:10",
+      "text": "The swap keeps every pixel in place. Same font, same size, same padding. Border made transparent."
+    },
+    {
+      "t": "00:16",
+      "text": "One jump, and the illusion collapses."
+    },
+    {
+      "t": "00:19",
+      "text": "Enter commits. Escape cancels. Everyone agrees."
+    },
+    {
+      "t": "00:23",
+      "text": "Blur is the fight. Notion saves on click-away. Spreadsheets discard. Pick one rule and never break it."
+    },
+    {
+      "t": "00:30",
+      "text": "Save optimistically. The text updates on screen while the request is still flying."
+    },
+    {
+      "t": "00:34",
+      "text": "If the server fails, roll back. Keep the draft. Say why."
+    },
+    {
+      "t": "00:38",
+      "text": "Airtable makes every cell editable. Docs make you ask."
+    },
+    {
+      "t": "00:42",
+      "text": "More power means more accidents. Match the mode to the cost of a typo."
+    },
+    {
+      "t": "00:46",
+      "text": "Inline editing is a system. Follow for more UX engineering. Save this for your next editor."
+    }
+  ],
+  "on_screen_text": [
+    "Click the title.",
+    "It's an input now.",
+    "Nothing moved.",
+    "AFFORDANCE: Editable has to whisper it",
+    "A pencil costs nothing. Tickets don't.",
+    "ZERO LAYOUT SHIFT: Same box, different chrome",
+    "One jump, and the illusion collapses.",
+    "KEYBOARD SEMANTICS: Enter commits. Blur is the fight.",
+    "Pick one blur rule. Never break it.",
+    "OPTIMISTIC SAVE: Update first. Ask later.",
+    "Roll back. Keep the draft. Say why.",
+    "EDIT MODES: Match the mode to the cost of a typo",
+    "Inline editing is a system."
+  ],
+  "ui_patterns": [
+    "Inline Text Input",
+    "Hover States",
+    "Pencil Icon Affordance",
+    "Optimistic UI Loading State",
+    "Error Rollback Notification",
+    "Data Grid / Spreadsheet Cell",
+    "Explicit Edit Mode Button"
+  ],
+  "design_principles": [
+    "Visual Affordance (Whispering editability)",
+    "Zero Cumulative Layout Shift (CLS)",
+    "Keyboard Semantics (Enter/Escape consistency)",
+    "Blur Behavior Consistency (Save vs Discard on blur)",
+    "Optimistic Updates",
+    "Graceful Error Handling (Rollback with draft preservation)",
+    "Contextual Edit Modes (Direct vs Explicit based on risk)"
+  ],
+  "before_after": "The 'Bad Swap' shows a +3px layout shift when transitioning from text to input, while 'The Swap' maintains 0px shift by matching font, size, and padding exactly.",
+  "tags": [
+    "UX Design",
+    "UI Engineering",
+    "Interaction Design",
+    "Frontend Development",
+    "Product Design",
+    "Accessibility"
+  ],
+  "id": "4439326552949174",
+  "date": "2026-07-23",
+  "url": "https://www.facebook.com/reel/4439326552949174",
+  "file": "2026-07-23_4439326552949174.mp4"
+}

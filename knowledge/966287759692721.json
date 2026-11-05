@@ -1,0 +1,80 @@
+{
+  "title": "5 Loading Patterns for Better UX",
+  "summary": "This lesson breaks down the five essential loading patterns and when to use each based on duration and predictability. It covers skeletons, spinners, progress bars, optimistic UI, and the 'show nothing' rule for short delays.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Stop using skeletons for everything. Loading is a system. 1 right choice per context."
+    },
+    {
+      "t": "00:03",
+      "text": "01 Skeleton. Skeleton when you know the shape. Content like cards, lists, articles and the wait is over 300 milliseconds. It tricks the brain into thinking the page already loaded."
+    },
+    {
+      "t": "00:13",
+      "text": "02 Spinner. Spinner is for short waits under three seconds. When you do not know the duration and you just need to say something is happening. Never for full page loads."
+    },
+    {
+      "t": "00:21",
+      "text": "03 Progress Bar. Progress bar when you know the percentage. File uploads, installs, anything over three seconds. It builds trust because users see the end coming."
+    },
+    {
+      "t": "00:30",
+      "text": "04 Optimistic UI. Optimistic UI is the pro move. Likes, saves, bookmarks, mutations that succeed 99% of the time. Show the result instantly and roll back only if it fails."
+    },
+    {
+      "t": "00:39",
+      "text": "05 Show Nothing. And the rule nobody tells you. Under 300 milliseconds, show nothing. A flash of loading state is worse than a slight delay. Your brain reads it as a bug."
+    },
+    {
+      "t": "00:48",
+      "text": "Save this for your next UI. Follow for more design systems."
+    }
+  ],
+  "on_screen_text": [
+    "STOP USING SKELETONS FOR EVERYTHING",
+    "5 LOADING PATTERNS",
+    "01 SKELETON",
+    "KNOWN SHAPE",
+    "> 300ms",
+    "02 SPINNER",
+    "UNKNOWN DURATION",
+    "< 3s",
+    "03 PROGRESS BAR",
+    "KNOWN %",
+    "BUILDS TRUST",
+    "04 OPTIMISTIC UI",
+    "INSTANT FEEDBACK",
+    "ROLLBACK ON FAIL",
+    "05 SHOW NOTHING",
+    "200ms of skeleton feels broken",
+    "< 300ms"
+  ],
+  "ui_patterns": [
+    "Skeleton Screen",
+    "Loading Spinner",
+    "Progress Bar",
+    "Optimistic UI",
+    "Empty State"
+  ],
+  "design_principles": [
+    "Use skeletons for predictable layouts (cards, lists) when wait is > 300ms",
+    "Use spinners for short, unknown durations (< 3s), but avoid for full page loads",
+    "Use progress bars for known percentages and long waits (> 3s) to build trust",
+    "Use optimistic UI for high-success actions (likes, saves) for instant feedback",
+    "Show nothing for very short waits (< 300ms) to avoid flashing loading states"
+  ],
+  "before_after": "Shows a comparison between a 'Skeleton Flash' (incorrect for 200ms) and 'Show Nothing' (correct for 200ms).",
+  "tags": [
+    "UX Design",
+    "UI Design",
+    "Loading States",
+    "Skeleton Screens",
+    "Optimistic UI",
+    "Design Systems"
+  ],
+  "id": "966287759692721",
+  "date": "2026-04-20",
+  "url": "https://www.facebook.com/reel/966287759692721",
+  "file": "2026-04-20_966287759692721.mp4"
+}

@@ -1,0 +1,18 @@
+# Mastering Pagination UX
+2026-06-19 · https://www.facebook.com/reel/4488595424803425
+
+[00:00] 10,000 rows. Jump straight to page 500.
+[00:03] Offset pagination hides a bug. Add one row at the top and every page shifts down.
+[00:07] People see the same item twice.
+[00:10] Cursors fix the drift. Paginate by after this ID, not skip 500.
+[00:14] The list stays stable as data changes.
+[00:17] Three patterns. Each one fits a different job.
+[00:20] Numbered for jumping, load more for control, infinite for feeds.
+[00:24] Each one fits a different job.
+[00:26] Do not render 500 page links. Truncate.
+[00:30] First, a gap, the current pages, a gap, the last. Always keep first and last reachable.
+[00:36] Get back from a detail page. Land on the row you left, not at the top.
+[00:40] Restore scroll, or you lose your place.
+[00:42] Put the page number in the URL. Page 500 becomes a link you can share or refresh.
+[00:48] State lives in the address bar.
+[00:50] Follow for more UI systems. Save this for your next data table.

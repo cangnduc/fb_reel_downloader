@@ -1,0 +1,102 @@
+{
+  "title": "Designing for Touch vs. Mouse",
+  "summary": "This lesson explains how to handle hover states on mobile devices using media queries and why primary actions should never be hidden behind hover. It also demonstrates the importance of 44px tap targets for accessibility and usability.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Hover the card, actions appear. Tap it, nothing."
+    },
+    {
+      "t": "00:03",
+      "text": "Touch has no hover, so the browser fakes one."
+    },
+    {
+      "t": "00:06",
+      "text": "The first tap becomes a hover and the actions freeze there."
+    },
+    {
+      "t": "00:09",
+      "text": "They stay lit until your user taps somewhere else."
+    },
+    {
+      "t": "00:12",
+      "text": "Guard it with a media query, not a device sniff."
+    },
+    {
+      "t": "00:15",
+      "text": "Hover. Hover asks about the pointer, so a tablet with a mouse still gets the full treatment."
+    },
+    {
+      "t": "00:20",
+      "text": "Pair it with pointer: coarse when your targets need to grow."
+    },
+    {
+      "t": "00:24",
+      "text": "Anything you hide behind hover is gone on mobile."
+    },
+    {
+      "t": "00:27",
+      "text": "Move those actions into the card, a swipe, or a bottom sheet."
+    },
+    {
+      "t": "00:31",
+      "text": "Hover reveals extras, never the primary action."
+    },
+    {
+      "t": "00:34",
+      "text": "Tap targets need 44 pixels."
+    },
+    {
+      "t": "00:37",
+      "text": "Your 20 pixel icon passes design review and misses the thumb."
+    },
+    {
+      "t": "00:41",
+      "text": "Pad the hit area and keep the icon small."
+    },
+    {
+      "t": "00:44",
+      "text": "Follow for more UX systems. Save this for your next mobile pass."
+    }
+  ],
+  "on_screen_text": [
+    "Touch has no hover.",
+    "STICKY HOVER: The browser fakes one.",
+    "one tap, two meanings",
+    "MEDIA QUERY: Ask the pointer.",
+    "one query, every pointer",
+    "HIDDEN CONTENT: Give it a real home.",
+    "hover reveals extras, never the primary action",
+    "TAP TARGETS: Pad the box, not the icon.",
+    "pad the hit area, not the icon"
+  ],
+  "ui_patterns": [
+    "Product Cards",
+    "Hover Actions",
+    "Bottom Sheet",
+    "Swipe Actions",
+    "Icon Buttons",
+    "Media Queries"
+  ],
+  "design_principles": [
+    "Avoid sticky hover on touch devices",
+    "Use @media (hover: hover) for pointer-specific styles",
+    "Use @media (pointer: coarse) for touch-friendly sizing",
+    "Never hide primary actions behind hover",
+    "Minimum 44px tap targets for mobile",
+    "Pad the hit area rather than scaling the icon"
+  ],
+  "before_after": "A 20px hit area that misses the user's thumb is transformed into a 44px hit area that maintains a 20px icon size for visual balance.",
+  "tags": [
+    "UX Design",
+    "UI Design",
+    "Mobile Design",
+    "CSS",
+    "Accessibility",
+    "Interaction Design"
+  ],
+  "id": "1996169834388343",
+  "date": "2026-08-05",
+  "url": "https://www.facebook.com/reel/1996169834388343",
+  "file": "2026-08-05_1996169834388343.mp4"
+}

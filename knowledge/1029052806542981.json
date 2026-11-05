@@ -1,0 +1,94 @@
+{
+  "title": "5 UX Signals for Better File Uploads",
+  "summary": "This lesson outlines five critical UI signals to improve the file upload experience, focusing on user feedback and transparency. It covers reactive drop zones, detailed progress indicators, error recovery, visual previews, and independent upload queues.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Same file, one feels broken, one feels safe."
+    },
+    {
+      "t": "00:02",
+      "text": "Drag a file over. Nothing reacts. Users hesitate when nothing moves."
+    },
+    {
+      "t": "00:06",
+      "text": "It has to answer back. A drop zone has to answer back. Border, glow, copy shift. Three signals before the drop."
+    },
+    {
+      "t": "00:13",
+      "text": "A spinner hides the truth. Show percent, show time left. Honest progress lets your user decide: wait or walk away."
+    },
+    {
+      "t": "00:22",
+      "text": "Upload dies at ninety percent. Never make them start over. Inline retry keeps the file loaded. One tap resumes the upload."
+    },
+    {
+      "t": "00:31",
+      "text": "A filename is not feedback. Show the thumbnail, the type, the size. Visual proof you received the right file."
+    },
+    {
+      "t": "00:39",
+      "text": "Ten files at once. Each one gets its own progress, its own retry. One failure never blocks the other nine."
+    },
+    {
+      "t": "00:47",
+      "text": "Follow for more UX engineering. Save this for your next upload flow."
+    }
+  ],
+  "on_screen_text": [
+    "SIGNAL 01 — DRAG FEEDBACK",
+    "Nothing reacts.",
+    "Users hesitate when nothing moves.",
+    "It has to answer back.",
+    "1 Border",
+    "2 Glow",
+    "3 Copy",
+    "SIGNAL 02 — HONEST PROGRESS",
+    "A spinner hides the truth.",
+    "% percent",
+    "time left",
+    "wait or walk away",
+    "SIGNAL 03 — INLINE RETRY",
+    "It dies at ninety percent.",
+    "Never make them start over.",
+    "connection lost",
+    "file kept loaded",
+    "one tap resumes",
+    "SIGNAL 04 — UPLOAD PREVIEW",
+    "A filename is not feedback.",
+    "Thumbnail",
+    "Type",
+    "Size",
+    "Proof",
+    "SIGNAL 05 — INDEPENDENT QUEUE",
+    "Every file, its own lane.",
+    "Follow for more UX engineering."
+  ],
+  "ui_patterns": [
+    "Drop zone",
+    "Progress bar",
+    "Loading spinner",
+    "Retry button",
+    "File preview card",
+    "Upload queue"
+  ],
+  "design_principles": [
+    "Immediate feedback",
+    "Transparency",
+    "Error recovery",
+    "Visual confirmation",
+    "Parallel processing"
+  ],
+  "before_after": "Contrasts a 'broken' experience (no feedback, vague progress, full restarts) with a 'safe' experience (reactive UI, honest progress, inline retries, and visual previews).",
+  "tags": [
+    "UX Design",
+    "UI Design",
+    "File Upload",
+    "Interaction Design",
+    "Product Design"
+  ],
+  "id": "1029052806542981",
+  "date": "2026-06-21",
+  "url": "https://www.facebook.com/reel/1029052806542981",
+  "file": "2026-06-21_1029052806542981.mp4"
+}

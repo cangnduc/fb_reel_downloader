@@ -1,0 +1,79 @@
+{
+  "title": "Credit Card Input UX Tips",
+  "summary": "Learn how to optimize credit card input fields with smart formatting, brand detection, and patient validation. These UX tips help reduce user errors and friction during the checkout process.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Type 16 digits. Watch them become a card."
+    },
+    {
+      "t": "00:02",
+      "text": "Raw digits are a blur. Group them four by four as they type. 16 numbers turn into a card you can read."
+    },
+    {
+      "t": "00:08",
+      "text": "The first digit names the brand. 4 is Visa, 5 is Mastercard. Show the logo the instant it's known."
+    },
+    {
+      "t": "00:15",
+      "text": "Insert a space and the cursor jumps back. Smart fields hold the caret where the finger left it. Nothing feels worse than retyping."
+    },
+    {
+      "t": "00:22",
+      "text": "Don't flag an error on the first keystroke. Validate on blur, forgive while they type. Red means done and wrong, not unfinished."
+    },
+    {
+      "t": "00:31",
+      "text": "Someone pastes a number full of dashes. Strip the noise and reformat it. Never reject a value you could clean yourself."
+    },
+    {
+      "t": "00:37",
+      "text": "Format what they see. Store the raw digits underneath. The mask is for humans, the value is for code."
+    },
+    {
+      "t": "00:44",
+      "text": "Follow for more form UX. Save this for your next checkout."
+    }
+  ],
+  "on_screen_text": [
+    "16 digits become a card",
+    "Group them four by four",
+    "Hard to read vs Readable",
+    "First digit names the brand",
+    "Keep the caret where it was",
+    "Caret jumps vs Caret held",
+    "Validate on blur, not keystroke",
+    "Premature vs Patient",
+    "Strip pasted junk",
+    "Show formatted, store raw",
+    "Follow for more form UX"
+  ],
+  "ui_patterns": [
+    "Input field",
+    "Input mask",
+    "Brand detection",
+    "Validation message",
+    "Caret",
+    "JSON data structure"
+  ],
+  "design_principles": [
+    "Chunking for readability",
+    "Immediate visual feedback",
+    "Smart caret management",
+    "Validation on blur",
+    "Data sanitization",
+    "Human-readable vs machine-readable data"
+  ],
+  "before_after": "Transforms a basic, error-prone text input into a smart, formatted credit card field that handles brand detection and data cleaning.",
+  "tags": [
+    "UX Design",
+    "UI Design",
+    "Form UX",
+    "Checkout Experience",
+    "Input Masking"
+  ],
+  "id": "4388536218092850",
+  "date": "2026-06-10",
+  "url": "https://www.facebook.com/reel/4388536218092850",
+  "file": "2026-06-10_4388536218092850.mp4"
+}

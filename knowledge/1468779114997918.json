@@ -1,0 +1,110 @@
+{
+  "title": "Mastering Slider UI Design",
+  "summary": "This lesson outlines essential UX improvements for sliders, focusing on usability, visual feedback, and accessibility. It covers techniques like expanding hit areas, using filled tracks, snapping to discrete steps, and adding keyboard support.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Drag to 47 or 48. Your finger can't tell."
+    },
+    {
+      "t": "00:03",
+      "text": "Make the whole row draggable. A 4px hairline is a moving target."
+    },
+    {
+      "t": "00:05",
+      "text": "Extend the hit area far past the line. The whole row should respond to a drag."
+    },
+    {
+      "t": "00:09",
+      "text": "A bare track gives no sense of progress. Fill everything left of the thumb."
+    },
+    {
+      "t": "00:14",
+      "text": "Now the value reads before you even check it."
+    },
+    {
+      "t": "00:17",
+      "text": "Continuous sliders never land clean. Snap to steps and every stop is exact."
+    },
+    {
+      "t": "00:22",
+      "text": "Volume, ratings, price—most values are discrete."
+    },
+    {
+      "t": "00:26",
+      "text": "Users drag blind without a number. Float the exact value above the thumb."
+    },
+    {
+      "t": "00:31",
+      "text": "Show it while they move, then let it fade."
+    },
+    {
+      "t": "00:34",
+      "text": "One thumb sets a point. Two thumbs set a range. Min and max captured in a single control."
+    },
+    {
+      "t": "00:39",
+      "text": "A mouse is not the only input. Arrow keys nudge by one step. Home and End jump straight to the edges."
+    },
+    {
+      "t": "00:44",
+      "text": "Follow for more UI systems. Save this for your next form."
+    }
+  ],
+  "on_screen_text": [
+    "Drag to 47. Or 48?",
+    "Make the whole row draggable.",
+    "A 4px hairline is a moving target.",
+    "4px track",
+    "full-row hit area",
+    "Fill the track",
+    "The fill length is the value.",
+    "no fill",
+    "hard to read at a glance",
+    "filled",
+    "value reads from the fill",
+    "Snap to steps",
+    "Nobody wants 47.3.",
+    "continuous",
+    "stepped",
+    "Volume",
+    "Rating",
+    "Price",
+    "Float the value",
+    "Show it above the thumb while dragging.",
+    "One value? Or a range.",
+    "Two thumbs, a filled band between.",
+    "Price range",
+    "Make it keyboard-able",
+    "Arrows step. Home & End jump.",
+    "Follow for more UI systems."
+  ],
+  "ui_patterns": [
+    "Slider",
+    "Range Slider",
+    "Floating Value Label",
+    "Stepped Slider",
+    "Keyboard Navigation"
+  ],
+  "design_principles": [
+    "Expand hit areas for better target acquisition",
+    "Use filled tracks to communicate value visually",
+    "Snap to discrete steps for precision",
+    "Provide real-time feedback with floating values",
+    "Support range selection with dual thumbs",
+    "Implement keyboard accessibility (Arrow keys, Home, End)"
+  ],
+  "before_after": "Transforming a basic, hard-to-use slider into a highly accessible and intuitive component with better hit areas, visual fills, and discrete steps.",
+  "tags": [
+    "UI Design",
+    "UX Design",
+    "Slider",
+    "Accessibility",
+    "Interaction Design",
+    "Form Design"
+  ],
+  "id": "1468779114997918",
+  "date": "2026-06-08",
+  "url": "https://www.facebook.com/reel/1468779114997918",
+  "file": "2026-06-08_1468779114997918.mp4"
+}

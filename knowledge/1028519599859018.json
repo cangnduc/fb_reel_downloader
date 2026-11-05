@@ -1,0 +1,98 @@
+{
+  "title": "Mastering 6-Digit Code Inputs",
+  "summary": "This lesson covers essential UX patterns for multi-box authentication codes, including auto-advance, pasting logic, and mobile autofill. It emphasizes providing instant feedback and preventing user errors through smart state management and throttled resend actions.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Paste a six-digit code. Watch the boxes fill themselves."
+    },
+    {
+      "t": "00:03",
+      "text": "Most inputs choke on a pasted code. Strip the spaces, drop one digit per box. One paste, six boxes, done."
+    },
+    {
+      "t": "00:11",
+      "text": "Type a digit, jump to the next box. Hit backspace on empty, jump back. Your hands never leave the keys."
+    },
+    {
+      "t": "00:19",
+      "text": "It looks like six inputs. It is one value split across six slots. Track one string, not six states."
+    },
+    {
+      "t": "00:26",
+      "text": "On mobile, force the number pad with inputmode. Then let the phone autofill the texted code. The user taps nothing."
+    },
+    {
+      "t": "00:33",
+      "text": "No code arrives, offer resend. But lock it behind a 30-second timer. Otherwise, people hammer it and rate-limit themselves."
+    },
+    {
+      "t": "00:40",
+      "text": "Wrong code shakes, clears, and refocuses box one. Right code locks every box in green. Feedback is instant, never a silent fail."
+    },
+    {
+      "t": "00:49",
+      "text": "Follow for more UI systems. Save this for your next auth flow."
+    }
+  ],
+  "on_screen_text": [
+    "Paste once. Six boxes fill themselves.",
+    "THE PASTE PROBLEM",
+    "ONE INPUT CHOKES",
+    "value.replace(/\\D/g, \"\") -> 847291",
+    "paste -> strip -> 6 boxes",
+    "AUTO-ADVANCE",
+    "Type a digit, jump to the next.",
+    "digit entered -> focus next box",
+    "backspace on empty -> jump back",
+    "STATE ARCHITECTURE",
+    "Six inputs? One value.",
+    "useState(\"847291\")",
+    "MOBILE AUTOFILL",
+    "inputmode=\"numeric\"",
+    "autocomplete=\"one-time-code\"",
+    "RESEND, THROTTLED",
+    "Lock resend behind a timer.",
+    "NO TIMER",
+    "30S TIMER",
+    "Button re-enables when it hits zero.",
+    "No throttle = they rate-limit themselves.",
+    "INSTANT FEEDBACK",
+    "Wrong code shakes & clears.",
+    "cleared -> focus box 1",
+    "Right code locks in green.",
+    "Verified",
+    "Silent fail",
+    "Instant feedback",
+    "Follow for more UI systems.",
+    "Save this for your next auth flow."
+  ],
+  "ui_patterns": [
+    "OTP Input",
+    "Numeric Keypad",
+    "Countdown Timer",
+    "Shake Animation",
+    "Success State"
+  ],
+  "design_principles": [
+    "Auto-advance focus",
+    "Auto-reverse focus",
+    "Input sanitization (stripping spaces)",
+    "Single source of truth state",
+    "Mobile input optimization",
+    "Throttled actions",
+    "Instant visual feedback"
+  ],
+  "before_after": "Shows a standard input failing to handle a pasted code with spaces versus a sanitized input that fills all boxes correctly.",
+  "tags": [
+    "UI Design",
+    "UX Design",
+    "Authentication",
+    "Mobile UX",
+    "Frontend"
+  ],
+  "id": "1028519599859018",
+  "date": "2026-06-15",
+  "url": "https://www.facebook.com/reel/1028519599859018",
+  "file": "2026-06-15_1028519599859018.mp4"
+}

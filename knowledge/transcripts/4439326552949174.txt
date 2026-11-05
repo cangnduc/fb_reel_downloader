@@ -1,0 +1,15 @@
+# Inline Editing: A UX System
+2026-07-23 · https://www.facebook.com/reel/4439326552949174
+
+[00:00] Click the title. It's an input now. Nothing moved.
+[00:02] Editable text has to whisper it. A pencil on hover, a soft background tint.
+[00:06] No signal, and users file tickets to change a title.
+[00:10] The swap keeps every pixel in place. Same font, same size, same padding. Border made transparent.
+[00:16] One jump, and the illusion collapses.
+[00:19] Enter commits. Escape cancels. Everyone agrees.
+[00:23] Blur is the fight. Notion saves on click-away. Spreadsheets discard. Pick one rule and never break it.
+[00:30] Save optimistically. The text updates on screen while the request is still flying.
+[00:34] If the server fails, roll back. Keep the draft. Say why.
+[00:38] Airtable makes every cell editable. Docs make you ask.
+[00:42] More power means more accidents. Match the mode to the cost of a typo.
+[00:46] Inline editing is a system. Follow for more UX engineering. Save this for your next editor.

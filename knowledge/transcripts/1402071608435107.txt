@@ -1,0 +1,16 @@
+# The Zeigarnik Effect in UX
+2026-05-11 · https://www.facebook.com/reel/1402071608435107
+
+[00:00] This bar pulls you in, this one doesn't. Here's why.
+[00:02] Your brain treats unfinished tasks as open loops.
+[00:05] They stay in active memory up to twice as long as completed ones.
+[00:08] This is the Zeigarnik Effect.
+[00:10] That's why every successful onboarding shows a checklist with one or two items unchecked.
+[00:15] The incomplete state pulls you back to finish it.
+[00:17] 100% complete? You forget. 80%? It nags.
+[00:21] LinkedIn knows. Your profile says add three more skills.
+[00:24] For years, that's not a suggestion. That's a deliberate Zeigarnik trigger keeping you in the app.
+[00:29] But the rule has a catch. It only works for tasks the user actually wants to finish.
+[00:33] A 30% bar on a marketing email isn't motivation. It's friction.
+[00:37] Use it on outcomes, not chores.
+[00:40] Save this for your next onboarding. Follow for more design psychology.

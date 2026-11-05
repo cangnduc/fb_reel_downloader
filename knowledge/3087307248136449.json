@@ -1,0 +1,82 @@
+{
+  "title": "Mastering Data Visualization",
+  "summary": "This reel provides a masterclass in data visualization, covering essential rules for honesty and clarity. It teaches viewers how to avoid misleading axes, choose the right chart types, use color meaningfully, and optimize the data-ink ratio.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "This chart screams 400%, it's 4. This chart is lying."
+    },
+    {
+      "t": "00:03",
+      "text": "The axis never started at zero. Truncate the baseline and a 2% gap looks like a cliff."
+    },
+    {
+      "t": "00:08",
+      "text": "Bar charts start at zero. No exceptions."
+    },
+    {
+      "t": "00:11",
+      "text": "Bars compare values side-by-side. Lines show change over time. Pie charts break the moment you pass five slices. Your eye can't rank angles."
+    },
+    {
+      "t": "00:20",
+      "text": "Color isn't decoration, it's encoding. Categorical for groups, sequential for scale, diverging for above and below. One accent for the point. The rest goes gray."
+    },
+    {
+      "t": "00:30",
+      "text": "Heavy gridlines, 3D bars, drop shadows—all noise. Tufte called it the data-ink ratio. Every pixel should be data. Label the line directly, drop the legend."
+    },
+    {
+      "t": "00:40",
+      "text": "Same numbers. Squish the chart flat and the trend dies. Stretch it tall and it spikes. Aim for slopes near 45 degrees. That's where your eye reads change best."
+    },
+    {
+      "t": "00:50",
+      "text": "Follow for more UI design. Save this for your next dashboard."
+    }
+  ],
+  "on_screen_text": [
+    "This chart is lying.",
+    "THE TRUNCATED AXIS",
+    "Bar charts start at zero. No exceptions.",
+    "MATCH THE FORM TO THE QUESTION",
+    "Pick the chart for the job.",
+    "COLOR ENCODES MEANING",
+    "Color is encoding, not decoration.",
+    "STRIP EVERYTHING THAT ISN'T DATA",
+    "Kill the chartjunk.",
+    "Data-ink ratio: every pixel is data.",
+    "THE ASPECT RATIO",
+    "Banking to 45°"
+  ],
+  "ui_patterns": [
+    "Bar Chart",
+    "Line Chart",
+    "Pie Chart",
+    "Data Labels",
+    "Color Palettes",
+    "Dashboard Components"
+  ],
+  "design_principles": [
+    "Zero-baseline for bar charts",
+    "Appropriate chart selection (Form follows function)",
+    "Color as data encoding (Categorical, Sequential, Diverging)",
+    "Data-ink ratio maximization",
+    "Elimination of chartjunk",
+    "Direct labeling",
+    "Banking to 45 degrees for aspect ratios"
+  ],
+  "before_after": "Demonstrates the transformation from misleading, cluttered charts with truncated axes and excessive colors to honest, clean, and highly readable data visualizations.",
+  "tags": [
+    "DataViz",
+    "UIDesign",
+    "UXDesign",
+    "DashboardDesign",
+    "InformationDesign",
+    "Tufte"
+  ],
+  "id": "3087307248136449",
+  "date": "2026-06-05",
+  "url": "https://www.facebook.com/reel/3087307248136449",
+  "file": "2026-06-05_3087307248136449.mp4"
+}

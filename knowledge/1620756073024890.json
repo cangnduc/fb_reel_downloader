@@ -1,0 +1,84 @@
+{
+  "title": "Mastering Border Radius Systems",
+  "summary": "This lesson teaches how to create a consistent border radius system in UI design. It covers mathematical formulas for nested corners and selection rings, scaling radius with component size, and handling edges and images.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Every corner rounded. Still looks off. Corners are a system."
+    },
+    {
+      "t": "00:04",
+      "text": "Same radius inside and out. The inner corner bulges. Inner equals outer minus padding. 12 outside, 8 of padding, 4 inside. Now the corners are concentric."
+    },
+    {
+      "t": "00:15",
+      "text": "8 pixels on everything. A chip and a modal don't share a corner. Radius follows size. Small 4, medium 8, large 16. One scale, every element on it."
+    },
+    {
+      "t": "00:27",
+      "text": "Full radius isn't a number, it's a shape. A pill fits one line. Chips, avatars, toggles. On a card, the corners swallow the content. Multi-line gets a real number."
+    },
+    {
+      "t": "00:38",
+      "text": "A sheet docked to the bottom. The top corners round, the bottom ones hit zero. A corner means space beyond it. Touching an edge? No corner."
+    },
+    {
+      "t": "00:48",
+      "text": "A selection ring drawn as its own box, two pixels out. Inherit the radius and the corners pinch. Flip the formula: outer equals inner plus the gap. Eight in, ten out."
+    },
+    {
+      "t": "00:59",
+      "text": "Edge-to-edge image in a rounded card. Its square corners poke through. Let the card clip it. Inset image? Subtract the padding. Same rule."
+    },
+    {
+      "t": "01:09",
+      "text": "Follow for more UI systems. Save this before your next card."
+    }
+  ],
+  "on_screen_text": [
+    "Every corner rounded.",
+    "Corners are a system.",
+    "One radius everywhere is not a system",
+    "Inner equals outer minus padding.",
+    "Nested corners share one center",
+    "Radius follows size.",
+    "One scale, every element on it",
+    "Full radius is a shape, not a number.",
+    "A pill fits exactly one line",
+    "Touching an edge? No corner.",
+    "A corner means space beyond it",
+    "Outer equals inner plus the gap.",
+    "Let the card clip the image.",
+    "Clip it, or subtract the padding"
+  ],
+  "ui_patterns": [
+    "Cards",
+    "Chips",
+    "Buttons",
+    "Modals",
+    "Avatars",
+    "Toggles",
+    "Selection Rings",
+    "Images"
+  ],
+  "design_principles": [
+    "Inner radius = outer radius - padding",
+    "Radius follows size (scaling)",
+    "Pill shapes for single-line elements only",
+    "Zero radius for edges touching screen borders",
+    "Outer ring radius = inner radius + gap",
+    "Clip images or subtract padding for inset images"
+  ],
+  "before_after": "The video demonstrates the transformation from a visually inconsistent UI using a single border radius to a harmonious system where radii are calculated based on nesting, size, and context.",
+  "tags": [
+    "UI Design",
+    "Design Systems",
+    "Border Radius",
+    "UX Design",
+    "Visual Design"
+  ],
+  "id": "1620756073024890",
+  "date": "2026-09-02",
+  "url": "https://www.facebook.com/reel/1620756073024890",
+  "file": "2026-09-02_1620756073024890.mp4"
+}

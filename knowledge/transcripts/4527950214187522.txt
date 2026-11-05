@@ -1,0 +1,27 @@
+# Dark Mode Design System
+2026-08-31 · https://www.facebook.com/reel/4527950214187522
+
+[00:00] Black background. White text.
+[00:02] That's not dark mode. That's a terminal.
+[00:05] Near black, not black.
+[00:06] Pure black saves OLED battery. It also kills depth.
+[00:09] Nothing sits lower than black, so every surface fights for one plane.
+[00:13] Start near black. Now your layers have room.
+[00:17] Lightness is elevation. Shadows die on dark.
+[00:19] Black on black is invisible. So your card floats nowhere.
+[00:23] Raise it with lightness. The higher the surface, the lighter it gets.
+[00:28] Three tiers of white. Pure white text vibrates.
+[00:30] Full contrast on a dark surface burns after one paragraph.
+[00:34] Drop it to 87%. Secondary at 60. Disabled at 38.
+[00:40] Three tiers, one variable.
+[00:43] Calm the accent. Your brand blue bleeds.
+[00:45] Saturated color on a dark surface glows past its edges and outshines your content.
+[00:49] Lighten it. Desaturate it. Same hue, less weight.
+[00:55] Alpha hairlines. Edges need a hairline.
+[00:56] One pixel of white at 8% alpha reads on any surface.
+[01:00] Use alpha, not a fixed gray. The line adapts as the surface lightens.
+[01:05] Dim the photos. Photos glare on dark.
+[01:07] A bright image on a dim page pulls every eye.
+[01:10] Dim it to 90% brightness.
+[01:12] Illustrations get a dark variant, not a filter.
+[01:15] Dark mode is a system.

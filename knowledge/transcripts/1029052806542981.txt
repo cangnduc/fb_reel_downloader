@@ -1,0 +1,11 @@
+# 5 UX Signals for Better File Uploads
+2026-06-21 · https://www.facebook.com/reel/1029052806542981
+
+[00:00] Same file, one feels broken, one feels safe.
+[00:02] Drag a file over. Nothing reacts. Users hesitate when nothing moves.
+[00:06] It has to answer back. A drop zone has to answer back. Border, glow, copy shift. Three signals before the drop.
+[00:13] A spinner hides the truth. Show percent, show time left. Honest progress lets your user decide: wait or walk away.
+[00:22] Upload dies at ninety percent. Never make them start over. Inline retry keeps the file loaded. One tap resumes the upload.
+[00:31] A filename is not feedback. Show the thumbnail, the type, the size. Visual proof you received the right file.
+[00:39] Ten files at once. Each one gets its own progress, its own retry. One failure never blocks the other nine.
+[00:47] Follow for more UX engineering. Save this for your next upload flow.

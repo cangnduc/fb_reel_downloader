@@ -1,0 +1,91 @@
+{
+  "title": "The Lifecycle of a Click: From Buy to Optimistic UI",
+  "summary": "This lesson breaks down the six-step process of a network request, from frontend validation to database atomicity. It also introduces Optimistic UI, explaining when to provide instant feedback and when to make the user wait for server confirmation.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "You click Buy. Six things happen before the spinner stops."
+    },
+    {
+      "t": "00:03",
+      "text": "One, your browser validates the form. No network yet. Instant feedback is a frontend job."
+    },
+    {
+      "t": "00:08",
+      "text": "Two, the request leaves. One JSON payload, headers, and a token that proves who you are."
+    },
+    {
+      "t": "00:14",
+      "text": "Three, the backend validates everything again. Client input is never trusted. Anyone can forge a request."
+    },
+    {
+      "t": "00:22",
+      "text": "Four, business logic runs. Stock check, price check, payment charge."
+    },
+    {
+      "t": "00:27",
+      "text": "Five, the database writes your order. One transaction wraps every row. All of them commit, or none of them do. That's atomicity."
+    },
+    {
+      "t": "00:36",
+      "text": "Six, the response rides back. Status 200 and the order ID the server created. The spinner stops. Your UI repaints with server truth, not a guess."
+    },
+    {
+      "t": "00:46",
+      "text": "The twist - Optimistic UI. Fast apps cheat. A like, a favorite, a rename. Repaint instantly, reconcile later."
+    },
+    {
+      "t": "00:52",
+      "text": "But money is not optimistic. Your payment earns the spinner. That's the full round trip."
+    },
+    {
+      "t": "00:57",
+      "text": "Follow for more under-the-UI breakdowns, save this for your next feature."
+    }
+  ],
+  "on_screen_text": [
+    "You click Buy.",
+    "Six things happen before the spinner stops.",
+    "STEPS 1-2 - THE REQUEST",
+    "Validate. Then ship it.",
+    "instant feedback - a frontend job",
+    "STEPS 3-4 - BACKEND",
+    "Never trust the client.",
+    "STEP 5 - DATABASE",
+    "All of it, or none of it.",
+    "STEP 6 - RESPONSE",
+    "Server truth comes back.",
+    "server truth — not a guess",
+    "THE TWIST - OPTIMISTIC UI",
+    "Fast apps cheat.",
+    "cheap actions repaint now — money waits",
+    "The full round trip."
+  ],
+  "ui_patterns": [
+    "Checkout form",
+    "Loading spinner",
+    "Success state",
+    "Like button",
+    "Network request visualization"
+  ],
+  "design_principles": [
+    "Frontend validation for instant feedback",
+    "Backend validation for security",
+    "Database atomicity",
+    "Optimistic UI for low-risk actions",
+    "Pessimistic UI for high-risk actions (payments)"
+  ],
+  "before_after": "Comparison between Optimistic UI (instant feedback for likes) and standard UI (waiting for server confirmation for payments).",
+  "tags": [
+    "UX Design",
+    "UI Design",
+    "Frontend Development",
+    "Backend Development",
+    "Optimistic UI",
+    "Product Design"
+  ],
+  "id": "1338683461665391",
+  "date": "2026-07-31",
+  "url": "https://www.facebook.com/reel/1338683461665391",
+  "file": "2026-07-31_1338683461665391.mp4"
+}

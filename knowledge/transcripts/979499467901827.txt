@@ -1,0 +1,16 @@
+# Mastering UI Tab Systems
+2026-05-22 · https://www.facebook.com/reel/979499467901827
+
+[00:00] Stop letting your tabs jump. Tabs are a system.
+[00:03] 01 Indicator. The underline slides. The underline never teleports, it slides.
+[00:06] Spring config matches the content fade. Slow in, fast out.
+[00:11] 02 Overflow. 8 tabs, 1 screen. Don't wrap to a second line.
+[00:14] Scroll horizontal. Edge fades show what's coming. Chevron buttons on desktop.
+[00:20] 03 Keyboard. Arrows. Home. End. Tab. Arrows move between tabs.
+[00:23] Home jumps first. End jumps last. Tab moves to the next focusable group.
+[00:27] Focus ring and active state never share a color.
+[00:30] 04 Mobile. Mobile is different. On mobile tabs collapse.
+[00:32] Segmented control under 5. Bottom sheet over 5. Never just scale down the desktop version.
+[00:37] 05 Content. Content needs to breathe. Content never cuts, fade out.
+[00:40] Pause 80 milliseconds. Fade in. Match the height to avoid layout shift.
+[00:45] Your brain reads the transition as one motion. Follow for more UI systems.

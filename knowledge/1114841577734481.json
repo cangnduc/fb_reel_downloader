@@ -1,0 +1,83 @@
+{
+  "title": "Kanban is a System: 5 Design Decisions",
+  "summary": "This lesson breaks down five critical UX decisions for designing effective Kanban boards, focusing on interaction feedback, layout stability, and information density.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Kanban is a system. One drag. Five decisions behind it."
+    },
+    {
+      "t": "00:04",
+      "text": "Decision one: the drag preview lifts. A shadow and a three-degree tilt. Trello tilts its cards the same way. The tilt says the card is in your hand."
+    },
+    {
+      "t": "00:14",
+      "text": "Decision two: the drop placeholder is the exact size of the card. The column opens once, then nothing else moves. A thin line makes every card below jump when it lands."
+    },
+    {
+      "t": "00:24",
+      "text": "Decision three: WIP limits live on the column header. In progress: four of four. Hit the limit and the header turns amber. The board says stop before the manager does."
+    },
+    {
+      "t": "00:36",
+      "text": "Decision four: columns collapse to a vertical label with a count. Done: 42. Horizontal scroll is the failure mode. If you scroll sideways, you lost the board."
+    },
+    {
+      "t": "00:46",
+      "text": "Decision five: swimlanes before a second board. Split rows by team or priority. Same columns, same flow. Two boards means two truths."
+    },
+    {
+      "t": "00:57",
+      "text": "Five decisions. One board the whole team can trust. Now make Claude Code think like a senior UX designer. UX Engine designs a screen before coding, audits what is broken, reviews the diff, and kills the AI look. Link in bio."
+    }
+  ],
+  "on_screen_text": [
+    "KANBAN IS A SYSTEM - 01",
+    "One drag. Five decisions.",
+    "KANBAN IS A SYSTEM - 02",
+    "The drag preview lifts.",
+    "scale 1.03",
+    "+8 px shadow",
+    "3° tilt",
+    "KANBAN IS A SYSTEM - 03",
+    "Placeholder = card height.",
+    "0 layout shift",
+    "KANBAN IS A SYSTEM - 04",
+    "WIP limit on the header.",
+    "KANBAN IS A SYSTEM - 05",
+    "Collapse, don't scroll.",
+    "KANBAN IS A SYSTEM - 06",
+    "Swimlanes, not boards.",
+    "KANBAN IS A SYSTEM - 07",
+    "Five decisions. One board."
+  ],
+  "ui_patterns": [
+    "Kanban Board",
+    "Drag and Drop",
+    "Cards",
+    "Column Headers",
+    "WIP Limits",
+    "Collapsible Columns",
+    "Swimlanes"
+  ],
+  "design_principles": [
+    "Visual feedback for interaction (lift/tilt/shadow)",
+    "Preventing Layout Shift (CLS) using sized placeholders",
+    "Visualizing constraints (WIP limits)",
+    "Information density management (collapsing columns vs. horizontal scrolling)",
+    "Single Source of Truth (swimlanes vs. multiple boards)"
+  ],
+  "before_after": "Demonstrates the difference between a 'thin line' placeholder (causing layout jump) versus a 'sized slot' (zero layout shift).",
+  "tags": [
+    "UX Design",
+    "UI Design",
+    "Kanban",
+    "Product Design",
+    "Interaction Design",
+    "Productivity Tools"
+  ],
+  "id": "1114841577734481",
+  "date": "2026-09-29",
+  "url": "https://www.facebook.com/reel/1114841577734481",
+  "file": "2026-09-29_1114841577734481.mp4"
+}

@@ -1,0 +1,114 @@
+{
+  "title": "The Grammar of Swipe Gestures",
+  "summary": "This lesson breaks down the mechanics of high-quality swipe interactions, covering thresholds, physics, and semantics. It explains how to balance speed and safety by using haptic feedback and undo states instead of disruptive dialogs.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Swipe right, archived. Swipe left, gone."
+    },
+    {
+      "t": "00:02",
+      "text": "Every swipe hides two thresholds."
+    },
+    {
+      "t": "00:04",
+      "text": "A short pull reveals the buttons, a pause, a choice."
+    },
+    {
+      "t": "00:08",
+      "text": "Pull further and you cross the commit line. The action fires on release."
+    },
+    {
+      "t": "00:12",
+      "text": "Under the finger, the row resists like a rubber band."
+    },
+    {
+      "t": "00:16",
+      "text": "At the commit point, the icon pops and the resistance dies."
+    },
+    {
+      "t": "00:19",
+      "text": "That tiny haptic beat is the whole interaction talking to you."
+    },
+    {
+      "t": "00:23",
+      "text": "Direction is a language. Right for safe actions: archive, mark as read."
+    },
+    {
+      "t": "00:28",
+      "text": "Left for destructive ones. Swap the sides and muscle memory deletes the wrong email."
+    },
+    {
+      "t": "00:33",
+      "text": "Gestures are invisible. New users never find them alone."
+    },
+    {
+      "t": "00:37",
+      "text": "So peek the first row on first launch. Buttons half-revealed... then settle back."
+    },
+    {
+      "t": "00:42",
+      "text": "One hint and the pattern is learned for good."
+    },
+    {
+      "t": "00:45",
+      "text": "A full swipe deletes in one motion. No dialog."
+    },
+    {
+      "t": "00:49",
+      "text": "That speed only works with a net. A toast slides in: undo. Five seconds of grace."
+    },
+    {
+      "t": "00:54",
+      "text": "Follow for more mobile UX. Save this for your next app."
+    }
+  ],
+  "on_screen_text": [
+    "One gesture. Zero taps.",
+    "Swipe is a language. Here's its grammar.",
+    "THRESHOLD DESIGN",
+    "One swipe, two trip-wires",
+    "Reveal is a menu. Commit is a decision.",
+    "RUBBER-BAND PHYSICS",
+    "The row resists you",
+    "Resistance is feedback.",
+    "HAPTIC TICK",
+    "DIRECTION SEMANTICS",
+    "Direction is a language",
+    "Muscle memory has no undo.",
+    "DISCOVERABILITY",
+    "Invisible until you teach it",
+    "Teach once - then never again",
+    "THE SAFETY NET",
+    "No dialog. Just a net.",
+    "Delete fast. Forgive faster.",
+    "MOBILE UX - GESTURES",
+    "The gesture is the UI."
+  ],
+  "ui_patterns": [
+    "Swipe-to-action",
+    "Contextual list buttons",
+    "Haptic feedback",
+    "Progressive disclosure peek",
+    "Undo toast notification"
+  ],
+  "design_principles": [
+    "Threshold Design: Distinguishing between revealing a menu and committing to an action.",
+    "Rubber-band Physics: Using resistance as a tactile feedback mechanism.",
+    "Direction Semantics: Standardizing swipe directions (Right = Safe, Left = Destructive).",
+    "Discoverability: Using 'peeks' to onboard users to hidden gestures.",
+    "Safety Net: Prioritizing 'Undo' over confirmation dialogs to maintain flow."
+  ],
+  "before_after": "Demonstrates the danger of swapping standard swipe directions (muscle memory error) and the efficiency of replacing confirmation dialogs with an undo toast.",
+  "tags": [
+    "UX Design",
+    "Mobile UI",
+    "Gestures",
+    "Micro-interactions",
+    "Product Design"
+  ],
+  "id": "886778010644415",
+  "date": "2026-07-12",
+  "url": "https://www.facebook.com/reel/886778010644415",
+  "file": "2026-07-12_886778010644415.mp4"
+}

@@ -1,0 +1,109 @@
+{
+  "title": "Optimistic UI: Making Interfaces Feel Instant",
+  "summary": "This lesson explains Optimistic UI, a technique where the interface updates immediately after a user action without waiting for server confirmation. It highlights the 400ms threshold for perceived latency and defines when to use this pattern versus showing a loading state.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Click like. One waits, one feels instant."
+    },
+    {
+      "t": "00:03",
+      "text": "The slow one waits for the server before anything moves."
+    },
+    {
+      "t": "00:05",
+      "text": "The fast one updates the screen first, then syncs in the background."
+    },
+    {
+      "t": "00:09",
+      "text": "Same network. One just stopped waiting."
+    },
+    {
+      "t": "00:12",
+      "text": "Your brain reads anything under 400 milliseconds as instant."
+    },
+    {
+      "t": "00:15",
+      "text": "Past that, a spinner reads as broken, even when it works fine."
+    },
+    {
+      "t": "00:19",
+      "text": "You're not buying speed, you're buying the feeling of it."
+    },
+    {
+      "t": "00:22",
+      "text": "So what if the request fails?"
+    },
+    {
+      "t": "00:24",
+      "text": "The fast one rolls back. The like undoes itself, the count returns to where it was."
+    },
+    {
+      "t": "00:30",
+      "text": "Optimistic isn't ignoring errors, it's betting on success."
+    },
+    {
+      "t": "00:34",
+      "text": "This is Optimistic UI. You assume the happy path, render now, and reconcile when the server replies."
+    },
+    {
+      "t": "00:40",
+      "text": "99% of the time, it was right anyway."
+    },
+    {
+      "t": "00:43",
+      "text": "But not everywhere. Never fake a payment, a transfer, or anything you can't undo."
+    },
+    {
+      "t": "00:48",
+      "text": "Show those the truth, even if the truth is a spinner."
+    },
+    {
+      "t": "00:52",
+      "text": "Follow for more UX patterns. Save this for your next build."
+    }
+  ],
+  "on_screen_text": [
+    "SAME TAP, SAME NETWORK.",
+    "UPDATE STRATEGY",
+    "Who updates the screen first?",
+    "SLOW - WAIT FOR SERVER",
+    "FAST - UPDATE FIRST, SYNC AFTER",
+    "PERCEIVED LATENCY",
+    "Your brain's cutoff is 400ms.",
+    "Under 400ms = reads as instant",
+    "Spinner = reads as broken",
+    "FAILURE PATH",
+    "Bet on success. Handle the rare miss.",
+    "OPTIMISTIC UI",
+    "Assume the happy path.",
+    "BOUNDARIES",
+    "Irreversible? Show the truth.",
+    "Make it feel instant."
+  ],
+  "ui_patterns": [
+    "Like Button",
+    "Counter",
+    "Loading Spinner",
+    "Error Toast",
+    "Flow Diagram"
+  ],
+  "design_principles": [
+    "Optimistic UI",
+    "Perceived Latency (400ms rule)",
+    "State Rollback",
+    "Context-Aware Loading States"
+  ],
+  "before_after": "Transition from a 'Wait for Server' model (slow, visible delay) to an 'Update First, Sync After' model (instant feel).",
+  "tags": [
+    "UX",
+    "UI",
+    "Optimistic UI",
+    "Latency",
+    "Product Design"
+  ],
+  "id": "1737522820773693",
+  "date": "2026-07-06",
+  "url": "https://www.facebook.com/reel/1737522820773693",
+  "file": "2026-07-06_1737522820773693.mp4"
+}

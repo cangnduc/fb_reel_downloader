@@ -1,0 +1,15 @@
+# Context Menu UX Engineering
+2026-07-14 · https://www.facebook.com/reel/1030653972707108
+
+[00:00] Right-click near the edge. Watch the menu flip. It measured first.
+[00:03] A context menu measures before it opens. No room below, it flips up. No room right, it mirrors left.
+[00:09] Anchored to your cursor, always inside the viewport.
+[00:12] 12 flat actions read as noise. Group by intent, split with dividers.
+[00:16] Rename with duplicate, share with copy link, and delete alone at the bottom, in red.
+[00:22] Submenus die when the cursor drifts. So Figma draws an invisible triangle from cursor to submenu.
+[00:27] Inside that path, the menu holds. That's hover intent.
+[00:32] Power users never aim. Arrows walk the list, letters jump.
+[00:35] Press D, land on duplicate. Escape closes one level, not the whole thing.
+[00:40] Mobile has no right-click. A long press opens the same actions as a bottom sheet.
+[00:44] One menu system, two triggers.
+[00:47] Context menus are a system. Follow for more UX engineering. Save this for your next build.

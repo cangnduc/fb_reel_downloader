@@ -1,0 +1,106 @@
+{
+  "title": "Six Rules for Resizable Panels",
+  "summary": "This lesson covers essential UX improvements for resizable split views, focusing on interaction robustness and state persistence. It details technical solutions for common issues like small hit areas, iframe interference, and cursor flickering.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "This layout looks fine until you drag the divider off the screen."
+    },
+    {
+      "t": "00:03",
+      "text": "One drag from broken."
+    },
+    {
+      "t": "00:04",
+      "text": "The visible divider is one pixel. The grab target has to be 12."
+    },
+    {
+      "t": "00:08",
+      "text": "Miss it and the resize feels stuck."
+    },
+    {
+      "t": "00:11",
+      "text": "Clamp every drag between a min and a max width so a panel can never collapse into something you cannot reopen."
+    },
+    {
+      "t": "00:17",
+      "text": "Limits are the feature."
+    },
+    {
+      "t": "00:19",
+      "text": "Near the edge, snap it fully closed instead of leaving a sliver."
+    },
+    {
+      "t": "00:23",
+      "text": "Halfway states read like bugs. Commit to open or shut."
+    },
+    {
+      "t": "00:27",
+      "text": "While dragging, drop an invisible overlay over the whole page."
+    },
+    {
+      "t": "00:31",
+      "text": "Otherwise an iframe or a text selection eats the mouse and the panel freezes mid-drag."
+    },
+    {
+      "t": "00:37",
+      "text": "Set the resize cursor on the whole body, not the handle alone."
+    },
+    {
+      "t": "00:41",
+      "text": "The arrow shouldn't flicker when you drift a pixel off. Keep it locked."
+    },
+    {
+      "t": "00:46",
+      "text": "Remember the width across reloads or you throw away the exact layout the user set by hand."
+    },
+    {
+      "t": "00:51",
+      "text": "Go to designmotionhq.com for more. Link in bio."
+    }
+  ],
+  "on_screen_text": [
+    "A split view. Looks fine.",
+    "One drag from broken.",
+    "HIT AREA Grow the grab zone.",
+    "1px line, 12px grab target.",
+    "CLAMP Limits are the feature.",
+    "Clamp between min and max.",
+    "SNAP Commit to open or shut.",
+    "Snap closed, never a sliver.",
+    "OVERLAY Cover the page mid-drag.",
+    "Overlay the page while dragging.",
+    "CURSOR No flicker on drift.",
+    "Lock the cursor on the body.",
+    "PERSIST Survive the reload.",
+    "Remember the width.",
+    "Handles are UI."
+  ],
+  "ui_patterns": [
+    "Split view",
+    "Resizable sidebar",
+    "Drag handles",
+    "Cursor styles",
+    "Invisible overlays"
+  ],
+  "design_principles": [
+    "Increase hit area for small targets",
+    "Clamping (min/max width constraints)",
+    "Snapping to binary states (open/closed)",
+    "Pointer event management via overlays",
+    "Global cursor locking during drag",
+    "State persistence across sessions"
+  ],
+  "before_after": "A fragile split view that can be dragged off-screen or lose focus is transformed into a robust, constrained, and persistent resizable panel system.",
+  "tags": [
+    "UI Design",
+    "UX Design",
+    "Interaction Design",
+    "Frontend Development",
+    "Web Design"
+  ],
+  "id": "881135991496149",
+  "date": "2026-08-15",
+  "url": "https://www.facebook.com/reel/881135991496149",
+  "file": "2026-08-15_881135991496149.mp4"
+}

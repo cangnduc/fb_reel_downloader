@@ -1,0 +1,13 @@
+# The Lifecycle of a Click: From Buy to Optimistic UI
+2026-07-31 · https://www.facebook.com/reel/1338683461665391
+
+[00:00] You click Buy. Six things happen before the spinner stops.
+[00:03] One, your browser validates the form. No network yet. Instant feedback is a frontend job.
+[00:08] Two, the request leaves. One JSON payload, headers, and a token that proves who you are.
+[00:14] Three, the backend validates everything again. Client input is never trusted. Anyone can forge a request.
+[00:22] Four, business logic runs. Stock check, price check, payment charge.
+[00:27] Five, the database writes your order. One transaction wraps every row. All of them commit, or none of them do. That's atomicity.
+[00:36] Six, the response rides back. Status 200 and the order ID the server created. The spinner stops. Your UI repaints with server truth, not a guess.
+[00:46] The twist - Optimistic UI. Fast apps cheat. A like, a favorite, a rename. Repaint instantly, reconcile later.
+[00:52] But money is not optimistic. Your payment earns the spinner. That's the full round trip.
+[00:57] Follow for more under-the-UI breakdowns, save this for your next feature.

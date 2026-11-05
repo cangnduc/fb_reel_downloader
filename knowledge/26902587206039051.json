@@ -1,0 +1,96 @@
+{
+  "title": "6 Essential Form States for Better UX",
+  "summary": "This lesson outlines the six critical states every form field needs to ensure accessibility and a robust user experience. It provides specific rules for default, focus, error, success, disabled, and loading states to prevent common usability bugs.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Most apps ship two."
+    },
+    {
+      "t": "00:02",
+      "text": "State one: Default. Anatomy of a field nobody is touching. Label outside, helper text below. Don't hide the label inside the placeholder. It vanishes the moment the user types."
+    },
+    {
+      "t": "00:10",
+      "text": "State two: Focus. The user is typing — make their target obvious. The ring needs 3:1 contrast against the background. Most apps ship a soft blue glow that fails accessibility."
+    },
+    {
+      "t": "00:19",
+      "text": "State three: Error. Validation failed. Be loud, clear, and accessible. You need three things: a color shift, an icon, and a message below. A red border alone is invisible to 12% of users with color vision deficiency."
+    },
+    {
+      "t": "00:29",
+      "text": "State four: Success. It worked. Confirm in-place — feedback lands where attention is. A green check inside the field, not a toast. The field itself confirms what just happened."
+    },
+    {
+      "t": "00:35",
+      "text": "State five: Disabled. Locked. Visible to readers, untouchable to clicks. Use a grayscale background, not opacity 50%. Cursor not-allowed. Hides intent without hiding the field from screen readers."
+    },
+    {
+      "t": "00:44",
+      "text": "State six: Loading. Async in flight. Disable input, show progress, prevent the double submit. Spinner inside input disabled. Prevents the double submit bug that ships in production every week. Async forms need this state."
+    },
+    {
+      "t": "00:53",
+      "text": "Six states, one system. One forgotten equals one perceived bug. Save this for your next form. Follow for more system thinking."
+    }
+  ],
+  "on_screen_text": [
+    "6 FORM STATES",
+    "01 / 06 DEFAULT",
+    "At rest",
+    "Label outside, helper below",
+    "Placeholder-as-label vanishes when typing",
+    "02 / 06 FOCUS",
+    "In focus",
+    "Ring contrast 3:1 minimum",
+    "Soft blue glow fails accessibility",
+    "03 / 06 ERROR",
+    "Validation failed",
+    "Color + icon + message",
+    "Border-only red is invisible to 12% of users",
+    "04 / 06 SUCCESS",
+    "It worked",
+    "Confirm inside the field",
+    "Toasts steal focus and disappear too fast",
+    "05 / 06 DISABLED",
+    "Locked",
+    "Grayscale background + cursor not-allowed",
+    "Opacity 0.5 looks like a loading state",
+    "06 / 06 LOADING",
+    "Async in flight",
+    "Spinner inside + disable the input",
+    "No loading state = double submit bug",
+    "One forgotten = one bug."
+  ],
+  "ui_patterns": [
+    "Input Field",
+    "Form Validation",
+    "Helper Text",
+    "Error Message",
+    "Success Indicator",
+    "Loading Spinner",
+    "Disabled State"
+  ],
+  "design_principles": [
+    "Accessibility",
+    "Contrast Ratio",
+    "Visual Feedback",
+    "Inclusive Design",
+    "State Management",
+    "Error Prevention"
+  ],
+  "before_after": "Comparison between apps that only ship two form states versus a complete system of six essential states (Default, Focus, Error, Success, Disabled, Loading).",
+  "tags": [
+    "UI Design",
+    "UX Design",
+    "Forms",
+    "Accessibility",
+    "Design Systems",
+    "Input Fields"
+  ],
+  "id": "26902587206039051",
+  "date": "2026-04-29",
+  "url": "https://www.facebook.com/reel/26902587206039051",
+  "file": "2026-04-29_26902587206039051.mp4"
+}

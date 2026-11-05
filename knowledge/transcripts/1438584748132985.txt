@@ -1,0 +1,29 @@
+# 6 Rules for Calendar UX Design
+2026-09-18 · https://www.facebook.com/reel/1438584748132985
+
+[00:00] A week, forty events, zero overlap, six layout rules.
+[00:03] Seven columns, 24 rows, one hour each.
+[00:06] Hour labels sit on the line, not in the cell.
+[00:09] A red line marks now.
+[00:11] The view opens scrolled to it, not to midnight.
+[00:14] Color per calendar. A three-pixel stripe on the left.
+[00:17] The fill at 10%.
+[00:19] The title stays readable on every color.
+[00:21] Full fills turn a busy week into a rainbow.
+[00:24] Two events, same hour, side by side, half width each.
+[00:28] Three, a third.
+[00:30] Never stacked, never hidden behind a plus one.
+[00:33] Height is duration. One hour, 60 pixels.
+[00:36] 15 minutes still gets a title on a single line, clipped.
+[00:41] Under that, a bar you can hover.
+[00:43] Drag on empty space, an event draws.
+[00:46] Snap to 15 minutes.
+[00:48] Move by the body, resize by the bottom edge only.
+[00:51] The time label updates while you drag, not after.
+[00:54] All day events live in a pinned row above the grid.
+[00:57] They never eat the morning.
+[00:59] Scroll the hours, the row stays.
+[01:01] Six rules, one week that reads at a glance.
+[01:04] Now make Claude Code think like a senior UX designer.
+[01:07] UX Engine designs the screen before coding, audits what is broken, reviews the diff, and kills the AI look.
+[01:14] Link in bio.

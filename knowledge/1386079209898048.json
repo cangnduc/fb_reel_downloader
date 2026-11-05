@@ -1,0 +1,112 @@
+{
+  "title": "Success is a System: Designing Better Done Screens",
+  "summary": "This reel outlines five key decisions for designing effective success states that keep users engaged rather than hitting a dead end. It covers the importance of specificity, providing next actions, matching dismissal to stakes, creating open loops, and using celebration sparingly.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Success is a system. Three done screens. Only one keeps the user."
+    },
+    {
+      "t": "00:04",
+      "text": "Say what happened. Success tells you nothing. Invoice sent to Northwind Labs, due October 12th."
+    },
+    {
+      "t": "00:11",
+      "text": "Specifics are the proof it worked. A vague success feels like a maybe."
+    },
+    {
+      "t": "00:16",
+      "text": "Every success screen offers the next action. Send an invoice? View it or send another."
+    },
+    {
+      "t": "00:22",
+      "text": "A checkmark with no button is a dead end. The user closes the tab right there."
+    },
+    {
+      "t": "00:27",
+      "text": "Dismissal follows stakes. A saved setting gets a toast that leaves in four seconds."
+    },
+    {
+      "t": "00:32",
+      "text": "A payment gets a page that stays, with a receipt and an email. Nobody screenshots a toast."
+    },
+    {
+      "t": "00:38",
+      "text": "Success is not the end. Leave one open loop. Track the payment, share the report, invite the team."
+    },
+    {
+      "t": "00:46",
+      "text": "A finished task with a thread to pull brings people back."
+    },
+    {
+      "t": "00:49",
+      "text": "Celebration scales with rarity. Confetti on every save trains people to ignore it."
+    },
+    {
+      "t": "00:54",
+      "text": "Save it for the first invoice paid. Rare joy lands. Constant joy is noise."
+    },
+    {
+      "t": "01:00",
+      "text": "Five decisions. One success state that keeps the user moving."
+    },
+    {
+      "t": "01:04",
+      "text": "Now make Claude Code think like a senior UX designer. UX Engine designs the screen before coding, audits what is broken, reviews the diff, and kills the AI look. Link in bio."
+    }
+  ],
+  "on_screen_text": [
+    "SUCCESS IS A SYSTEM - 01",
+    "Three done screens.",
+    "Only one keeps the user.",
+    "done ≠ dead end",
+    "SUCCESS IS A SYSTEM - 02",
+    "Say what happened.",
+    "what • who • when",
+    "SUCCESS IS A SYSTEM - 03",
+    "Offer the next action.",
+    "1 primary next • 1 way back",
+    "SUCCESS IS A SYSTEM - 04",
+    "Dismissal follows stakes.",
+    "reversible = toast • money = page",
+    "SUCCESS IS A SYSTEM - 05",
+    "Leave one open loop.",
+    "1 thread to pull",
+    "SUCCESS IS A SYSTEM - 06",
+    "Celebrate the rare win.",
+    "confetti = milestones only",
+    "SUCCESS IS A SYSTEM - 07",
+    "Five decisions. One screen.",
+    "Think like a senior UX designer.",
+    "UX Engine CLAUDE CODE PLUGIN"
+  ],
+  "ui_patterns": [
+    "Success screens",
+    "Toasts",
+    "Primary and secondary buttons",
+    "Progress trackers",
+    "Confetti animation",
+    "Receipts",
+    "Settings toggles"
+  ],
+  "design_principles": [
+    "Specificity in feedback (What, Who, When)",
+    "Always provide a next step to avoid dead ends",
+    "Dismissal duration based on stakes (Toast vs. Page)",
+    "Open loops for user retention",
+    "Celebration rarity to maintain impact"
+  ],
+  "before_after": "Transformation from a generic 'Success!' checkmark with a single 'OK' button to a detailed, actionable success page with specific data and retention loops.",
+  "tags": [
+    "UX Design",
+    "UI Design",
+    "Product Design",
+    "User Experience",
+    "Success States",
+    "Interaction Design"
+  ],
+  "id": "1386079209898048",
+  "date": "2026-09-25",
+  "url": "https://www.facebook.com/reel/1386079209898048",
+  "file": "2026-09-25_1386079209898048.mp4"
+}

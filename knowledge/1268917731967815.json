@@ -1,0 +1,89 @@
+{
+  "title": "6 Decisions for Better Data Tables",
+  "summary": "This reel outlines six essential design decisions to transform cluttered spreadsheets into professional data tables. It covers alignment, row styling, density options, sticky headers, cell content management, and reducing visual noise in action columns.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Your table is a spreadsheet in disguise. Six decisions fix that."
+    },
+    {
+      "t": "00:04",
+      "text": "Amounts centered. Digits never line up, so the eye can't compare. Numbers right, tabular figures on. Text left. A column of amounts now reads like a receipt."
+    },
+    {
+      "t": "00:15",
+      "text": "Zebra stripes fight the content. Every other row screams for nothing. One hairline between rows. Hover lights the row you're on. Stripes earn their place on wide rows only."
+    },
+    {
+      "t": "00:26",
+      "text": "Row height is a decision, not a padding. Compact 40, default 48, comfortable 56. Three modes, one toggle. Dense for ops, airy for review."
+    },
+    {
+      "t": "00:38",
+      "text": "12 columns, the screen shows six. Scroll right and you lose the row's name. Pin the first column. Pin the header on vertical scroll. Context never leaves the screen."
+    },
+    {
+      "t": "00:49",
+      "text": "An empty cell is a question. Missing, zero, or loading? Use a dash. Long text wraps and the row explodes. Truncate, tooltip on hover. Numbers never truncate."
+    },
+    {
+      "t": "01:01",
+      "text": "An action column on every row is noise. 50 rows, 50 pencils. Reveal on hover or focus. Touch gets a kebab. Sort arrows only on the active column."
+    },
+    {
+      "t": "01:13",
+      "text": "Follow for more UI systems. Save this before your next dashboard."
+    }
+  ],
+  "on_screen_text": [
+    "Your table is a spreadsheet.",
+    "Six decisions fix that.",
+    "text-align: center",
+    "normal figures",
+    "text-align: right",
+    "tabular-nums",
+    "Stripes fight the content.",
+    "One hairline. Hover does the rest.",
+    "Row height is a decision.",
+    "Scroll right, lose the row.",
+    "Context stays on screen.",
+    "An empty cell is a question.",
+    "Truncate. Never wrap.",
+    "An action column is noise.",
+    "Reveal on hover or focus."
+  ],
+  "ui_patterns": [
+    "Data Table",
+    "Pagination",
+    "Status Badges",
+    "Sticky Header",
+    "Sticky Column",
+    "Kebab Menu",
+    "Tooltips",
+    "Density Toggle"
+  ],
+  "design_principles": [
+    "Right-align numbers for comparison",
+    "Use tabular figures for numeric alignment",
+    "Left-align text",
+    "Use hairlines and hover states instead of zebra stripes",
+    "Offer density modes (Compact, Default, Comfortable)",
+    "Pin headers and key columns for context",
+    "Use dashes for empty cells",
+    "Truncate text to maintain row height",
+    "Hide actions until hover/focus"
+  ],
+  "before_after": "A cluttered spreadsheet-style table is transformed into a clean, functional UI component with improved readability and interactive controls.",
+  "tags": [
+    "UI Design",
+    "UX Design",
+    "Data Tables",
+    "Dashboard Design",
+    "Design System",
+    "Typography"
+  ],
+  "id": "1268917731967815",
+  "date": "2026-09-04",
+  "url": "https://www.facebook.com/reel/1268917731967815",
+  "file": "2026-09-04_1268917731967815.mp4"
+}

@@ -1,0 +1,10 @@
+# De-AI Your UI: 5 Dashboard Fixes
+2026-09-08 · https://www.facebook.com/reel/1562348875576398
+
+[00:00] Your dashboard looks AI-made. 5 tells, 5 fixes.
+[00:04] Tell 1: The gradient. Purple to blue on the header, the button, the chart fill. A generated UI paints gradients where it has nothing to say. One flat accent. Now color means something.
+[00:16] Tell 2: Icons in pastel tiles. Blue, green, purple, orange, one per card. Four colors for four numbers is decoration, not information. Drop the tiles. The number is the hero.
+[00:29] Tell 3: Hierarchy. Four identical cards, same size, same weight, same green badge. A dashboard with no hierarchy is a spreadsheet with padding. One primary metric, big. Three secondary, small. Your eye lands once.
+[00:43] Tell 4: Shadows. 16 pixel corners and a drop shadow on everything. Cards, inputs, badges, the chart. When every card floats, nothing does. Hairline borders, tighter radius on smaller parts, shadow only on what opens above the page.
+[00:59] Tell 5: Copy. Welcome back, Jordan, waving hand. +12.5% from last month. Placeholder copy and numbers with no shape. Name the period. Tabular digits. A sparkline instead of a badge.
+[01:13] 5 tells gone. Or type /restyle. UX Engine, the Claude code plugin that kills the AI look. Link in bio.

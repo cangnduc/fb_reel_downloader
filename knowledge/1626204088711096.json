@@ -1,0 +1,86 @@
+{
+  "title": "5 Rules for Better Empty States",
+  "summary": "This lesson explains how to transform boring empty states into engaging user experiences. It highlights five key strategies: using illustrations, adopting a human tone, providing clear primary actions, designing for specific contexts, and leveraging empty states for onboarding.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Your empty state is your first impression. Most apps waste it."
+    },
+    {
+      "t": "00:02",
+      "text": "5 rules most apps miss."
+    },
+    {
+      "t": "00:03",
+      "text": "First rule: A blank screen tells users nothing is wrong. One tiny illustration changes everything."
+    },
+    {
+      "t": "00:09",
+      "text": "Second: Error copy sounds corporate. Your empty state should sound human, like a product, not a log file."
+    },
+    {
+      "t": "00:15",
+      "text": "Third: Every empty state needs a primary action, not a refresh. The next step users would take if they knew what to do."
+    },
+    {
+      "t": "00:21",
+      "text": "Fourth: There are four kinds of empty. First run is different from no results. Error is different from filtered out. Design each one."
+    },
+    {
+      "t": "00:29",
+      "text": "Fifth: The empty state is your best onboarding moment. Use it to teach what the feature does before users touch it."
+    },
+    {
+      "t": "00:35",
+      "text": "Save this for your next empty screen. Follow for more UX rules."
+    }
+  ],
+  "on_screen_text": [
+    "DEAD",
+    "ALIVE",
+    "YOUR EMPTY STATE IS YOUR IMPRESSION",
+    "5 rules most apps miss",
+    "01 — ILLUSTRATION > VOID",
+    "02 — TONE = BRAND VOICE",
+    "CORPORATE",
+    "HUMAN",
+    "03 — PRIMARY CTA MANDATORY",
+    "04 — CONTEXT = DESIGN",
+    "FIRST RUN",
+    "NO RESULTS",
+    "ERROR",
+    "FILTERED",
+    "05 — EMPTY = ONBOARDING",
+    "5 empty state RULES"
+  ],
+  "ui_patterns": [
+    "Empty State",
+    "Illustration",
+    "Primary Button (CTA)",
+    "Error Message",
+    "Search Results",
+    "Filters",
+    "Onboarding Placeholder"
+  ],
+  "design_principles": [
+    "Visual Communication",
+    "Brand Voice",
+    "Human-Centered Design",
+    "Actionability",
+    "Contextual Awareness",
+    "Onboarding"
+  ],
+  "before_after": "A transition from 'dead' empty states (blank screens or technical error logs) to 'alive' empty states (screens with helpful illustrations, friendly copy, and clear calls to action).",
+  "tags": [
+    "UI Design",
+    "UX Design",
+    "Empty States",
+    "Product Design",
+    "Onboarding",
+    "Copywriting"
+  ],
+  "id": "1626204088711096",
+  "date": "2026-04-16",
+  "url": "https://www.facebook.com/reel/1626204088711096",
+  "file": "2026-04-16_1626204088711096.mp4"
+}

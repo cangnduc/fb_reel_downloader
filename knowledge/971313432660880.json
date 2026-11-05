@@ -1,0 +1,84 @@
+{
+  "title": "Chat UI is a System",
+  "summary": "This lesson breaks down six critical design decisions for building a professional chat interface. It focuses on reducing visual noise through message grouping, optimistic UI states, and smart scroll anchoring.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Chat UI is a system. Six decisions, same thread, half the noise."
+    },
+    {
+      "t": "00:05",
+      "text": "Same sender, under two minutes, one group, one avatar. 4 pixel gap inside, 16 between groups. The reader scans people, not lines."
+    },
+    {
+      "t": "00:14",
+      "text": "No time on every bubble. A date divider when the date changes. The exact time only on hover. Precision on demand, never in the way."
+    },
+    {
+      "t": "00:23",
+      "text": "Hit enter, the bubble is there. Sent state fades in after. Failed shows a red retry, inline, on the message. Never a spinner between you and your own words."
+    },
+    {
+      "t": "00:34",
+      "text": "New message while you read? The list does not jump, a pill counts them. Tap it, you slide to the bottom. Anchoring only when you are already there."
+    },
+    {
+      "t": "00:43",
+      "text": "The typing indicator lives in the flow, where the next message lands. Three dots, avatar attached. It leaves without moving anything else."
+    },
+    {
+      "t": "00:52",
+      "text": "The composer grows to five lines then scrolls. Enter sends, shift-enter breaks. Attachments preview above the text, never inside."
+    },
+    {
+      "t": "01:01",
+      "text": "Six decisions. One thread that reads. Now make Claude code think like a senior UX designer."
+    }
+  ],
+  "on_screen_text": [
+    "Chat UI is a system",
+    "6 decisions",
+    "1 sender = 1 avatar",
+    "Grouping window: 2 min",
+    "inside a group: 4 px",
+    "between groups: 16 px",
+    "Precision on demand",
+    "0 spinners",
+    "The list does not jump",
+    "Typing lives in the flow",
+    "max 5 lines",
+    "Think like a senior UX designer"
+  ],
+  "ui_patterns": [
+    "Message Grouping",
+    "Date Dividers",
+    "Hover Timestamps",
+    "Optimistic UI",
+    "Inline Error Handling",
+    "Scroll Anchoring Pill",
+    "Typing Indicator",
+    "Auto-expanding Textarea",
+    "File Attachment Previews"
+  ],
+  "design_principles": [
+    "Reduce visual noise by grouping messages from the same sender within a 2-minute window.",
+    "Use proximity (4px vs 16px) to define relationships between message bubbles.",
+    "Progressive disclosure: show exact timestamps only on hover to keep the UI clean.",
+    "Optimistic UI: show the message bubble immediately upon sending to improve perceived performance.",
+    "Avoid layout shifts: use scroll anchoring to prevent the list from jumping when new messages arrive.",
+    "Contextual placement: place typing indicators exactly where the next message will appear."
+  ],
+  "before_after": "A chat thread with 13 redundant avatars is transformed into a streamlined thread with only 7 avatars using smart grouping logic.",
+  "tags": [
+    "UX Design",
+    "UI Design",
+    "Product Design",
+    "Chat UI",
+    "Interaction Design",
+    "Mobile Design"
+  ],
+  "id": "971313432660880",
+  "date": "2026-09-16",
+  "url": "https://www.facebook.com/reel/971313432660880",
+  "file": "2026-09-16_971313432660880.mp4"
+}

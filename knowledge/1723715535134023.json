@@ -1,0 +1,91 @@
+{
+  "title": "Mastering CSS z-index",
+  "summary": "This lesson explains the fundamental rules of CSS z-index, including the requirement for positioning and the concept of stacking contexts. It also introduces the isolation property and visual debugging tools in Chrome DevTools to resolve layering bugs.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Your dropdown hides behind the modal."
+    },
+    {
+      "t": "00:02",
+      "text": "Rule one, z-index only works on position elements: relative, absolute, fixed, or sticky."
+    },
+    {
+      "t": "00:08",
+      "text": "Without position, your z-index is completely ignored by the browser."
+    },
+    {
+      "t": "00:12",
+      "text": "Rule two, every stacking context is its own universe."
+    },
+    {
+      "t": "00:15",
+      "text": "A child with z-index 9999 still sits below a sibling context with z-index 1."
+    },
+    {
+      "t": "00:21",
+      "text": "The parent caps the child."
+    },
+    {
+      "t": "00:23",
+      "text": "Rule three, use CSS isolation."
+    },
+    {
+      "t": "00:26",
+      "text": "One line creates a new stacking context with no position required."
+    },
+    {
+      "t": "00:29",
+      "text": "Perfect for reusable components that should never leak z-index into the rest of your app."
+    },
+    {
+      "t": "00:34",
+      "text": "Rule four, stop guessing."
+    },
+    {
+      "t": "00:36",
+      "text": "Chrome DevTools has a layers panel that shows every stacking context in three dimensions."
+    },
+    {
+      "t": "00:40",
+      "text": "Debug visually instead of spraying z-index 9000 everywhere."
+    },
+    {
+      "t": "00:43",
+      "text": "Save this for your next z-index bug. Follow for more front-end deep dives."
+    }
+  ],
+  "on_screen_text": [
+    "z-index lies.",
+    "Rule 1: z-index needs position",
+    "Rule 2: Parent caps child.",
+    "Rule 3: One line. Clean stack.",
+    "Rule 4: Debug visually.",
+    "Master z-index."
+  ],
+  "ui_patterns": [
+    "Dropdown",
+    "Modal",
+    "Card",
+    "Tooltip",
+    "Chrome DevTools Layers Panel"
+  ],
+  "design_principles": [
+    "Stacking Context",
+    "CSS Positioning",
+    "CSS Isolation",
+    "Visual Debugging"
+  ],
+  "before_after": "A dropdown menu incorrectly hidden behind a modal window is resolved by understanding stacking contexts and positioning rules.",
+  "tags": [
+    "CSS",
+    "Frontend Development",
+    "Web Design",
+    "UI/UX",
+    "Debugging"
+  ],
+  "id": "1723715535134023",
+  "date": "2026-04-22",
+  "url": "https://www.facebook.com/reel/1723715535134023",
+  "file": "2026-04-22_1723715535134023.mp4"
+}

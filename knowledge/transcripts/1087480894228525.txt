@@ -1,0 +1,10 @@
+# Mastering the Copy Button UX
+2026-08-20 · https://www.facebook.com/reel/1087480894228525
+
+[00:00] One click, one checkmark. You pasted absolutely nothing.
+[00:04] The copy icon should flip to a check the instant the copy fires. No spinner, no delay.
+[00:09] Hold the check for about two seconds, then let it fade back to the copy icon. Leave it stuck forever and the next copy gives no signal at all.
+[00:17] Copy the raw value, not the formatted span with its line breaks and hidden zero-width characters. Paste that into a terminal. Watch it break.
+[00:27] Screen readers hear nothing when an icon quietly changes. Announce "copied" out loud through a live region, because silent success is still a failure for someone.
+[00:36] On an insecure origin, the clipboard call fails without a word. Fall back to a copy command. A silent button lies.
+[00:44] Copy needs proof. Go to designmotionhq.com for more. Link in bio.

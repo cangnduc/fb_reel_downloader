@@ -1,0 +1,94 @@
+{
+  "title": "Date Picker Design Best Practices",
+  "summary": "This reel demonstrates how to optimize date pickers for efficiency and accessibility. It covers the use of presets, range highlighting, multi-month views, keyboard shortcuts, and mobile-specific layouts.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Same date, 6 clicks or 1."
+    },
+    {
+      "t": "00:02",
+      "text": "Presets cover 90% of cases. Today, yesterday, last 7 days, last 30 days, last quarter. Custom range for the rest."
+    },
+    {
+      "t": "00:12",
+      "text": "Highlight the range. Hover paints a preview. Click once for start, click again for end. Drag the edges to refine."
+    },
+    {
+      "t": "00:20",
+      "text": "Show two months side-by-side. Ranges cross months. Don't make users click next four times. Three months on wide screens."
+    },
+    {
+      "t": "00:27",
+      "text": "Arrows move the cursor. Type the date directly. Enter validates, escape kills. Page up jumps a month, shift page up jumps a year."
+    },
+    {
+      "t": "00:36",
+      "text": "Mobile is not a popover. Full-screen sheet. Calendar scrolls vertically. Today stays at the top. Big confirm button at the bottom."
+    },
+    {
+      "t": "00:44",
+      "text": "Follow for more UI systems. Save this for your next form."
+    }
+  ],
+  "on_screen_text": [
+    "Same date. Different time.",
+    "The old way",
+    "The right way",
+    "01 - PRESETS",
+    "Presets cover 90% of cases.",
+    "02 - RANGE HIGHLIGHT",
+    "Hover. Click. Drag.",
+    "Hover = preview",
+    "Click = lock",
+    "Drag = refine",
+    "03 - TWO MONTHS",
+    "Cross-month is normal.",
+    "WIDE SCREENS - 3 MONTHS",
+    "04 - KEYBOARD",
+    "Type. Arrow. Validate.",
+    "EVERY KEYSTROKE MATTERS",
+    "05 - MOBILE",
+    "Mobile is a sheet.",
+    "Tiny popover",
+    "Full-screen sheet",
+    "Confirm button",
+    "Touch target >= 44px",
+    "Confirm action visible",
+    "Follow for more UI systems",
+    "Save this for your next form"
+  ],
+  "ui_patterns": [
+    "Date Picker",
+    "Date Range Picker",
+    "Presets",
+    "Calendar Grid",
+    "Input Field",
+    "Bottom Sheet",
+    "Multi-month view"
+  ],
+  "design_principles": [
+    "Efficiency",
+    "Anticipation",
+    "Visual Feedback",
+    "Flexibility",
+    "Context",
+    "Accessibility",
+    "Responsive Design",
+    "Touch Targets"
+  ],
+  "before_after": "From a basic single-month calendar requiring multiple clicks to a comprehensive date picker with presets, range selection, and keyboard accessibility.",
+  "tags": [
+    "UX Design",
+    "UI Design",
+    "Date Picker",
+    "Accessibility",
+    "Mobile Design",
+    "Interaction Design",
+    "Product Design"
+  ],
+  "id": "1059078393502662",
+  "date": "2026-05-18",
+  "url": "https://www.facebook.com/reel/1059078393502662",
+  "file": "2026-05-18_1059078393502662.mp4"
+}

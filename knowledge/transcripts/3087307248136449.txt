@@ -1,0 +1,11 @@
+# Mastering Data Visualization
+2026-06-05 · https://www.facebook.com/reel/3087307248136449
+
+[00:00] This chart screams 400%, it's 4. This chart is lying.
+[00:03] The axis never started at zero. Truncate the baseline and a 2% gap looks like a cliff.
+[00:08] Bar charts start at zero. No exceptions.
+[00:11] Bars compare values side-by-side. Lines show change over time. Pie charts break the moment you pass five slices. Your eye can't rank angles.
+[00:20] Color isn't decoration, it's encoding. Categorical for groups, sequential for scale, diverging for above and below. One accent for the point. The rest goes gray.
+[00:30] Heavy gridlines, 3D bars, drop shadows—all noise. Tufte called it the data-ink ratio. Every pixel should be data. Label the line directly, drop the legend.
+[00:40] Same numbers. Squish the chart flat and the trend dies. Stretch it tall and it spikes. Aim for slopes near 45 degrees. That's where your eye reads change best.
+[00:50] Follow for more UI design. Save this for your next dashboard.

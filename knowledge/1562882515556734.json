@@ -1,0 +1,90 @@
+{
+  "title": "Multiplayer UX Engineering",
+  "summary": "This reel breaks down the technical and design requirements for building seamless multiplayer experiences. It covers essential patterns like cursor interpolation, deterministic user coloring, and preventative selection locks to ensure smooth collaboration.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Three cursors land on your canvas. None of them are yours."
+    },
+    {
+      "t": "00:03",
+      "text": "The server sends 10 positions a second. Your screen draws 60."
+    },
+    {
+      "t": "00:06",
+      "text": "Interpolation fills the gaps, so cursors glide instead of teleporting."
+    },
+    {
+      "t": "00:10",
+      "text": "Every user gets a color, hashed from their ID."
+    },
+    {
+      "t": "00:13",
+      "text": "Same person, same color—every session. Identity you can track from the corner of your eye."
+    },
+    {
+      "t": "00:19",
+      "text": "Avatars stack before anyone speaks. Three faces, then a plus five counter."
+    },
+    {
+      "t": "00:24",
+      "text": "You feel the room before you read a single name."
+    },
+    {
+      "t": "00:27",
+      "text": "Sarah grabs a card. It glows in her color. Locked."
+    },
+    {
+      "t": "00:31",
+      "text": "Two people editing one shape is a corrupted shape. The lock prevents the conflict before it exists."
+    },
+    {
+      "t": "00:37",
+      "text": "Click an avatar and your viewport follows theirs. Their pans, their zooms—live."
+    },
+    {
+      "t": "00:42",
+      "text": "A design review without a screen share."
+    },
+    {
+      "t": "00:44",
+      "text": "Multiplayer is a system. Follow for more UX engineering. Save this for your next collab feature."
+    }
+  ],
+  "on_screen_text": [
+    "Your canvas. Their cursors.",
+    "Interpolation: 10 updates in. 60 frames out.",
+    "Color from identity: hash(user_id) -> hue",
+    "Presence: Feel the room before you read a name",
+    "Selection locks: One shape, one editor",
+    "Follow mode: Click an avatar and follow their viewport",
+    "Multiplayer is a system. Presence is engineered, not accidental."
+  ],
+  "ui_patterns": [
+    "Collaborative cursors",
+    "Avatar stacks",
+    "Presence indicators",
+    "Selection highlights",
+    "Object locking",
+    "Viewport following"
+  ],
+  "design_principles": [
+    "Interpolation for smooth motion",
+    "Deterministic coloring for consistent identity",
+    "Visual presence over textual information",
+    "Conflict prevention through selection locks",
+    "Shared context via viewport syncing"
+  ],
+  "before_after": "Raw 10Hz cursor updates (jittery/teleporting) vs. Interpolated 60fps movement (smooth/gliding).",
+  "tags": [
+    "UX Design",
+    "Multiplayer",
+    "Collaboration",
+    "Product Design",
+    "UI Patterns"
+  ],
+  "id": "1562882515556734",
+  "date": "2026-07-20",
+  "url": "https://www.facebook.com/reel/1562882515556734",
+  "file": "2026-07-20_1562882515556734.mp4"
+}

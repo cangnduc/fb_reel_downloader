@@ -1,0 +1,90 @@
+{
+  "title": "5 Tips for Better Color Pickers",
+  "summary": "This reel explores five essential features for a high-performance color picker in UI design tools. It covers human-readable color formats, memory, real-time contrast checking, alpha previews, and automated palette generation.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Pick a color. Your whole UI answers."
+    },
+    {
+      "t": "00:03",
+      "text": "Hex is for machines. OKLCH reads like a human. Lightness, Chroma, Hue. Change one number, get a predictable shade."
+    },
+    {
+      "t": "00:12",
+      "text": "A picker without memory wastes your day. Recent swatches, saved palettes. Your last five picks. One tap away."
+    },
+    {
+      "t": "00:20",
+      "text": "Check contrast at pick time, not in review. A live ratio badge flips red to green. Bad pairs die before they ship."
+    },
+    {
+      "t": "00:29",
+      "text": "Transparency lies on white. A checkerboard tells the truth. Preview alpha on light and dark before you commit."
+    },
+    {
+      "t": "00:36",
+      "text": "One pick builds the system. Generate tints and shades from a single hue. 10 tokens, 1 decision."
+    },
+    {
+      "t": "00:43",
+      "text": "Follow for more design tooling. Save this for your next design system."
+    }
+  ],
+  "on_screen_text": [
+    "01 - FORMAT",
+    "HEX",
+    "RGB",
+    "HSL",
+    "OKLCH",
+    "for machines",
+    "for screens",
+    "getting closer",
+    "for humans",
+    "02 - MEMORY",
+    "RECENT",
+    "SAVED - BRAND",
+    "03 - CONTRAST",
+    "BUTTON PREVIEW",
+    "FAIL",
+    "AA",
+    "04 - ALPHA",
+    "On light",
+    "On dark",
+    "reads pastel",
+    "almost gone",
+    "05 - PALETTE",
+    "10 tokens - 1 decision",
+    "@DESIGNMOTIONHQ",
+    "Follow for more design tooling.",
+    "Save this for your next design system."
+  ],
+  "ui_patterns": [
+    "Color Picker",
+    "Sliders",
+    "Color Swatches",
+    "Contrast Badge",
+    "Button Preview",
+    "Palette Generator"
+  ],
+  "design_principles": [
+    "Human-readable color formats (OKLCH)",
+    "Color persistence and memory",
+    "Real-time accessibility checking",
+    "Contextual transparency previews",
+    "Systematic color scaling"
+  ],
+  "before_after": "A basic color picker transformed into an advanced design tool with accessibility and system-building features.",
+  "tags": [
+    "UI Design",
+    "Color Theory",
+    "Accessibility",
+    "Design Systems",
+    "UX",
+    "OKLCH"
+  ],
+  "id": "1349015704030919",
+  "date": "2026-06-25",
+  "url": "https://www.facebook.com/reel/1349015704030919",
+  "file": "2026-06-25_1349015704030919.mp4"
+}

@@ -1,0 +1,15 @@
+# 5 Rules for Better Dropdowns
+2026-04-24 · https://www.facebook.com/reel/1291637032335837
+
+[00:00] Your dropdown is broken.
+[00:01] Rule 1: Make the trigger obvious. A caret arrow, a hover state, and a minimum 44 pixel click target.
+[00:08] Users should never wonder if it is clickable.
+[00:11] Rule 2: Flip on edge. When the drop-down hits the viewport bottom, it opens upward.
+[00:16] Never clip the last item off the screen.
+[00:18] Rule 3: Keyboard navigation is not optional. Arrow keys to move, enter to select, escape to close.
+[00:24] Every user deserves access. Every time.
+[00:27] Rule 4: Past 10 items, add search. Filtering beats scrolling every single time.
+[00:31] Above 100 items, virtualize the list.
+[00:34] Rule 5: Animate in under 150 milliseconds. Fast enough to feel instant, slow enough to feel smooth.
+[00:41] Anything longer feels janky.
+[00:43] Save this before your next dropdown. Follow for more UI systems.

@@ -1,0 +1,17 @@
+# Designing a Better Command Palette
+2026-06-17 · https://www.facebook.com/reel/2157566511696771
+
+[00:00] Press command K. Type three letters. Jump anywhere.
+[00:03] It is not a search box. Type STG and it finds settings.
+[00:07] Fuzzy matching with the letters highlighted. Match the intent, not the string.
+[00:10] Never dump one flat list. Group results: recent first, then actions, then pages.
+[00:15] Structure is what makes it fast.
+[00:18] Your hands never touch the mouse. Arrows move. Enter runs. Escape closes.
+[00:22] A power user crosses the whole app blind.
+[00:26] Open it empty and most palettes show nothing. Show recent commands instead of a blank void.
+[00:31] Give people a starting point.
+[00:33] Some commands fetch data before they run. Spin inline and keep the palette open.
+[00:37] Never freeze the whole screen for one call. Results load in place.
+[00:40] One command can open another. Change theme drills into its own sub-menu.
+[00:44] Escape walks you back one level, not all the way out.
+[00:47] Follow for more UI systems. Save this for your next command K.

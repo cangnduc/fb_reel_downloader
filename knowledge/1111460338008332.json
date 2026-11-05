@@ -1,0 +1,96 @@
+{
+  "title": "Sheets are a System: 5 Rules for Better UX",
+  "summary": "This reel explains the fundamental differences between sheets and modals, providing five specific rules for designing effective sheets. It covers context preservation, snap points, velocity-based dismissal, desktop responsiveness, and the importance of replacing content rather than stacking sheets.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "One action. Modal, bottom sheet, side drawer. Only one fits."
+    },
+    {
+      "t": "00:04",
+      "text": "A sheet keeps the page visible. A modal hides it behind a scrim."
+    },
+    {
+      "t": "00:08",
+      "text": "Need the order while you edit the address? Sheet."
+    },
+    {
+      "t": "00:12",
+      "text": "Need a full stop, like deleting the account? Modal. That is the whole decision."
+    },
+    {
+      "t": "00:18",
+      "text": "A sheet never sits at a random height. Three snap points: peek, half, full."
+    },
+    {
+      "t": "00:24",
+      "text": "Peek shows a summary. Half gives you the form. Full takes over for long content. Let go between two, it springs to the nearest."
+    },
+    {
+      "t": "00:34",
+      "text": "Drag to dismiss reads speed, not distance. A quick flick closes it from anywhere. A slow drag needs to cross the halfway line. Distance alone makes the sheet feel stuck."
+    },
+    {
+      "t": "00:45",
+      "text": "On desktop, the sheet turns into a side drawer. Minimum 320 pixels or the form breaks. Maximum 40% of the screen or it becomes a page. The list stays readable next to it."
+    },
+    {
+      "t": "00:58",
+      "text": "Never stack two sheets. Tapping a saved address inside a sheet? Replace the content, add a back arrow. One sheet, one swipe to leave."
+    },
+    {
+      "t": "01:07",
+      "text": "Five rules. One container that keeps the page in view. Now make Claude Code think like a senior UX designer. UX Engine designs the screen before coding, audits what is broken, reviews the diff, and kills the AI look. Link in bio."
+    }
+  ],
+  "on_screen_text": [
+    "SHEETS ARE A SYSTEM",
+    "Only one fits.",
+    "context visible = sheet",
+    "Keep the page, or stop it.",
+    "Need the page? -> Sheet",
+    "Need a stop? -> Modal",
+    "Three heights. Nothing between.",
+    "peek • half • full",
+    "Speed closes it, not distance.",
+    "flick = close",
+    "Desktop: a bounded drawer.",
+    "320 px <= drawer <= 40 %",
+    "One sheet at a time.",
+    "replace, don't stack",
+    "Context",
+    "Snap points",
+    "Velocity",
+    "Drawer width",
+    "No stack"
+  ],
+  "ui_patterns": [
+    "Bottom Sheet",
+    "Modal Dialog",
+    "Side Drawer",
+    "Scrim Overlay",
+    "Form",
+    "List View",
+    "Back Navigation"
+  ],
+  "design_principles": [
+    "Context Preservation: Sheets keep the background visible while modals use a scrim to focus on a single action.",
+    "Snap Points: Sheets should snap to predefined heights (peek, half, full) rather than free-floating.",
+    "Velocity-based Dismissal: Interaction should prioritize flick speed over drag distance for closing.",
+    "Responsive Constraints: Side drawers on desktop should be bounded between 320px and 40% screen width.",
+    "Content Replacement: Avoid stacking multiple sheets; replace internal content and use back navigation instead."
+  ],
+  "before_after": "Contrasts incorrect sheet implementations (free-floating heights, distance-only dismissal, and stacked sheets) with a systematic approach using snap points, velocity thresholds, and content replacement.",
+  "tags": [
+    "UX Design",
+    "UI Design",
+    "Mobile Design",
+    "Design Systems",
+    "Interaction Design",
+    "Product Design"
+  ],
+  "id": "1111460338008332",
+  "date": "2026-10-03",
+  "url": "https://www.facebook.com/reel/1111460338008332",
+  "file": "2026-10-03_1111460338008332.mp4"
+}

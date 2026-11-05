@@ -1,0 +1,95 @@
+{
+  "title": "Pull-to-Refresh Design Principles",
+  "summary": "This reel outlines six key principles for designing a high-quality pull-to-refresh interaction, focusing on physics, feedback, and responsiveness. It emphasizes creating a sense of weight and continuity to make the UI feel polished and intuitive.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Pull down, let go too soon, nothing loads."
+    },
+    {
+      "t": "00:02",
+      "text": "Refresh fires past a threshold, never before it."
+    },
+    {
+      "t": "00:06",
+      "text": "Release above the line and the list snaps back, no reload."
+    },
+    {
+      "t": "00:10",
+      "text": "Drag further and the pull should resist, like the content carries real weight."
+    },
+    {
+      "t": "00:15",
+      "text": "A one-to-one drag feels cheap, weight sells it."
+    },
+    {
+      "t": "00:19",
+      "text": "At the threshold, your stretch indicator hands off to a spinner. The gesture becomes the loader itself."
+    },
+    {
+      "t": "00:25",
+      "text": "One short haptic tick at the threshold arms the thumb before the finger even lifts off the glass. The hand knows it caught. Feedback beats the release."
+    },
+    {
+      "t": "00:34",
+      "text": "Pull past the threshold and the rubber band overshoots, then settles back into place. A hard stop feels broken."
+    },
+    {
+      "t": "00:41",
+      "text": "Don't lock the scroll while the reload runs. Keep the list alive underneath. Frozen content feels dead."
+    },
+    {
+      "t": "00:48",
+      "text": "Pull is a promise. Go to designmotionhq.com for more. Link in bio."
+    }
+  ],
+  "on_screen_text": [
+    "Let go early. Nothing loads.",
+    "THRESHOLD: Fires past the line.",
+    "release below -> snaps back - no reload",
+    "release past -> refresh fires",
+    "RESISTANCE: Make it carry weight.",
+    "Elastic resists",
+    "1:1 cheap",
+    "Resist like the content has weight.",
+    "HANDOFF: The stretch becomes the spinner.",
+    "HAPTIC: It ticks before you let go.",
+    "One tick at the threshold, before you let go.",
+    "feedback before release",
+    "BOUNCE: Overshoot, then settle.",
+    "Rubber band",
+    "Hard stop",
+    "SCROLL ALIVE: Never freeze the list.",
+    "spinner running",
+    "updates in place",
+    "Pull is a promise."
+  ],
+  "ui_patterns": [
+    "Pull-to-refresh",
+    "Loading spinner",
+    "Inbox list",
+    "Haptic feedback visualization",
+    "Rubber banding / Elastic scrolling"
+  ],
+  "design_principles": [
+    "Threshold-based triggering",
+    "Visual resistance (Elasticity)",
+    "Seamless transition (Handoff)",
+    "Pre-emptive feedback (Haptic)",
+    "Natural physics (Overshoot/Bounce)",
+    "Non-blocking UI (Scroll alive)"
+  ],
+  "before_after": "Compares 'cheap' 1:1 movement vs 'weighted' elastic movement, 'hard stop' vs 'rubber band' overshoot, and 'frozen' vs 'scroll alive' lists.",
+  "tags": [
+    "UX Design",
+    "UI Design",
+    "Micro-interactions",
+    "Mobile Design",
+    "Animation",
+    "Pull-to-refresh"
+  ],
+  "id": "2286226512205780",
+  "date": "2026-08-13",
+  "url": "https://www.facebook.com/reel/2286226512205780",
+  "file": "2026-08-13_2286226512205780.mp4"
+}

@@ -1,0 +1,71 @@
+{
+  "title": "5 Rules for Better Tooltips",
+  "summary": "This reel outlines five essential rules for designing user-friendly tooltips, focusing on timing, visual clarity, and responsiveness. It teaches how to avoid common pitfalls like 'noisy' instant triggers and content that gets cut off by screen edges.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Your tooltip is annoying."
+    },
+    {
+      "t": "00:02",
+      "text": "Rule 1: Wait 300 milliseconds before showing. Instant tooltips fire every time a cursor passes by. That is noise, not help. Intent, not accidents."
+    },
+    {
+      "t": "00:10",
+      "text": "Rule 2: Point with an arrow. The tail connects the tooltip to its trigger. Without it, users cannot tell what you are explaining. Arrows remove all doubt."
+    },
+    {
+      "t": "00:17",
+      "text": "Rule 3: Flip near viewport edges. A tooltip cut off by the screen is worse than no tooltip at all. Detect the edge, flip the position. Detect viewport bounds. Adjust anchor."
+    },
+    {
+      "t": "00:25",
+      "text": "Rule 4: Dismiss everywhere. Mouse leave, Escape key, Focus out, tap outside. A sticky tooltip traps the user. Every escape route matters."
+    },
+    {
+      "t": "00:32",
+      "text": "Rule 5: Keep it tight. Maximum 300 pixels wide. One sentence maximum. A tooltip is a hint, not documentation."
+    },
+    {
+      "t": "00:38",
+      "text": "Save this before your next tooltip. Follow for more micro UX rules."
+    }
+  ],
+  "on_screen_text": [
+    "Your tooltip is annoying.",
+    "Rule 1 Wait 300ms.",
+    "0ms DELAY vs 300ms DELAY",
+    "Rule 2 Point with an arrow.",
+    "Rule 3 Flip near edges.",
+    "Rule 4 Dismiss everywhere.",
+    "Rule 5 Keep it tight.",
+    "BEFORE — 600px, documentation",
+    "AFTER — 300px, one sentence",
+    "Tooltips, done right."
+  ],
+  "ui_patterns": [
+    "Tooltips",
+    "Hover states",
+    "Buttons",
+    "Viewport boundaries"
+  ],
+  "design_principles": [
+    "Intentionality (300ms delay to confirm intent)",
+    "Visual Hierarchy and Connection (using arrows/tails)",
+    "Responsive Positioning (flipping near edges)",
+    "Accessibility and Dismissibility (multiple exit routes)",
+    "Content Conciseness (max 300px width, one sentence)"
+  ],
+  "before_after": "A transformation from a 'cheap' tooltip (instant, no arrow, long text, cut off by edges) to a 'premium' tooltip (delayed, arrowed, concise, and responsive).",
+  "tags": [
+    "UX Design",
+    "UI Design",
+    "Micro-interactions",
+    "Tooltips",
+    "Product Design"
+  ],
+  "id": "1280965717578919",
+  "date": "2026-04-27",
+  "url": "https://www.facebook.com/reel/1280965717578919",
+  "file": "2026-04-27_1280965717578919.mp4"
+}

@@ -1,0 +1,103 @@
+{
+  "title": "Automated UX Audits with Claude Code",
+  "summary": "This video introduces UX Engine, a Claude Code plugin that performs automated UX audits on UI code. It identifies critical issues like poor information hierarchy, missing accessibility labels, and unhandled states, providing direct code fixes via diffs.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "I made Claude Code audit its own UI."
+    },
+    {
+      "t": "00:03",
+      "text": "Inside one plugin, six UX skills, two sub-agents, three commands."
+    },
+    {
+      "t": "00:08",
+      "text": "The skills auto-fire when Claude builds UI: intent discovery, information hierarchy, state completeness, form UX, feedback and affordance, UX auditor."
+    },
+    {
+      "t": "00:19",
+      "text": "Two agents: a designer that returns wireframes, a reviewer that audits pull requests."
+    },
+    {
+      "t": "00:24",
+      "text": "And three slash commands you call directly, pointed at any file."
+    },
+    {
+      "t": "00:28",
+      "text": "slash UX audit, SRC slash dashboard. It infers user intent, finds every UX gap, ranks them by severity."
+    },
+    {
+      "t": "00:36",
+      "text": "Here's what it found in a real dashboard: four P0 issues, critical, blocking ship, three P1s, two P2s."
+    },
+    {
+      "t": "00:44",
+      "text": "Each issue with the exact code to fix it. No vague design feedback, just the diff."
+    },
+    {
+      "t": "00:50",
+      "text": "Like this delete button: solid primary blue, same weight as the add user button."
+    },
+    {
+      "t": "00:54",
+      "text": "The audit shows the two-line fix: ghost variant, destructive prop, shipped."
+    },
+    {
+      "t": "01:00",
+      "text": "This is UX Engine, a Claude Code plugin for Senior UX. Link in bio."
+    }
+  ],
+  "on_screen_text": [
+    "Claude Code audits its own UI",
+    "Inside the plugin: 6 skills, 2 agents, 3 commands",
+    "Intent discovery",
+    "Information hierarchy",
+    "State completeness",
+    "Form UX",
+    "Feedback & affordance",
+    "UX Auditor",
+    "ux-designer",
+    "ux-reviewer",
+    "/ux-audit",
+    "/ux-design",
+    "/ux-review",
+    "Audit findings - ranked by severity",
+    "P0: Delete button uses primary styling",
+    "P0: No empty state",
+    "P0: Icon-only buttons missing aria-label",
+    "P1: 12 columns - no mobile overflow strategy",
+    "P1: Three primary buttons compete in toolbar",
+    "Two-line fix - ship-ready"
+  ],
+  "ui_patterns": [
+    "Buttons",
+    "Dashboard",
+    "Toolbar",
+    "Empty State",
+    "Form",
+    "Search Input",
+    "Avatar",
+    "CLI"
+  ],
+  "design_principles": [
+    "Information Hierarchy",
+    "Visual Affordance",
+    "Accessibility",
+    "State Completeness",
+    "Mobile Responsiveness",
+    "Feedback Systems"
+  ],
+  "before_after": "A primary-styled 'Delete' button is updated to a ghost variant with a destructive property to improve visual hierarchy and prevent accidental clicks.",
+  "tags": [
+    "UX Audit",
+    "Claude Code",
+    "AI Tools",
+    "UI Design",
+    "Frontend Development",
+    "Accessibility"
+  ],
+  "id": "1338363621728980",
+  "date": "2026-05-27",
+  "url": "https://www.facebook.com/reel/1338363621728980",
+  "file": "2026-05-27_1338363621728980.mp4"
+}

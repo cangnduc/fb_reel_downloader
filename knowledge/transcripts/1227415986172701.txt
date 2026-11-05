@@ -1,0 +1,18 @@
+# Don't Disable Buttons, Explain Them
+2026-08-07 · https://www.facebook.com/reel/1227415986172701
+
+[00:00] Click the gray button. Nothing. Nothing tells you why.
+[00:03] A disabled button drops out of the tab order.
+[00:05] Keyboard users skip past it and screen readers stay quiet.
+[00:09] The block exists and nobody announces it.
+[00:12] Gray on gray fails contrast too, so even the label fights you.
+[00:16] So you attach a tooltip to explain the block.
+[00:18] Pointer events are dead on a disabled element, so that tooltip never fires.
+[00:22] The reason is unreachable by design.
+[00:25] Keep the button live. On click, validate and light up the two fields blocking submit.
+[00:30] Focus jumps to the first one.
+[00:32] Same protection, and the path forward is now visible.
+[00:35] Disabled and loading are two different states.
+[00:38] During a request, the button holds focus, shows a spinner, and reports busy.
+[00:43] Graying it out throws the user's place away.
+[00:46] Follow for more UX systems. Save this for your next form.

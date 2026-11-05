@@ -1,0 +1,10 @@
+# Kanban is a System: 5 Design Decisions
+2026-09-29 · https://www.facebook.com/reel/1114841577734481
+
+[00:00] Kanban is a system. One drag. Five decisions behind it.
+[00:04] Decision one: the drag preview lifts. A shadow and a three-degree tilt. Trello tilts its cards the same way. The tilt says the card is in your hand.
+[00:14] Decision two: the drop placeholder is the exact size of the card. The column opens once, then nothing else moves. A thin line makes every card below jump when it lands.
+[00:24] Decision three: WIP limits live on the column header. In progress: four of four. Hit the limit and the header turns amber. The board says stop before the manager does.
+[00:36] Decision four: columns collapse to a vertical label with a count. Done: 42. Horizontal scroll is the failure mode. If you scroll sideways, you lost the board.
+[00:46] Decision five: swimlanes before a second board. Split rows by team or priority. Same columns, same flow. Two boards means two truths.
+[00:57] Five decisions. One board the whole team can trust. Now make Claude Code think like a senior UX designer. UX Engine designs a screen before coding, audits what is broken, reviews the diff, and kills the AI look. Link in bio.

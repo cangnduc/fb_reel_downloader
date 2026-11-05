@@ -1,0 +1,88 @@
+{
+  "title": "Mastering Notification Badges",
+  "summary": "This reel outlines essential UI/UX rules for designing notification badges, focusing on layout stability, signal clarity, and user behavior. It teaches how to manage unread counts, distinguish between status and action, and maintain a high signal-to-noise ratio.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "That red dot is a system."
+    },
+    {
+      "t": "00:02",
+      "text": "One unread shows a single dot. 200 shows 99+. The cap keeps the shape stable."
+    },
+    {
+      "t": "00:08",
+      "text": "The badge pins to the top corner. One digit or three, the icon never moves under it."
+    },
+    {
+      "t": "00:13",
+      "text": "Red means act now. Green means online. A counting badge and a status dot are not the same object."
+    },
+    {
+      "t": "00:20",
+      "text": "A dot says something changed. A number says how much. Showing both is noise."
+    },
+    {
+      "t": "00:26",
+      "text": "It clears the second you open the view. A badge that lingers after you've looked trains people to ignore every badge."
+    },
+    {
+      "t": "00:32",
+      "text": "When the count climbs, it ticks up. It never resets to zero on screen. That flash reads as a bug."
+    },
+    {
+      "t": "00:40",
+      "text": "Badge only what needs a decision. Badge everything and the color stops meaning anything."
+    },
+    {
+      "t": "00:45",
+      "text": "More UI systems at designmotionhq.com. Link in bio. Save this for your next build."
+    }
+  ],
+  "on_screen_text": [
+    "Cap the count",
+    "Uncapped - the pill grows without limit",
+    "Cap at 99+ - width is bounded, layout holds",
+    "Pin it to the corner",
+    "The badge pins to the corner - the icon never moves",
+    "Two signals, not one",
+    "A count is not a status - different signals, different rules",
+    "One signal per row",
+    "Dot or number - never both on the same row",
+    "Open it, clear it",
+    "A badge that never clears trains people to ignore it",
+    "Count up, never blink",
+    "Counts only climb - a reset to zero reads as a broken badge",
+    "Badge the decision, not everything",
+    "Badge everything and nothing stands out - signal needs silence"
+  ],
+  "ui_patterns": [
+    "Notification Badges",
+    "Status Indicators",
+    "Navigation Bars",
+    "Inbox List Items",
+    "Iconography"
+  ],
+  "design_principles": [
+    "Layout Stability (Capping counts)",
+    "Anchored Positioning (Preventing icon drift)",
+    "Semantic Color Coding (Action vs. Status)",
+    "Signal-to-Noise Ratio (Avoiding redundant indicators)",
+    "Immediate Feedback (Clearing on view)",
+    "Smooth Transitions (Avoiding zero-reset flickers)",
+    "Selective Attention (Badging only critical items)"
+  ],
+  "before_after": "Demonstrates the difference between 'uncapped' badges that break layouts versus 'capped' badges that maintain stability, and 'reflowing' icons versus 'anchored' icons.",
+  "tags": [
+    "UI Design",
+    "UX Design",
+    "Design Systems",
+    "Notifications",
+    "Mobile UI",
+    "Visual Hierarchy"
+  ],
+  "id": "1738722907177807",
+  "date": "2026-08-29",
+  "url": "https://www.facebook.com/reel/1738722907177807",
+  "file": "2026-08-29_1738722907177807.mp4"
+}

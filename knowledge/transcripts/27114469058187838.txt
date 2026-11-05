@@ -1,0 +1,9 @@
+# Mastering UI Toggles
+2026-05-30 · https://www.facebook.com/reel/27114469058187838
+
+[00:00] Two toggles. One snaps. One morphs.
+[00:02] Rail width is knob diameter times two. Padding equals knob radius. These ratios make the knob feel anchored.
+[00:09] Don't snap. Morph four properties at once. Rail color, knob slide, knob shadow, label crossfade, all in 250 milliseconds, ease out.
+[00:20] Spacebar toggles, visible focus ring, ARIA announces the state change. Skip these and it's a fake button. Real switches work without a mouse.
+[00:29] Flip first. Spinner in the knob. Server says no, roll back. The user never waits for the network.
+[00:37] Follow for more UI components. Save this for your next switch.

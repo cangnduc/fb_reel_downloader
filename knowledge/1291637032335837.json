@@ -1,0 +1,100 @@
+{
+  "title": "5 Rules for Better Dropdowns",
+  "summary": "This lesson outlines five essential rules for designing functional and accessible dropdown menus. It covers touch target sizes, viewport-aware positioning, keyboard accessibility, search functionality for long lists, and optimal animation speeds.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Your dropdown is broken."
+    },
+    {
+      "t": "00:01",
+      "text": "Rule 1: Make the trigger obvious. A caret arrow, a hover state, and a minimum 44 pixel click target."
+    },
+    {
+      "t": "00:08",
+      "text": "Users should never wonder if it is clickable."
+    },
+    {
+      "t": "00:11",
+      "text": "Rule 2: Flip on edge. When the drop-down hits the viewport bottom, it opens upward."
+    },
+    {
+      "t": "00:16",
+      "text": "Never clip the last item off the screen."
+    },
+    {
+      "t": "00:18",
+      "text": "Rule 3: Keyboard navigation is not optional. Arrow keys to move, enter to select, escape to close."
+    },
+    {
+      "t": "00:24",
+      "text": "Every user deserves access. Every time."
+    },
+    {
+      "t": "00:27",
+      "text": "Rule 4: Past 10 items, add search. Filtering beats scrolling every single time."
+    },
+    {
+      "t": "00:31",
+      "text": "Above 100 items, virtualize the list."
+    },
+    {
+      "t": "00:34",
+      "text": "Rule 5: Animate in under 150 milliseconds. Fast enough to feel instant, slow enough to feel smooth."
+    },
+    {
+      "t": "00:41",
+      "text": "Anything longer feels janky."
+    },
+    {
+      "t": "00:43",
+      "text": "Save this before your next dropdown. Follow for more UI systems."
+    }
+  ],
+  "on_screen_text": [
+    "Your dropdown is broken.",
+    "RULE 1 Make it clickable.",
+    "BEFORE: 30px height (too small), Low contrast border, No hover feedback",
+    "AFTER: 44px touch target, Clear caret icon, Hover state feedback",
+    "RULE 2 Flip on edge.",
+    "Detect edge. Flip the menu up.",
+    "RULE 3 Keyboard always.",
+    "navigate, select, close",
+    "RULE 4 10+ items = search.",
+    "Filter beats scroll. Always.",
+    "RULE 5 Hit 150ms.",
+    "Too fast, Just right, Too slow",
+    "Fast to feel instant. Smooth to feel real.",
+    "Dropdowns, done right."
+  ],
+  "ui_patterns": [
+    "Dropdown menu",
+    "Select input",
+    "Search bar",
+    "Caret icon",
+    "Hover states",
+    "Keyboard shortcuts",
+    "List virtualization"
+  ],
+  "design_principles": [
+    "Touch target size (44px minimum)",
+    "Visual affordance",
+    "Viewport awareness",
+    "Accessibility (Keyboard navigation)",
+    "Efficiency (Search vs Scroll)",
+    "Motion design (150ms duration)"
+  ],
+  "before_after": "A small, low-contrast dropdown without a caret (Before) is transformed into a larger, high-contrast dropdown with a clear caret icon and hover feedback (After).",
+  "tags": [
+    "UI Design",
+    "UX Design",
+    "Accessibility",
+    "Interaction Design",
+    "Web Development",
+    "Design Systems"
+  ],
+  "id": "1291637032335837",
+  "date": "2026-04-24",
+  "url": "https://www.facebook.com/reel/1291637032335837",
+  "file": "2026-04-24_1291637032335837.mp4"
+}

@@ -1,0 +1,107 @@
+{
+  "title": "Don't Disable Buttons, Explain Them",
+  "summary": "This lesson explains why disabling buttons in forms creates accessibility and usability barriers. It demonstrates how keeping buttons active allows for better validation feedback, maintains tab order, and ensures screen readers can communicate form status.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Click the gray button. Nothing. Nothing tells you why."
+    },
+    {
+      "t": "00:03",
+      "text": "A disabled button drops out of the tab order."
+    },
+    {
+      "t": "00:05",
+      "text": "Keyboard users skip past it and screen readers stay quiet."
+    },
+    {
+      "t": "00:09",
+      "text": "The block exists and nobody announces it."
+    },
+    {
+      "t": "00:12",
+      "text": "Gray on gray fails contrast too, so even the label fights you."
+    },
+    {
+      "t": "00:16",
+      "text": "So you attach a tooltip to explain the block."
+    },
+    {
+      "t": "00:18",
+      "text": "Pointer events are dead on a disabled element, so that tooltip never fires."
+    },
+    {
+      "t": "00:22",
+      "text": "The reason is unreachable by design."
+    },
+    {
+      "t": "00:25",
+      "text": "Keep the button live. On click, validate and light up the two fields blocking submit."
+    },
+    {
+      "t": "00:30",
+      "text": "Focus jumps to the first one."
+    },
+    {
+      "t": "00:32",
+      "text": "Same protection, and the path forward is now visible."
+    },
+    {
+      "t": "00:35",
+      "text": "Disabled and loading are two different states."
+    },
+    {
+      "t": "00:38",
+      "text": "During a request, the button holds focus, shows a spinner, and reports busy."
+    },
+    {
+      "t": "00:43",
+      "text": "Graying it out throws the user's place away."
+    },
+    {
+      "t": "00:46",
+      "text": "Follow for more UX systems. Save this for your next form."
+    }
+  ],
+  "on_screen_text": [
+    "Don't disable. Explain.",
+    "TAB ORDER: The keyboard skips right past it.",
+    "SCREEN READER: (nothing announced)",
+    "LABEL CONTRAST: 1.6:1 FAIL - WCAG AA",
+    "POINTER EVENTS: The tooltip never fires.",
+    "VALIDATE ON CLICK: Keep it live. Explain.",
+    "LOADING STATE: Busy is not disabled.",
+    "aria-busy=\"true\"",
+    "Out of the tab order",
+    "Explain the blocker"
+  ],
+  "ui_patterns": [
+    "Buttons",
+    "Forms",
+    "Tooltips",
+    "Validation Messages",
+    "Loading Spinners",
+    "Input Fields",
+    "Checkboxes"
+  ],
+  "design_principles": [
+    "Maintain tab order for accessibility",
+    "Ensure sufficient color contrast (WCAG)",
+    "Provide feedback via validation on click instead of disabling",
+    "Distinguish between disabled and busy states",
+    "Use ARIA attributes like aria-busy for screen readers"
+  ],
+  "before_after": "A disabled button that is inaccessible and provides no feedback is replaced by an active button that triggers validation, highlights errors, and uses proper loading states.",
+  "tags": [
+    "UX Design",
+    "Accessibility",
+    "Form Design",
+    "UI Design",
+    "A11y",
+    "Web Development"
+  ],
+  "id": "1227415986172701",
+  "date": "2026-08-07",
+  "url": "https://www.facebook.com/reel/1227415986172701",
+  "file": "2026-08-07_1227415986172701.mp4"
+}

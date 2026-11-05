@@ -1,0 +1,117 @@
+{
+  "title": "The Peak-End Rule in UX Design",
+  "summary": "This lesson explains the Peak-End Rule, a psychological principle where users judge an experience based on its most intense point and its end. By designing intentional peaks and polishing the final interaction, designers can significantly improve user memory and satisfaction.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Same UX, different memory. Here is why."
+    },
+    {
+      "t": "00:02",
+      "text": "Your brain doesn't average experiences."
+    },
+    {
+      "t": "00:04",
+      "text": "It only remembers the peak moment and the end."
+    },
+    {
+      "t": "00:06",
+      "text": "This is the Peak-End Rule."
+    },
+    {
+      "t": "00:08",
+      "text": "Two-second flow or two-day vacation, same wiring."
+    },
+    {
+      "t": "00:11",
+      "text": "60 seconds, identical form, identical loading."
+    },
+    {
+      "t": "00:13",
+      "text": "But one ends with a confetti animation."
+    },
+    {
+      "t": "00:16",
+      "text": "The other just stops."
+    },
+    {
+      "t": "00:17",
+      "text": "Same time spent, but the first one rates 40% higher in memory."
+    },
+    {
+      "t": "00:21",
+      "text": "Now design intentional peaks."
+    },
+    {
+      "t": "00:23",
+      "text": "The aha moment when filters click, the shipping date that beats expectation."
+    },
+    {
+      "t": "00:27",
+      "text": "One delight beats five neutral interactions."
+    },
+    {
+      "t": "00:29",
+      "text": "But the rule cuts both ways."
+    },
+    {
+      "t": "00:31",
+      "text": "A perfect onboarding that ends with a payment error?"
+    },
+    {
+      "t": "00:34",
+      "text": "Users only remember the error."
+    },
+    {
+      "t": "00:36",
+      "text": "The 99% that worked? Gone."
+    },
+    {
+      "t": "00:38",
+      "text": "Forget the average. Polish the end."
+    }
+  ],
+  "on_screen_text": [
+    "PEAK-END RULE",
+    "HOW MEMORY WORKS",
+    "Your brain doesn't average experiences.",
+    "PEAK + END = MEMORY",
+    "SAME FLOW - 60 SECONDS",
+    "One ends with joy.",
+    "COLD ENDING",
+    "JOYFUL ENDING",
+    "Same UX. +40% recall.",
+    "DESIGN INTENTIONAL PEAKS",
+    "One delight beats five neutrals.",
+    "THE REVERSE IS ALSO TRUE",
+    "Bad ending kills the flow.",
+    "Forget the average. Polish the end."
+  ],
+  "ui_patterns": [
+    "Line charts",
+    "Checkout summary",
+    "Success state animation",
+    "Search bar",
+    "Filters",
+    "Error messages",
+    "Onboarding checklist"
+  ],
+  "design_principles": [
+    "Peak-End Rule",
+    "User Delight",
+    "Memory Bias",
+    "Error Handling"
+  ],
+  "before_after": "A standard checkout success screen (Cold Ending) is compared to one with a confetti animation (Joyful Ending), showing a 40% increase in memory recall.",
+  "tags": [
+    "UX Design",
+    "UI Design",
+    "Psychology",
+    "User Experience",
+    "Product Design"
+  ],
+  "id": "1458686142145780",
+  "date": "2026-05-14",
+  "url": "https://www.facebook.com/reel/1458686142145780",
+  "file": "2026-05-14_1458686142145780.mp4"
+}

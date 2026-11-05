@@ -1,0 +1,83 @@
+{
+  "title": "5 Design Decisions that make Linear feel 'Expensive'",
+  "summary": "This reel reverse-engineers the design of the Linear app, highlighting five specific UI decisions that contribute to its premium feel. It covers information density, the use of borders over shadows, minimal color palettes, keyboard-first interactions, and strict alignment.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Why does Linear feel expensive? Five decisions. No designer."
+    },
+    {
+      "t": "00:04",
+      "text": "Decision 1: Density. 13 pixel text. 32 pixel rows. Letter spacing pulled in 1%. Twice the issues on one screen, no scroll. Density reads as competence."
+    },
+    {
+      "t": "00:16",
+      "text": "Decision 2: Borders, not shadows. A 1 pixel border at 8% white. Depth comes from three background values, not blur. Hover changes the surface value, not the elevation. Flat surfaces look engineered. Shadows look decorated."
+    },
+    {
+      "t": "00:32",
+      "text": "Decision 3: One color. Indigo on the selected row and the primary button, nowhere else. Status is an icon, not a colored pill. Everything else sits in gray."
+    },
+    {
+      "t": "00:44",
+      "text": "Decision 4: Keyboard. Every action shows its shortcut. C creates, Command K searches. Hover feedback in 80 milliseconds, transitions under 150. No bounce, no overshoot. The UI answers before you finish the gesture."
+    },
+    {
+      "t": "00:59",
+      "text": "Decision 5: Alignment. A 4 pixel grid. 16 pixel icons centered on the text. Labels left, numbers right, nothing centered. Alignment is invisible when right, loud when wrong."
+    },
+    {
+      "t": "01:11",
+      "text": "Five decisions, one afternoon. Or type /restyle. UX Engine, the Claude code plugin that makes your app look this deliberate. Link in bio."
+    }
+  ],
+  "on_screen_text": [
+    "REVERSE-ENGINEERED - LINEAR",
+    "DECISION 01 - DENSITY",
+    "Density reads as competence.",
+    "13 px text",
+    "32 px rows",
+    "DECISION 02 - BORDERS, NOT SHADOWS.",
+    "box-shadow: none",
+    "1px solid rgba(255,255,255,.08)",
+    "DECISION 03 - ONE COLOR",
+    "1 brand color - icons for status",
+    "DECISION 04 - KEYBOARD",
+    "The UI answers first.",
+    "80 ms hover - 150 ms max - 0 overshoot",
+    "DECISION 05 - ALIGNMENT",
+    "Invisible when right.",
+    "4 px grid - 16 px icons - numbers right",
+    "UX Engine"
+  ],
+  "ui_patterns": [
+    "Data Table",
+    "Sidebar",
+    "Status Indicators",
+    "Command Palette",
+    "Keyboard Shortcuts",
+    "Primary Button",
+    "Search Bar"
+  ],
+  "design_principles": [
+    "Information Density",
+    "Border-based Depth",
+    "Monochromatic Palette",
+    "Low Latency Feedback",
+    "Grid Alignment",
+    "Keyboard-First Design"
+  ],
+  "before_after": "The video demonstrates a step-by-step transformation of a generic issue tracker UI into a high-density, polished interface modeled after Linear.",
+  "tags": [
+    "UI Design",
+    "UX Design",
+    "Linear",
+    "Product Design",
+    "Visual Hierarchy",
+    "Design Systems"
+  ],
+  "id": "882296604820252",
+  "date": "2026-09-12",
+  "url": "https://www.facebook.com/reel/882296604820252",
+  "file": "2026-09-12_882296604820252.mp4"
+}

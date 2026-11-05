@@ -1,0 +1,12 @@
+# Selection is a system
+2026-08-09 · https://www.facebook.com/reel/1481497547331280
+
+[00:00] Tick the header box, all 247 rows come with it. Selection is a system.
+[00:04] Your header checkbox has three states, not two. Checked, empty, and partial. Drop the partial state and users lose track of what they picked.
+[00:11] Clicking that partial box selects everything, never clears it.
+[00:15] Select all grabs the six rows on screen. There are 247 in the table. Say the number out loud. Select all 247 matching.
+[00:23] A filter moves that number so the label reads it live.
+[00:27] Shift click picks a range, and every desktop user expects it. Then they change page and the selection dies.
+[00:33] Selection lives in your app state, not in the visible rows.
+[00:37] Deleting 247 rows needs no confirm modal. Echo the count inside the button, run it, then offer undo for 10 seconds. Reversible beats careful.
+[00:47] Follow for more UX systems. Save this for your next data table.

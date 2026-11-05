@@ -1,0 +1,15 @@
+# 5 Essential Navigation Patterns for UX
+2026-05-01 · https://www.facebook.com/reel/1274160754364058
+
+[00:00] 5 nav patterns. Pick wrong, lose users.
+[00:03] Bottom tabs. Mobile only. 3 to 5 top-level destinations max.
+[00:06] Beyond 5, users can't parse what's there. Always visible, always thumb-reachable.
+[00:11] Sidebar. Desktop only. Use it when content is hierarchical or when you have more than 5 sections.
+[00:16] Persistent, collapsible, but never hidden behind a click.
+[00:21] Hamburger. Mobile only. Secondary content. Settings, account, support.
+[00:25] Never your primary navigation. Studies show 40% fewer users click hidden menus.
+[00:30] Command palette. Power users only. Cmd K opens search-driven navigation.
+[00:34] Linear, Notion, Raycast. Never your primary nav for new users. They don't know it exists.
+[00:41] Breadcrumbs. Only when hierarchy goes deeper than 2 levels.
+[00:44] They show position, not navigation. Don't ship them in a flat structure. They confuse more than they help.
+[00:50] Mobile equals tabs. Desktop equals sidebar. Everything else has a specific job. Save this for your next IA decision.

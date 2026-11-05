@@ -1,0 +1,11 @@
+# Designing a Robust Avatar Component System
+2026-08-27 · https://www.facebook.com/reel/1769259328059594
+
+[00:00] The photo fails, the avatar shouldn't.
+[00:02] Image first, initials when it fails. A generic icon as a last resort. Never a broken square.
+[00:10] Generate the background color from the name itself. Same person, same color, on every screen, forever. No random palette.
+[00:18] Two initials by default: first name, last name. Drop to a single letter only at tiny sizes. JD reads as a person, a lone J reads as a bug.
+[00:28] Overlap them to show a group. Cap the row and spill the rest into a plus three.
+[00:33] A ring around the avatar shows who's online. Put the status on the ring, never a second badge.
+[00:40] Pick three sizes and stop. 24 in lists, 32 in headers, 40 in profiles. Three tokens, nothing between.
+[00:46] More UI systems at designmotionhq.com. Link in bio, save this for your next component.

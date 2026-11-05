@@ -1,0 +1,88 @@
+{
+  "title": "Mastering Scroll State in UI Design",
+  "summary": "This lesson explains why scroll position should be treated as application state, particularly in single-page applications. It covers scroll restoration, offsetting for sticky headers, and the usability issues of infinite scroll with footers.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "You hit back and lost the exact post you scrolled down to."
+    },
+    {
+      "t": "00:03",
+      "text": "Your single page app resets scroll to zero on every route change."
+    },
+    {
+      "t": "00:08",
+      "text": "The browser used to remember for you. Your router forgot how."
+    },
+    {
+      "t": "00:12",
+      "text": "Save the scroll position for each history entry, then put it back when the user returns, instead of dumping them at the very top."
+    },
+    {
+      "t": "00:20",
+      "text": "Position is state too."
+    },
+    {
+      "t": "00:21",
+      "text": "A sticky header hides the row you land on. Offset the restore by its height. Otherwise, you land close but wrong."
+    },
+    {
+      "t": "00:29",
+      "text": "Jump links need scroll-margin-top, or every heading tucks up under the bar. The anchor lands and the title is invisible."
+    },
+    {
+      "t": "00:36",
+      "text": "Infinite scroll pushes the footer one step further, forever. Your links, your contact, your terms all live down there. Nobody ever reaches them."
+    },
+    {
+      "t": "00:46",
+      "text": "Scroll is state. Go to designmotionhq.com for more. Link in bio."
+    }
+  ],
+  "on_screen_text": [
+    "ROUTE CHANGE",
+    "Routes reset to zero.",
+    "Full page load -> browser restores",
+    "Client-side route -> scrollTOP = 0",
+    "RESTORE",
+    "Back to the exact post.",
+    "history.scrollRestoration = 'manual'",
+    "STICKY HEADER",
+    "Header hides your row.",
+    "Offset by the header height.",
+    "#ANCHOR",
+    "Jump links land wrong.",
+    "scroll-margin-top saves the anchor.",
+    "INFINITE SCROLL",
+    "The footer runs away forever.",
+    "Scroll is state."
+  ],
+  "ui_patterns": [
+    "Feed/List view",
+    "Single Page Application (SPA) routing",
+    "Sticky Header",
+    "Jump links / Anchor links",
+    "Infinite Scroll",
+    "Footer"
+  ],
+  "design_principles": [
+    "Scroll position is application state",
+    "Manual scroll restoration for SPAs",
+    "Header height offsets for scroll-to-element actions",
+    "Use scroll-margin-top for anchor visibility",
+    "Avoid infinite scroll if the footer contains essential navigation"
+  ],
+  "before_after": "Demonstrates the difference between a broken scroll experience (resetting to top or hiding content under headers) versus a corrected experience using manual restoration and offsets.",
+  "tags": [
+    "UX Design",
+    "UI Design",
+    "Frontend Development",
+    "Scroll Behavior",
+    "SPA",
+    "Web Design"
+  ],
+  "id": "1862628335143062",
+  "date": "2026-08-17",
+  "url": "https://www.facebook.com/reel/1862628335143062",
+  "file": "2026-08-17_1862628335143062.mp4"
+}

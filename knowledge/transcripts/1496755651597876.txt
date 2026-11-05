@@ -1,0 +1,15 @@
+# The Power of UX Writing
+2026-07-03 · https://www.facebook.com/reel/1496755651597876
+
+[00:00] Same form, different words, one converts.
+[00:03] Submit is a chore. It tells you nothing about what happens next.
+[00:06] Create my free account is a promise. That label is the last thing they read before committing. Make it the payoff.
+[00:13] Invalid input helps no one. It names the problem and walks away.
+[00:17] That email's taken — want to log in? Hands them the fix. A good error is a detour sign, not a dead end.
+[00:23] An empty inbox isn't a blank screen. It's your best chance to teach the first action.
+[00:28] Show one button, one next step, instead of a void that looks like a bug.
+[00:33] Placeholder text is not a label. It vanishes the moment they start typing, taking the question with it.
+[00:38] Now they're staring at an answer with no idea what it was for.
+[00:42] Write like a person, not a server. No real human ever said "operation failed" or "invalid entry".
+[00:48] Your words carry the brand louder than the color palette ever will.
+[00:51] Words ship conversion. Follow for more UX writing. Save this for your next form.

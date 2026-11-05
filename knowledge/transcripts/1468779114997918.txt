@@ -1,0 +1,15 @@
+# Mastering Slider UI Design
+2026-06-08 · https://www.facebook.com/reel/1468779114997918
+
+[00:00] Drag to 47 or 48. Your finger can't tell.
+[00:03] Make the whole row draggable. A 4px hairline is a moving target.
+[00:05] Extend the hit area far past the line. The whole row should respond to a drag.
+[00:09] A bare track gives no sense of progress. Fill everything left of the thumb.
+[00:14] Now the value reads before you even check it.
+[00:17] Continuous sliders never land clean. Snap to steps and every stop is exact.
+[00:22] Volume, ratings, price—most values are discrete.
+[00:26] Users drag blind without a number. Float the exact value above the thumb.
+[00:31] Show it while they move, then let it fade.
+[00:34] One thumb sets a point. Two thumbs set a range. Min and max captured in a single control.
+[00:39] A mouse is not the only input. Arrow keys nudge by one step. Home and End jump straight to the edges.
+[00:44] Follow for more UI systems. Save this for your next form.

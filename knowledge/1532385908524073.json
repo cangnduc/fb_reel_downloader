@@ -1,0 +1,105 @@
+{
+  "title": "UX Tips for Multi-Step Forms",
+  "summary": "This lesson teaches how to optimize long forms by converting them into multi-step wizards. It highlights key techniques like chunking, progress visualization, contextual grouping, and inline validation to reduce cognitive load and improve completion rates.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Twelve fields, one wall. Four steps, one path."
+    },
+    {
+      "t": "00:03",
+      "text": "The brain reads three fields without effort. Twelve in a row, trigger scroll fatigue."
+    },
+    {
+      "t": "00:08",
+      "text": "Chunking lowers cognitive load before it kills it."
+    },
+    {
+      "t": "00:11",
+      "text": "Progress shows where you are. Linear bar, numbered dots, step labels. Pick one."
+    },
+    {
+      "t": "00:17",
+      "text": "Users need to feel the end is close."
+    },
+    {
+      "t": "00:19",
+      "text": "Group fields by context, not by count. Personal, shipping, payment, review."
+    },
+    {
+      "t": "00:25",
+      "text": "Each step earns its own screen. Random splits feel arbitrary and slow."
+    },
+    {
+      "t": "00:30",
+      "text": "Validate inside the step, not at the end."
+    },
+    {
+      "t": "00:32",
+      "text": "Wrong email on step one shouldn't surface on step four."
+    },
+    {
+      "t": "00:36",
+      "text": "Block next when invalid. Inline red beats final-screen rejection."
+    },
+    {
+      "t": "00:40",
+      "text": "Save state on every step change. Back button preserves data. Refresh too."
+    },
+    {
+      "t": "00:45",
+      "text": "Lose the form once, you lose the user forever."
+    },
+    {
+      "t": "00:48",
+      "text": "Follow for more UX systems. Save this for your next signup flow."
+    }
+  ],
+  "on_screen_text": [
+    "WALL vs PATH",
+    "01 - CHUNKING",
+    "EFFORTLESS (3 FIELDS) vs FATIGUE (12 FIELDS)",
+    "COGNITIVE LOAD",
+    "02 - PROGRESS",
+    "LINEAR BAR",
+    "NUMBERED DOTS",
+    "STEP LABELS",
+    "03 - BOUNDARIES",
+    "04 - VALIDATION",
+    "INLINE - INSTANT vs FINAL - TOO LATE",
+    "05 - STATE",
+    "DATA INTACT",
+    "STEPPER WIZARD"
+  ],
+  "ui_patterns": [
+    "Multi-step form",
+    "Stepper wizard",
+    "Linear progress bar",
+    "Numbered step indicators",
+    "Step labels",
+    "Inline validation",
+    "Input fields",
+    "Navigation buttons (Next/Back)"
+  ],
+  "design_principles": [
+    "Chunking",
+    "Cognitive Load Reduction",
+    "Progress Visualization",
+    "Contextual Grouping",
+    "Inline Validation",
+    "State Persistence (Local Storage)"
+  ],
+  "before_after": "A single-page form with 12 fields (the 'Wall') is transformed into a 4-step wizard (the 'Path') that uses chunking and progress tracking.",
+  "tags": [
+    "UX Design",
+    "UI Design",
+    "Form Design",
+    "Stepper Wizard",
+    "User Experience",
+    "Product Design"
+  ],
+  "id": "1532385908524073",
+  "date": "2026-05-26",
+  "url": "https://www.facebook.com/reel/1532385908524073",
+  "file": "2026-05-26_1532385908524073.mp4"
+}

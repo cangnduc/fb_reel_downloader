@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Secrets and local credentials
+.env
+cookies.txt
+gemini_key.txt
+
+# Downloaded media (large generated files)
+reels/
+
+# Temporary Facebook page data
+_reels_tab.html
+
+# Local/editor and operating-system files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/

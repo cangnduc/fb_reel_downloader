@@ -1,0 +1,18 @@
+# Optimistic UI: Making Interfaces Feel Instant
+2026-07-06 · https://www.facebook.com/reel/1737522820773693
+
+[00:00] Click like. One waits, one feels instant.
+[00:03] The slow one waits for the server before anything moves.
+[00:05] The fast one updates the screen first, then syncs in the background.
+[00:09] Same network. One just stopped waiting.
+[00:12] Your brain reads anything under 400 milliseconds as instant.
+[00:15] Past that, a spinner reads as broken, even when it works fine.
+[00:19] You're not buying speed, you're buying the feeling of it.
+[00:22] So what if the request fails?
+[00:24] The fast one rolls back. The like undoes itself, the count returns to where it was.
+[00:30] Optimistic isn't ignoring errors, it's betting on success.
+[00:34] This is Optimistic UI. You assume the happy path, render now, and reconcile when the server replies.
+[00:40] 99% of the time, it was right anyway.
+[00:43] But not everywhere. Never fake a payment, a transfer, or anything you can't undo.
+[00:48] Show those the truth, even if the truth is a spinner.
+[00:52] Follow for more UX patterns. Save this for your next build.

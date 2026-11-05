@@ -1,0 +1,12 @@
+# Undo UX: Designing for Reversibility
+2026-07-10 · https://www.facebook.com/reel/2126158401583676
+
+[00:00] Deleted. You have 5 seconds.
+[00:01] One mistake. Two designs.
+[00:02] Are you sure punishes everyone for one person's mistake.
+[00:05] Undo punishes nobody. The action happens instantly, and regret gets a second chance.
+[00:10] The file left your screen, not the database. A deleted flag, 30 days in trash, then it's gone for real. Deletion is a state, not an event.
+[00:18] Some actions have no way back. That's where friction belongs. GitHub makes you type the repo name before it deletes. Earn the irreversible.
+[00:27] One undo is a toast. A stack is a time machine. Command-Z walks back through every step in order. Figma remembers everything you did. Your app can too.
+[00:38] Gmail holds your email for 10 seconds after send. The delay is the feature. You catch the typo, the wrong recipient, the reply-all disaster.
+[00:46] Design for regret. Follow for more UX patterns. Save this before you delete something.

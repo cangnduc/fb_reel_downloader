@@ -1,0 +1,11 @@
+# Mastering 6-Digit Code Inputs
+2026-06-15 · https://www.facebook.com/reel/1028519599859018
+
+[00:00] Paste a six-digit code. Watch the boxes fill themselves.
+[00:03] Most inputs choke on a pasted code. Strip the spaces, drop one digit per box. One paste, six boxes, done.
+[00:11] Type a digit, jump to the next box. Hit backspace on empty, jump back. Your hands never leave the keys.
+[00:19] It looks like six inputs. It is one value split across six slots. Track one string, not six states.
+[00:26] On mobile, force the number pad with inputmode. Then let the phone autofill the texted code. The user taps nothing.
+[00:33] No code arrives, offer resend. But lock it behind a 30-second timer. Otherwise, people hammer it and rate-limit themselves.
+[00:40] Wrong code shakes, clears, and refocuses box one. Right code locks every box in green. Feedback is instant, never a silent fail.
+[00:49] Follow for more UI systems. Save this for your next auth flow.

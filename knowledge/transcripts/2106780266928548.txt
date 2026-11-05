@@ -1,0 +1,10 @@
+# The Anatomy of a Perfect Star Rating
+2026-06-03 · https://www.facebook.com/reel/2106780266928548
+
+[00:00] Your star rating is lying to your users.
+[00:02] Hover should preview. Hover fills the stars before you click. Most widgets only react after the click. Show the user where they're about to land.
+[00:09] Preview does not equal committed. Move the cursor away and it snaps back. Preview and selection are two different layers. Mix them up and the value flickers on every hover.
+[00:17] A 4.4 average is not five full stars. Rounded up and you're lying to people. Render the real fraction with a clipped half star.
+[00:25] The 30ms that feels alive. Fill them left to right, 30 milliseconds apart. That tiny stagger is the satisfying part. Pop them all at once and it feels dead.
+[00:33] Pair the discrete stars with one continuous ring. The arc reads faster than any number. Stars to rate, a ring to summarize.
+[00:41] Stop rounding up. Follow for more UI anatomy. Save this before you ship another rating.

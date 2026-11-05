@@ -1,0 +1,142 @@
+{
+  "title": "Selection Controls: When to use what",
+  "summary": "This reel explains the appropriate use cases for various selection controls like switches, checkboxes, radio buttons, and segmented controls. It emphasizes the difference between immediate actions (switches) and delayed actions (checkboxes with save buttons), as well as optimal counts for different selection patterns.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "One setting. Checkbox, switch, radio. Only one matches what it does."
+    },
+    {
+      "t": "00:03",
+      "text": "A switch acts the moment you flip it. No save button behind it, ever."
+    },
+    {
+      "t": "00:08",
+      "text": "A checkbox waits. It means nothing until the user presses save."
+    },
+    {
+      "t": "00:13",
+      "text": "Mix them in one form and nobody knows which settings are live."
+    },
+    {
+      "t": "00:17",
+      "text": "Radio buttons pick one option out of a few. Up to five, all visible. No click to reveal them."
+    },
+    {
+      "t": "00:23",
+      "text": "Past five, the list pushes the rest of the settings off screen. That is when it becomes a dropdown."
+    },
+    {
+      "t": "00:29",
+      "text": "Two to four exclusive options that must stay in view? Segmented control."
+    },
+    {
+      "t": "00:34",
+      "text": "Daily, weekly, monthly, side-by-side. One tap switches the view and every option stays one tap away."
+    },
+    {
+      "t": "00:41",
+      "text": "A parent checkbox has three states, not two. All children on: checked. None on: empty. A mix: a dash."
+    },
+    {
+      "t": "00:50",
+      "text": "Click the dash and every child turns on. Most apps skip it and show the parent as empty."
+    },
+    {
+      "t": "00:56",
+      "text": "The label is part of the control. Tap the text and the box toggles."
+    },
+    {
+      "t": "01:00",
+      "text": "The whole row is the target, at least 44 pixels tall. A 16-pixel box alone gets missed by every thumb."
+    },
+    {
+      "t": "01:08",
+      "text": "Five controls. One question: does it act now or on save? Now make Claude Code think like a senior UX designer."
+    },
+    {
+      "t": "01:16",
+      "text": "UX Engine designs the screen before coding, audits what is broken, reviews the diff, and kills the AI look. Link in bio."
+    }
+  ],
+  "on_screen_text": [
+    "SELECTION CONTROLS - 01",
+    "Only one matches.",
+    "acts now = switch",
+    "waits for Save",
+    "2 options, 2 taps",
+    "SELECTION CONTROLS - 02",
+    "Switch acts. Checkbox waits.",
+    "switch = now",
+    "checkbox = on Save",
+    "MIXED FORM",
+    "Live or not?",
+    "SELECTION CONTROLS - 03",
+    "Radios: up to five.",
+    "options: 4",
+    "<= 5 radio",
+    "> 5 dropdown",
+    "all visible",
+    "rows off screen",
+    "SELECTION CONTROLS - 04",
+    "2 to 4 options? Segmented.",
+    "BEFORE - DROPDOWN",
+    "AFTER - SEGMENTED",
+    "1 of 3 in view",
+    "3 of 3 in view",
+    "2 to 4 - always visible",
+    "1 tap away",
+    "SELECTION CONTROLS - 05",
+    "Three states, not two.",
+    "parent checkbox - 3 states",
+    "checked (all on)",
+    "empty (none on)",
+    "mixed (some on)",
+    "1 click - all on",
+    "BEFORE - MOST APPS",
+    "AFTER - TRI-STATE",
+    "SELECTION CONTROLS - 06",
+    "The row is the target.",
+    "AFTER - LABEL WRAPS IT",
+    "BEFORE - BOX ONLY",
+    "tap the text - toggles",
+    "row = target - 44 px",
+    "SELECTION CONTROLS - 07",
+    "Five controls. One question.",
+    "Think like a senior UX designer."
+  ],
+  "ui_patterns": [
+    "Switch (Toggle)",
+    "Checkbox",
+    "Radio Button",
+    "Dropdown Menu",
+    "Segmented Control",
+    "Tri-state Checkbox",
+    "Indeterminate state",
+    "Touch targets"
+  ],
+  "design_principles": [
+    "Switches should trigger immediate actions without a save button.",
+    "Checkboxes are for settings that require a 'Save' action.",
+    "Do not mix switches and checkboxes in the same form to avoid state confusion.",
+    "Use radio buttons for up to 5 mutually exclusive options for better visibility.",
+    "Use dropdowns for more than 5 options to prevent screen overflow.",
+    "Use segmented controls for 2-4 exclusive options that need to be always visible.",
+    "Implement tri-state (indeterminate) checkboxes for parent-child relationships.",
+    "Make the entire row (label + control) a clickable target.",
+    "Maintain a minimum touch target height of 44px for mobile accessibility."
+  ],
+  "before_after": "Demonstrates the transformation from a dropdown to a segmented control for better visibility, and from a standard checkbox to a tri-state checkbox for accurate parent-child status.",
+  "tags": [
+    "UX Design",
+    "UI Design",
+    "Selection Controls",
+    "Accessibility",
+    "Mobile Design",
+    "Design Systems"
+  ],
+  "id": "1458518826177868",
+  "date": "2026-10-09",
+  "url": "https://www.facebook.com/reel/1458518826177868",
+  "file": "2026-10-09_1458518826177868.mp4"
+}

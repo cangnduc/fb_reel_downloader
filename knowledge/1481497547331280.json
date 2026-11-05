@@ -1,0 +1,87 @@
+{
+  "title": "Selection is a system",
+  "summary": "This lesson covers building robust data table selection systems, focusing on tri-state checkboxes, explicit selection counts, and state persistence. It also advocates for using undo functionality over confirmation modals for destructive bulk actions.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Tick the header box, all 247 rows come with it. Selection is a system."
+    },
+    {
+      "t": "00:04",
+      "text": "Your header checkbox has three states, not two. Checked, empty, and partial. Drop the partial state and users lose track of what they picked."
+    },
+    {
+      "t": "00:11",
+      "text": "Clicking that partial box selects everything, never clears it."
+    },
+    {
+      "t": "00:15",
+      "text": "Select all grabs the six rows on screen. There are 247 in the table. Say the number out loud. Select all 247 matching."
+    },
+    {
+      "t": "00:23",
+      "text": "A filter moves that number so the label reads it live."
+    },
+    {
+      "t": "00:27",
+      "text": "Shift click picks a range, and every desktop user expects it. Then they change page and the selection dies."
+    },
+    {
+      "t": "00:33",
+      "text": "Selection lives in your app state, not in the visible rows."
+    },
+    {
+      "t": "00:37",
+      "text": "Deleting 247 rows needs no confirm modal. Echo the count inside the button, run it, then offer undo for 10 seconds. Reversible beats careful."
+    },
+    {
+      "t": "00:47",
+      "text": "Follow for more UX systems. Save this for your next data table."
+    }
+  ],
+  "on_screen_text": [
+    "Selection is a system.",
+    "TRI-STATE: The header box has three states.",
+    "empty - nothing picked",
+    "partial - some rows picked",
+    "checked - every row picked",
+    "partial is a state, not a bug",
+    "click partial -> select all",
+    "SELECT ALL: Six on screen. 247 in the table.",
+    "name the number, not \"all\"",
+    "RANGE + PERSIST: Shift picks a range. Paging keeps it.",
+    "selection lives in state",
+    "BULK DESTRUCTIVE: Echo the count. Offer undo.",
+    "reversible beats careful",
+    "Three states: Empty, partial, checked — the dash is not optional",
+    "Name the number: \"Select all 247 matching\", never a bare \"all\"",
+    "Selection is state: Shift ranges and paging keep the ids alive",
+    "Undo, not confirm: Echo the count, run it, offer ten seconds back"
+  ],
+  "ui_patterns": [
+    "Data Table",
+    "Tri-state Checkbox",
+    "Bulk Actions Bar",
+    "Pagination",
+    "Undo Notification",
+    "Selection Range"
+  ],
+  "design_principles": [
+    "Tri-state checkboxes (empty, partial, checked) are essential for header selection.",
+    "Explicitly name the total count in 'Select All' actions to avoid ambiguity.",
+    "Selection state must persist across pagination.",
+    "Reversible actions (Undo) are superior to friction-heavy confirmation modals."
+  ],
+  "before_after": "A standard table selection vs. a comprehensive selection system with tri-states, persisted state, and undo functionality.",
+  "tags": [
+    "UX Design",
+    "UI Design",
+    "Data Tables",
+    "Selection Systems",
+    "Product Design"
+  ],
+  "id": "1481497547331280",
+  "date": "2026-08-09",
+  "url": "https://www.facebook.com/reel/1481497547331280",
+  "file": "2026-08-09_1481497547331280.mp4"
+}

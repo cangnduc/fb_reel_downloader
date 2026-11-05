@@ -1,0 +1,16 @@
+# UX Tips for Multi-Step Forms
+2026-05-26 · https://www.facebook.com/reel/1532385908524073
+
+[00:00] Twelve fields, one wall. Four steps, one path.
+[00:03] The brain reads three fields without effort. Twelve in a row, trigger scroll fatigue.
+[00:08] Chunking lowers cognitive load before it kills it.
+[00:11] Progress shows where you are. Linear bar, numbered dots, step labels. Pick one.
+[00:17] Users need to feel the end is close.
+[00:19] Group fields by context, not by count. Personal, shipping, payment, review.
+[00:25] Each step earns its own screen. Random splits feel arbitrary and slow.
+[00:30] Validate inside the step, not at the end.
+[00:32] Wrong email on step one shouldn't surface on step four.
+[00:36] Block next when invalid. Inline red beats final-screen rejection.
+[00:40] Save state on every step change. Back button preserves data. Refresh too.
+[00:45] Lose the form once, you lose the user forever.
+[00:48] Follow for more UX systems. Save this for your next signup flow.

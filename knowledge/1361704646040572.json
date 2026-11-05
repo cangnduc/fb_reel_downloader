@@ -1,0 +1,89 @@
+{
+  "title": "De-AI Your UI: Pricing Page Optimization",
+  "summary": "This lesson teaches how to optimize AI-generated pricing pages by establishing visual hierarchy, simplifying feature lists, and communicating value through currency-based savings rather than percentages.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Three identical tiers, a badge on each, 12 checkmarks. AI made, five tells."
+    },
+    {
+      "t": "00:05",
+      "text": "Tell one: Only one tier gets the highlight. Three equal cards is no recommendation. The middle one lifts, the others step back. The top tier exists to make it feel fair."
+    },
+    {
+      "t": "00:16",
+      "text": "Tell two: Most popular on one tier. A badge on every card is a badge on none. The rest get nothing, not a smaller badge. Silence is what makes the label work."
+    },
+    {
+      "t": "00:26",
+      "text": "Tell three: List what changes between tiers, not 12 checkmarks that repeat. Everything in Starter, plus and three lines. 12 identical checks are a wall, not a comparison."
+    },
+    {
+      "t": "00:37",
+      "text": "Tell four: One primary button on the page. Gradient buttons on all three is the AI signature. Filled on the picked, outlined on the rest. The eye lands on one click."
+    },
+    {
+      "t": "00:48",
+      "text": "Tell five: Annual toggle with the saving written in money. $98 off beats 17% off. Nobody computes percent at checkout. The monthly price stays, struck through."
+    },
+    {
+      "t": "01:00",
+      "text": "Five tells fixed. One tier that sells. Now make Claude Code think like a senior UX designer. UX Engine designs a screen before coding, audits what is broken, reviews the diff, and kills the AI look. Link in bio."
+    }
+  ],
+  "on_screen_text": [
+    "DE-AI YOUR UI - EP. 03 - PRICING",
+    "Three tiers. Same card. AI made.",
+    "3 identical cards",
+    "badge on all 3",
+    "12 checks",
+    "3 gradients",
+    "5 tells",
+    "TELL 01 - HIGHLIGHT",
+    "Only one tier gets the highlight.",
+    "1 highlight - 2 quiet",
+    "TELL 02 - BADGE",
+    "A badge on every card is a badge on none.",
+    "1 badge - 0 runner-up",
+    "TELL 03 - FEATURES",
+    "List what changes, not what repeats.",
+    "list the diff, not the set",
+    "TELL 04 - BUTTON",
+    "One primary button on the page.",
+    "1 filled - 2 outlined",
+    "TELL 05 - TOGGLE",
+    "Write the saving in money.",
+    "$ not %",
+    "Five tells fixed. One tier that sells.",
+    "Think like a senior UX designer.",
+    "UX Engine CLAUDE CODE PLUGIN"
+  ],
+  "ui_patterns": [
+    "Pricing Tiers",
+    "Badges",
+    "Feature Lists",
+    "Buttons",
+    "Toggle Switch",
+    "Strikethrough Pricing"
+  ],
+  "design_principles": [
+    "Visual Hierarchy",
+    "Scannability",
+    "Cognitive Load Reduction",
+    "Anchoring",
+    "Call to Action Prioritization"
+  ],
+  "before_after": "Transformation from a repetitive, low-hierarchy AI-generated pricing table to a high-conversion design with a clear 'Most Popular' recommendation and simplified feature comparisons.",
+  "tags": [
+    "UX Design",
+    "UI Design",
+    "Pricing Page",
+    "CRO",
+    "Visual Hierarchy",
+    "Product Design"
+  ],
+  "id": "1361704646040572",
+  "date": "2026-09-21",
+  "url": "https://www.facebook.com/reel/1361704646040572",
+  "file": "2026-09-21_1361704646040572.mp4"
+}

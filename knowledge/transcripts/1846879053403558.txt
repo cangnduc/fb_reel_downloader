@@ -1,0 +1,15 @@
+# The Anatomy of Autosave
+2026-07-26 · https://www.facebook.com/reel/1846879053403558
+
+[00:00] "Saved." It wasn't. Your Wi-Fi died mid-word.
+[00:03] Nothing saves on every keystroke. A timer starts when you pause, resets when you type.
+[00:08] Silence for 800 milliseconds, then one clean write.
+[00:12] That pill is a state machine. Typing, saving, saved, offline, error.
+[00:18] Users trust the pill more than the feature. Never let it lie.
+[00:21] Offline, every edit joins a local queue. A badge counts what's waiting.
+[00:26] Reconnect and the queue drains in order, oldest first.
+[00:29] Two tabs, one document. Last write wins means someone's hour disappears.
+[00:34] Merge the changes or warn. Never overwrite in silence.
+[00:38] Closing with work unsaved, the browser blocks the tab and asks.
+[00:41] One ugly dialog beats an afternoon retyped.
+[00:44] Autosave is a system. Follow for more UX engineering. Now save this one manually.

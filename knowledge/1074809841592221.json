@@ -1,0 +1,111 @@
+{
+  "title": "7 Steps to Responsive Tables",
+  "summary": "This lesson demonstrates how to transform complex data tables for mobile devices by restructuring them into cards rather than simply shrinking them. It covers data prioritization, layout stacking, and using container queries for component-level responsiveness.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Your table on a phone. Don't shrink it, restructure it."
+    },
+    {
+      "t": "00:03",
+      "text": "Six columns, three fit on one line. Which three? Not the leftmost. Rank by use: identity, value, state."
+    },
+    {
+      "t": "00:12",
+      "text": "The ID leaves first. Nobody reads it on a phone."
+    },
+    {
+      "t": "00:15",
+      "text": "Horizontal scroll hides half the row. Stack instead. Two lines per row. Name left, amount right. Status and due date underneath."
+    },
+    {
+      "t": "00:23",
+      "text": "The row reads as one unit, thumb-sized."
+    },
+    {
+      "t": "00:26",
+      "text": "Cards kill comparison. Amounts drift under names. Nothing lines up."
+    },
+    {
+      "t": "00:31",
+      "text": "One slot for the amount. Top right every card, tabular figures. A list of cards is still a column of numbers."
+    },
+    {
+      "t": "00:38",
+      "text": "No header row on a card. So label the ambiguous. March 4th alone means nothing. Due March 4th does."
+    },
+    {
+      "t": "00:46",
+      "text": "A dollar amount needs no label. Sorting moves to a control."
+    },
+    {
+      "t": "00:51",
+      "text": "Hidden isn't deleted. Tap the row. Invoice ID, notes, actions slide in."
+    },
+    {
+      "t": "00:57",
+      "text": "Two fields, expand in place. A full record, bottom sheet. Never a new page for a glance."
+    },
+    {
+      "t": "01:03",
+      "text": "The breakpoint belongs to the table, not the screen. Six columns need 700 pixels. Below that, cards."
+    },
+    {
+      "t": "01:10",
+      "text": "One container query. Same table in a desktop side panel, cards too."
+    },
+    {
+      "t": "01:15",
+      "text": "Six moves, done. Or type /restyle. UX Engine, the Claude code plugin that kills the AI look. Link in bio."
+    }
+  ],
+  "on_screen_text": [
+    "Your table on a phone.",
+    "Restructure it.",
+    "Rank by use, not position.",
+    "Identity - Value - State",
+    "Two lines per row.",
+    "Name left - Amount right - State below",
+    "One slot for the amount.",
+    "tabular-nums",
+    "Label the ambiguous.",
+    "Dates get a label. Dollars don't.",
+    "Hidden isn't deleted.",
+    "Expand - Sheet - Never a page",
+    "The table owns the breakpoint.",
+    "@container (max-width: 700px)"
+  ],
+  "ui_patterns": [
+    "Data Table",
+    "Card Layout",
+    "Horizontal Scroll",
+    "Bottom Sheet",
+    "Expandable Row",
+    "Container Queries",
+    "Sort Controls",
+    "Status Badges"
+  ],
+  "design_principles": [
+    "Restructure rather than shrink for mobile",
+    "Rank data by Identity, Value, and State",
+    "Stack data into multi-line cards",
+    "Align numerical values for comparison",
+    "Use tabular figures for numbers",
+    "Label ambiguous data (dates) but not obvious data (currency)",
+    "Use progressive disclosure for secondary details",
+    "Use container queries for component-level responsiveness"
+  ],
+  "before_after": "A 6-column desktop table shrunk to fit a mobile screen with tiny text and horizontal scrolling transformed into a restructured card-based layout with ranked data and progressive disclosure.",
+  "tags": [
+    "UX Design",
+    "UI Design",
+    "Responsive Design",
+    "Mobile Design",
+    "Data Tables",
+    "Container Queries"
+  ],
+  "id": "1074809841592221",
+  "date": "2026-09-06",
+  "url": "https://www.facebook.com/reel/1074809841592221",
+  "file": "2026-09-06_1074809841592221.mp4"
+}

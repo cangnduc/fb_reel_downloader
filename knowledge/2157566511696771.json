@@ -1,0 +1,109 @@
+{
+  "title": "Designing a Better Command Palette",
+  "summary": "This lesson covers the essential UX patterns for building a high-performance command palette (Cmd+K). It focuses on fuzzy matching, structured results, keyboard-only navigation, and handling async or empty states to empower power users.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Press command K. Type three letters. Jump anywhere."
+    },
+    {
+      "t": "00:03",
+      "text": "It is not a search box. Type STG and it finds settings."
+    },
+    {
+      "t": "00:07",
+      "text": "Fuzzy matching with the letters highlighted. Match the intent, not the string."
+    },
+    {
+      "t": "00:10",
+      "text": "Never dump one flat list. Group results: recent first, then actions, then pages."
+    },
+    {
+      "t": "00:15",
+      "text": "Structure is what makes it fast."
+    },
+    {
+      "t": "00:18",
+      "text": "Your hands never touch the mouse. Arrows move. Enter runs. Escape closes."
+    },
+    {
+      "t": "00:22",
+      "text": "A power user crosses the whole app blind."
+    },
+    {
+      "t": "00:26",
+      "text": "Open it empty and most palettes show nothing. Show recent commands instead of a blank void."
+    },
+    {
+      "t": "00:31",
+      "text": "Give people a starting point."
+    },
+    {
+      "t": "00:33",
+      "text": "Some commands fetch data before they run. Spin inline and keep the palette open."
+    },
+    {
+      "t": "00:37",
+      "text": "Never freeze the whole screen for one call. Results load in place."
+    },
+    {
+      "t": "00:40",
+      "text": "One command can open another. Change theme drills into its own sub-menu."
+    },
+    {
+      "t": "00:44",
+      "text": "Escape walks you back one level, not all the way out."
+    },
+    {
+      "t": "00:47",
+      "text": "Follow for more UI systems. Save this for your next command K."
+    }
+  ],
+  "on_screen_text": [
+    "FUZZY MATCHING",
+    "Type less, find more.",
+    "Match the intent, not the string.",
+    "GROUP YOUR RESULTS",
+    "Structure makes it fast.",
+    "HANDS OFF THE MOUSE",
+    "Arrows move. Enter runs.",
+    "Escape closes.",
+    "EMPTY STATE",
+    "Give people a starting point.",
+    "ASYNC COMMANDS",
+    "Results load in place.",
+    "NESTED COMMANDS",
+    "One command opens another.",
+    "Escape walks back one level."
+  ],
+  "ui_patterns": [
+    "Command Palette",
+    "Fuzzy Search",
+    "Grouped List",
+    "Keyboard Navigation",
+    "Empty State Suggestions",
+    "Inline Loading Spinner",
+    "Nested Menus"
+  ],
+  "design_principles": [
+    "Fuzzy matching to match user intent over literal strings",
+    "Information hierarchy through grouped results",
+    "Keyboard-first accessibility for speed",
+    "Avoid blank voids by providing starting points in empty states",
+    "Non-blocking UI for asynchronous data fetching",
+    "Hierarchical navigation with granular back-steps"
+  ],
+  "before_after": "Transforming a basic search box into a structured, keyboard-driven command palette with fuzzy matching and nested navigation.",
+  "tags": [
+    "UX Design",
+    "UI Design",
+    "Command Palette",
+    "Productivity",
+    "Accessibility",
+    "Interaction Design"
+  ],
+  "id": "2157566511696771",
+  "date": "2026-06-17",
+  "url": "https://www.facebook.com/reel/2157566511696771",
+  "file": "2026-06-17_2157566511696771.mp4"
+}

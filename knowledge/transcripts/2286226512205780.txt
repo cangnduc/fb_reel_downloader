@@ -1,0 +1,13 @@
+# Pull-to-Refresh Design Principles
+2026-08-13 · https://www.facebook.com/reel/2286226512205780
+
+[00:00] Pull down, let go too soon, nothing loads.
+[00:02] Refresh fires past a threshold, never before it.
+[00:06] Release above the line and the list snaps back, no reload.
+[00:10] Drag further and the pull should resist, like the content carries real weight.
+[00:15] A one-to-one drag feels cheap, weight sells it.
+[00:19] At the threshold, your stretch indicator hands off to a spinner. The gesture becomes the loader itself.
+[00:25] One short haptic tick at the threshold arms the thumb before the finger even lifts off the glass. The hand knows it caught. Feedback beats the release.
+[00:34] Pull past the threshold and the rubber band overshoots, then settles back into place. A hard stop feels broken.
+[00:41] Don't lock the scroll while the reload runs. Keep the list alive underneath. Frozen content feels dead.
+[00:48] Pull is a promise. Go to designmotionhq.com for more. Link in bio.

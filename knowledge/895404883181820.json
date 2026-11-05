@@ -1,0 +1,83 @@
+{
+  "title": "Maintaining Design Consistency with UX Engine",
+  "summary": "This reel demonstrates how to prevent design drift in AI-generated interfaces by using a design system skill. It explains how extracting existing tokens from code ensures that every new screen adheres to a single, coherent visual language.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Ten AI-built pricing pages. One of them used UX Engine."
+    },
+    {
+      "t": "00:04",
+      "text": "Three screens. Three blues, three button styles."
+    },
+    {
+      "t": "00:07",
+      "text": "Nothing carries between generations, so every screen decides alone and your product stops looking like one product."
+    },
+    {
+      "t": "00:14",
+      "text": "Use the design-system skill on your project. It writes one file at the root, and every other skill then reads it."
+    },
+    {
+      "t": "00:20",
+      "text": "Rule zero: it reads your Tailwind config, your CSS variables, then your most reused component, because if you already made those decisions, the system already exists."
+    },
+    {
+      "t": "00:31",
+      "text": "Eleven tokens extracted, none invented, each carrying the one line reason it's there."
+    },
+    {
+      "t": "00:37",
+      "text": "After that, a new blue gets stopped and replaced by the closest token. Extensions are allowed, but they get written down with their reason, because silent invention is how drift starts."
+    },
+    {
+      "t": "00:47",
+      "text": "Coherent still isn't distinctive. The other new skill forces one decision per axis. Type, colour, space, finish, and it refuses to let you ship a default."
+    },
+    {
+      "t": "00:58",
+      "text": "UX Engine 2.0. Eight skills, two of them new, two sub-agents, four commands for Claude Code. $79 instead of $99 until Thursday night. Link in bio."
+    }
+  ],
+  "on_screen_text": [
+    "SAME PROMPT - TEN TIMES",
+    "WHERE IT COMES FROM",
+    "Every screen decided alone",
+    "One product. Three answers.",
+    "DESIGN.md",
+    "11 tokens extracted - 0 invented",
+    "One contract. Every screen.",
+    "ENFORCEMENT",
+    "The contract has teeth",
+    "COHERENT ISN'T DISTINCTIVE",
+    "UX Engine 2.0"
+  ],
+  "ui_patterns": [
+    "Pricing Cards",
+    "Settings Panel",
+    "Data Tables",
+    "Toggle Switches",
+    "Design Tokens",
+    "Button Variants"
+  ],
+  "design_principles": [
+    "Design Consistency",
+    "Design Tokens",
+    "Avoiding Design Drift",
+    "Visual Coherence",
+    "Systematic Design"
+  ],
+  "before_after": "Inconsistent UI screens with varying colors and button styles are transformed into a unified product interface by extracting and enforcing a shared design system.",
+  "tags": [
+    "UX Design",
+    "UI Design",
+    "Design Systems",
+    "AI Tools",
+    "Design Tokens",
+    "Product Design"
+  ],
+  "id": "895404883181820",
+  "date": "2026-08-04",
+  "url": "https://www.facebook.com/reel/895404883181820",
+  "file": "2026-08-04_895404883181820.mp4"
+}

@@ -1,0 +1,100 @@
+{
+  "title": "Password UX Best Practices",
+  "summary": "This lesson covers essential UX improvements for password fields, emphasizing that password length is more important than complexity rules. It demonstrates real-time validation, strength meters, and the importance of supporting password managers for a seamless signup experience.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "8 characters, 1 symbol. Still weak."
+    },
+    {
+      "t": "00:02",
+      "text": "Passes the rules. Still weak."
+    },
+    {
+      "t": "00:03",
+      "text": "Capital P, at sign, zero. Passes every rule. Cracks in 2 hours."
+    },
+    {
+      "t": "00:07",
+      "text": "Strength is entropy, not checkboxes. Length beats symbols."
+    },
+    {
+      "t": "00:11",
+      "text": "Rules revealed after submit? Rage."
+    },
+    {
+      "t": "00:14",
+      "text": "Show the checklist while they type. Each requirement ticks live. Green before they hit the button."
+    },
+    {
+      "t": "00:21",
+      "text": "A red bar says weak, a growing bar says almost. Strength meters coach in real time. Errors only punish after the fact."
+    },
+    {
+      "t": "00:29",
+      "text": "Masked dots cause typos. Give them the eye toggle. And never block paste."
+    },
+    {
+      "t": "00:35",
+      "text": "Password managers type stronger passwords than humans."
+    },
+    {
+      "t": "00:39",
+      "text": "The strongest pattern: offer the password. Built into iOS, Android and every modern browser. One tap. Generated, unique, saved. Zero typing, zero weak choices, zero reuse."
+    },
+    {
+      "t": "00:51",
+      "text": "Follow for more form UX and save this for your next signup flow."
+    }
+  ],
+  "on_screen_text": [
+    "Passes the rules. Still weak.",
+    "STRENGTH IS ENTROPY",
+    "COMPLEX & SHORT",
+    "SIMPLE & LONG",
+    "Length beats symbols.",
+    "SHOW THE RULES EARLY",
+    "RULES AFTER SUBMIT",
+    "CHECKLIST WHILE TYPING",
+    "Green before they hit the button.",
+    "STRENGTH METER",
+    "A growing bar says almost.",
+    "Meters coach while typing",
+    "Errors punish after the fact",
+    "REVEAL & PASTE",
+    "Block paste",
+    "Allow paste",
+    "THE STRONGEST PATTERN",
+    "0 typing",
+    "0 weak choices",
+    "0 reuse"
+  ],
+  "ui_patterns": [
+    "Password input field",
+    "Password strength meter",
+    "Live validation checklist",
+    "Show/Hide password toggle",
+    "Password manager integration",
+    "Auto-generated password prompt"
+  ],
+  "design_principles": [
+    "Entropy over complexity",
+    "Inline validation",
+    "Real-time coaching",
+    "Accessibility (Allow Paste)",
+    "System-level integration"
+  ],
+  "before_after": "Moving from static error messages shown after submission to real-time coaching via live checklists and strength meters that update as the user types.",
+  "tags": [
+    "UX Design",
+    "UI Design",
+    "Forms",
+    "Passwords",
+    "Security",
+    "Product Design"
+  ],
+  "id": "1652926899128548",
+  "date": "2026-06-23",
+  "url": "https://www.facebook.com/reel/1652926899128548",
+  "file": "2026-06-23_1652926899128548.mp4"
+}

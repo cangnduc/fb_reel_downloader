@@ -1,0 +1,10 @@
+# Date Picker Design Best Practices
+2026-05-18 · https://www.facebook.com/reel/1059078393502662
+
+[00:00] Same date, 6 clicks or 1.
+[00:02] Presets cover 90% of cases. Today, yesterday, last 7 days, last 30 days, last quarter. Custom range for the rest.
+[00:12] Highlight the range. Hover paints a preview. Click once for start, click again for end. Drag the edges to refine.
+[00:20] Show two months side-by-side. Ranges cross months. Don't make users click next four times. Three months on wide screens.
+[00:27] Arrows move the cursor. Type the date directly. Enter validates, escape kills. Page up jumps a month, shift page up jumps a year.
+[00:36] Mobile is not a popover. Full-screen sheet. Calendar scrolls vertically. Today stays at the top. Big confirm button at the bottom.
+[00:44] Follow for more UI systems. Save this for your next form.

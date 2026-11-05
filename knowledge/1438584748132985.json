@@ -1,0 +1,162 @@
+{
+  "title": "6 Rules for Calendar UX Design",
+  "summary": "This lesson outlines a systematic approach to calendar UI, focusing on layout rules that improve readability and interaction. It covers grid structure, color usage, event overlapping, and drag-and-drop behaviors.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "A week, forty events, zero overlap, six layout rules."
+    },
+    {
+      "t": "00:03",
+      "text": "Seven columns, 24 rows, one hour each."
+    },
+    {
+      "t": "00:06",
+      "text": "Hour labels sit on the line, not in the cell."
+    },
+    {
+      "t": "00:09",
+      "text": "A red line marks now."
+    },
+    {
+      "t": "00:11",
+      "text": "The view opens scrolled to it, not to midnight."
+    },
+    {
+      "t": "00:14",
+      "text": "Color per calendar. A three-pixel stripe on the left."
+    },
+    {
+      "t": "00:17",
+      "text": "The fill at 10%."
+    },
+    {
+      "t": "00:19",
+      "text": "The title stays readable on every color."
+    },
+    {
+      "t": "00:21",
+      "text": "Full fills turn a busy week into a rainbow."
+    },
+    {
+      "t": "00:24",
+      "text": "Two events, same hour, side by side, half width each."
+    },
+    {
+      "t": "00:28",
+      "text": "Three, a third."
+    },
+    {
+      "t": "00:30",
+      "text": "Never stacked, never hidden behind a plus one."
+    },
+    {
+      "t": "00:33",
+      "text": "Height is duration. One hour, 60 pixels."
+    },
+    {
+      "t": "00:36",
+      "text": "15 minutes still gets a title on a single line, clipped."
+    },
+    {
+      "t": "00:41",
+      "text": "Under that, a bar you can hover."
+    },
+    {
+      "t": "00:43",
+      "text": "Drag on empty space, an event draws."
+    },
+    {
+      "t": "00:46",
+      "text": "Snap to 15 minutes."
+    },
+    {
+      "t": "00:48",
+      "text": "Move by the body, resize by the bottom edge only."
+    },
+    {
+      "t": "00:51",
+      "text": "The time label updates while you drag, not after."
+    },
+    {
+      "t": "00:54",
+      "text": "All day events live in a pinned row above the grid."
+    },
+    {
+      "t": "00:57",
+      "text": "They never eat the morning."
+    },
+    {
+      "t": "00:59",
+      "text": "Scroll the hours, the row stays."
+    },
+    {
+      "t": "01:01",
+      "text": "Six rules, one week that reads at a glance."
+    },
+    {
+      "t": "01:04",
+      "text": "Now make Claude Code think like a senior UX designer."
+    },
+    {
+      "t": "01:07",
+      "text": "UX Engine designs the screen before coding, audits what is broken, reviews the diff, and kills the AI look."
+    },
+    {
+      "t": "01:14",
+      "text": "Link in bio."
+    }
+  ],
+  "on_screen_text": [
+    "CALENDAR IS A SYSTEM - 01",
+    "One week. Forty events.",
+    "CALENDAR IS A SYSTEM - 02",
+    "Seven columns. One hour a row.",
+    "CALENDAR IS A SYSTEM - 03",
+    "A stripe, not a fill.",
+    "CALENDAR IS A SYSTEM - 04",
+    "Same hour, side by side.",
+    "CALENDAR IS A SYSTEM - 05",
+    "Height is duration.",
+    "CALENDAR IS A SYSTEM - 06",
+    "Drag draws. Snap holds.",
+    "CALENDAR IS A SYSTEM - 07",
+    "All day lives in a pinned row.",
+    "CALENDAR IS A SYSTEM - 08",
+    "Six rules. One week that reads.",
+    "Think like a senior UX designer.",
+    "UX Engine CLAUDE CODE PLUGIN"
+  ],
+  "ui_patterns": [
+    "Weekly Calendar Grid",
+    "Time Indicator Line",
+    "Event Cards",
+    "Color Coding System",
+    "Side-by-side Overlap Layout",
+    "Drag-to-create Interaction",
+    "Pinned/Sticky Header Row",
+    "Real-time Tooltips"
+  ],
+  "design_principles": [
+    "Grid alignment: Labels on lines for better scanning.",
+    "Contextual defaults: Scroll to current time instead of midnight.",
+    "Visual clarity: Use 10% fills and 3px stripes to avoid 'rainbow' visual noise.",
+    "Information density: Side-by-side events instead of hiding data behind '+1' buttons.",
+    "Consistent scaling: Fixed pixel-to-time ratio (60px = 1hr).",
+    "Immediate feedback: Update labels during drag interactions, not after.",
+    "Layout persistence: Pin all-day events so they don't consume grid space."
+  ],
+  "before_after": "Contrasts 'Full Fills' (busy/rainbow look) with 'Stripes' (clean/readable look), and 'Hidden behind +1' with 'Side-by-side' visibility.",
+  "tags": [
+    "UX Design",
+    "UI Design",
+    "Calendar UI",
+    "Interaction Design",
+    "Product Design",
+    "Visual Hierarchy"
+  ],
+  "id": "1438584748132985",
+  "date": "2026-09-18",
+  "url": "https://www.facebook.com/reel/1438584748132985",
+  "file": "2026-09-18_1438584748132985.mp4"
+}

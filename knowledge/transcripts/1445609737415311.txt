@@ -1,0 +1,15 @@
+# De-AI Your UI: 5 Fixes for Landing Pages
+2026-09-14 · https://www.facebook.com/reel/1445609737415311
+
+[00:00] Your landing page looks AI-made. Five tells, five fixes.
+[00:03] Tell one: 'Supercharge your workflow with AI' - ingredient text. A generated hero sells adjectives because it has no product to name.
+[00:11] Plain text: Say what it does, say for whom. 'Close the month in one afternoon.'
+[00:17] Tell two: The purple blob. A gradient smear behind everything because the page needs energy from somewhere.
+[00:24] Neutral background. The only color goes on the product and one button.
+[00:29] Tell three: 'Get started', 'Learn more'. Same size, side by side. Two equal buttons split the click.
+[00:37] One primary. The second becomes a text link with an arrow.
+[00:41] Tell four: 'Trusted by 10,000+ users'. Five gray logos. A number nobody can check, logos nobody recognizes.
+[00:48] One quote. A name, a role, a result with a unit.
+[00:55] Tell five: Three feature cards, icon in a circle, one line each. Fast, secure, easy. Every generated page has this row.
+[01:05] Replace it with the product. One screenshot, three annotations pointing at real UI.
+[01:11] Five tells, gone. Or type /restyle. UX Engine, the Claude code plugin that kills the AI look. Link in bio.

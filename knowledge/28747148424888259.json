@@ -1,0 +1,80 @@
+{
+  "title": "UI Numbers: 5 Tips for Better Data Display",
+  "summary": "This lesson covers essential techniques for formatting numerical data in UI design to improve readability and comparison. It demonstrates the use of tabular figures, proper alignment, abbreviation, relative time, and currency formatting.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Pro numbers line up, amateur numbers dance."
+    },
+    {
+      "t": "00:03",
+      "text": "Default fonts give every digit its own width. A one is thin, a zero is wide. Columns wobble."
+    },
+    {
+      "t": "00:10",
+      "text": "Tabular figures lock every digit to the same width. Turn them on and the decimals snap into a straight column."
+    },
+    {
+      "t": "00:17",
+      "text": "Right-align numbers, left-align text. The eye compares magnitude by the last digit, not the first."
+    },
+    {
+      "t": "00:24",
+      "text": "A thousand becomes 1K, a million becomes 1M. Full precision waits on hover."
+    },
+    {
+      "t": "00:29",
+      "text": "14:32 means nothing to a human. 2 hours ago means everything. Relative for recent, absolute for old."
+    },
+    {
+      "t": "00:37",
+      "text": "Keep the currency symbol out of the number column. Align the decimals, not the dollar signs."
+    },
+    {
+      "t": "00:43",
+      "text": "Numbers, formatted like a system. More UI systems at designmotionhq.com. Link in bio. Save this for your next dashboard."
+    }
+  ],
+  "on_screen_text": [
+    "UI NUMBERS - 01",
+    "Watch the right edge.",
+    "THE PROBLEM - PROPORTIONAL",
+    "Every digit picks its own width.",
+    "THE FIX - TABULAR",
+    "font-variant-numeric: tabular-nums;",
+    "ALIGNMENT - RIGHT-ALIGN",
+    "Numbers right, text left.",
+    "ABBREVIATION - COMPACT",
+    "Big numbers, small footprint.",
+    "RELATIVE TIME - RECENCY",
+    "14:32 or 2h ago?",
+    "CURRENCY - DECIMALS",
+    "Pin the symbol, align the decimal."
+  ],
+  "ui_patterns": [
+    "Data Tables",
+    "Dashboards",
+    "Activity Feeds",
+    "Tooltips",
+    "Numerical Lists"
+  ],
+  "design_principles": [
+    "Use tabular figures (monospaced numbers) for vertical data alignment.",
+    "Right-align numerical columns to allow magnitude comparison by the last digit.",
+    "Abbreviate large values (K, M, B) for a smaller footprint, showing exact values on hover.",
+    "Prioritize relative time for recent events to improve human readability.",
+    "Align currency by the decimal point rather than the symbol."
+  ],
+  "before_after": "Transitions from proportional 'wobbly' number columns to tabular 'straight' columns, and from left-aligned to right-aligned data.",
+  "tags": [
+    "UI Design",
+    "Typography",
+    "Data Visualization",
+    "Dashboard Design",
+    "UX Design"
+  ],
+  "id": "28747148424888259",
+  "date": "2026-08-25",
+  "url": "https://www.facebook.com/reel/28747148424888259",
+  "file": "2026-08-25_28747148424888259.mp4"
+}

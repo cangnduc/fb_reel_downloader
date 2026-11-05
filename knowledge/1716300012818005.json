@@ -1,0 +1,112 @@
+{
+  "title": "One Tap, One Charge: Optimizing Action Buttons",
+  "summary": "This reel demonstrates best practices for handling button states during asynchronous operations, such as payment processing. It covers techniques like instant disabling, layout-stable spinners, idempotency keys, and response-driven state changes to ensure a robust and user-friendly experience.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "The moment it's tapped, the button disables itself instantly."
+    },
+    {
+      "t": "00:03",
+      "text": "A slow network shouldn't let you buy a second time."
+    },
+    {
+      "t": "00:06",
+      "text": "One intent, one request."
+    },
+    {
+      "t": "00:09",
+      "text": "Swap the label for a spinner inside the same button."
+    },
+    {
+      "t": "00:12",
+      "text": "With the width locked, so nothing around it jumps."
+    },
+    {
+      "t": "00:15",
+      "text": "Layout shift reads as broken."
+    },
+    {
+      "t": "00:18",
+      "text": "Disabling the UI isn't enough on its own."
+    },
+    {
+      "t": "00:20",
+      "text": "Guard the handler directly in your own code."
+    },
+    {
+      "t": "00:23",
+      "text": "Hand the server a real idempotency key."
+    },
+    {
+      "t": "00:26",
+      "text": "On success, morph the spinner into a check for a full beat before moving the user along."
+    },
+    {
+      "t": "00:30",
+      "text": "On error, snap back and say why, right there on the button."
+    },
+    {
+      "t": "00:34",
+      "text": "Re-enable only after the real request resolves."
+    },
+    {
+      "t": "00:37",
+      "text": "Not on a timer, not on a guess."
+    },
+    {
+      "t": "00:40",
+      "text": "Go to designmotionhq.com for more, link in bio."
+    }
+  ],
+  "on_screen_text": [
+    "STATE - DISABLE",
+    "One intent, one request.",
+    "Disable on the first tap.",
+    "STATE - SPINNER",
+    "Spinner in place, width locked.",
+    "REFLOWS",
+    "LOCKED",
+    "Layout shift +38px",
+    "0px - nothing moved",
+    "Jumps this session",
+    "STATE - GUARD",
+    "UI off isn't enough. Guard it.",
+    "Idempotency-Key",
+    "Guard the handler + idempotency key.",
+    "STATE - RESOLVE",
+    "Land on a check or an error.",
+    "Resolve to a check or an error.",
+    "STATE - RE-ENABLE",
+    "On the response, not a timer.",
+    "Re-enable on the response.",
+    "One tap, one charge."
+  ],
+  "ui_patterns": [
+    "Action Button",
+    "Loading Spinner",
+    "Success/Error States",
+    "Checkout Screen",
+    "Network Request Visualization"
+  ],
+  "design_principles": [
+    "Immediate Feedback",
+    "Preventing Duplicate Actions",
+    "Layout Stability",
+    "Contextual Error Handling",
+    "State Synchronization"
+  ],
+  "before_after": "Comparison of layout shifts (reflows) versus locked-width buttons, and timer-based versus response-based button re-enabling.",
+  "tags": [
+    "UX",
+    "UI",
+    "Web Development",
+    "Frontend",
+    "Design Patterns",
+    "Interaction Design"
+  ],
+  "id": "1716300012818005",
+  "date": "2026-08-23",
+  "url": "https://www.facebook.com/reel/1716300012818005",
+  "file": "2026-08-23_1716300012818005.mp4"
+}

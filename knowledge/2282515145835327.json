@@ -1,0 +1,95 @@
+{
+  "title": "Mastering Notification Systems",
+  "summary": "This lesson teaches how to select the appropriate UI surface for notifications based on message severity. It covers the lifecycle, persistence, and stacking behavior of toasts, banners, modals, and badges.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Notifications are a system. Pick wrong, users tune out."
+    },
+    {
+      "t": "00:03",
+      "text": "Toast slides in the corner. Banner takes the full top. Modal blocks everything. Badge just sits there."
+    },
+    {
+      "t": "00:09",
+      "text": "Same content. Four different volumes. Pick the volume that matches the message."
+    },
+    {
+      "t": "00:12",
+      "text": "A new message? Toast. Server is degraded? Banner. Card declined? Modal. Three unread comments? Badge."
+    },
+    {
+      "t": "00:21",
+      "text": "Severity picks the surface."
+    },
+    {
+      "t": "00:23",
+      "text": "How they live and die. Toast auto-dismiss in four seconds."
+    },
+    {
+      "t": "00:25",
+      "text": "Add an undo for destructive actions. Banners stay until users click X."
+    },
+    {
+      "t": "00:30",
+      "text": "Modals demand a choice before anything else moves. Badges wait quietly until cleared."
+    },
+    {
+      "t": "00:34",
+      "text": "Persistence is part of the contract. Three toasts? They breathe in a stack."
+    },
+    {
+      "t": "00:37",
+      "text": "Three modals? Train wreck. Mixed surfaces by severity, never by habit."
+    },
+    {
+      "t": "00:43",
+      "text": "Wrong surface equals zero attention."
+    },
+    {
+      "t": "00:46",
+      "text": "Follow for more UI systems. Save this for your next dashboard."
+    }
+  ],
+  "on_screen_text": [
+    "Notifications are a system.",
+    "FOUR SURFACES Same content. Four volumes.",
+    "Pick the volume that matches the message.",
+    "SEVERITY -> SURFACE The trigger picks the volume.",
+    "LIFECYCLE How they live and die.",
+    "Persistence is part of the contract.",
+    "STACK BEHAVIOR Three toasts? Three modals?",
+    "3 TOASTS STACKED - BREATHE",
+    "3 MODALS TRAINWRECK",
+    "Wrong surface = zero attention."
+  ],
+  "ui_patterns": [
+    "Toast notifications",
+    "Banners",
+    "Modals",
+    "Notification badges",
+    "Dashboard layout"
+  ],
+  "design_principles": [
+    "Match notification volume to message severity",
+    "Use auto-dismiss for low-priority toasts (e.g., 4 seconds)",
+    "Include 'Undo' for destructive actions in toasts",
+    "Banners should persist until manual dismissal",
+    "Modals must block interaction until a choice is made",
+    "Stack toasts vertically to maintain readability",
+    "Avoid stacking multiple modals (Trainwreck)"
+  ],
+  "before_after": "Comparison between a clean stack of three toasts ('Breathe') versus an overlapping, unusable stack of three modals ('Trainwreck').",
+  "tags": [
+    "UI Design",
+    "UX Design",
+    "Notifications",
+    "Design Systems",
+    "Dashboard Design",
+    "Product Design"
+  ],
+  "id": "2282515145835327",
+  "date": "2026-05-28",
+  "url": "https://www.facebook.com/reel/2282515145835327",
+  "file": "2026-05-28_2282515145835327.mp4"
+}

@@ -1,0 +1,99 @@
+{
+  "title": "The Anatomy of Autosave",
+  "summary": "This reel explains that autosave is a complex system rather than a simple status label. It details the technical and design patterns required to maintain data integrity and user trust, including debouncing, state machines, and conflict resolution.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "\"Saved.\" It wasn't. Your Wi-Fi died mid-word."
+    },
+    {
+      "t": "00:03",
+      "text": "Nothing saves on every keystroke. A timer starts when you pause, resets when you type."
+    },
+    {
+      "t": "00:08",
+      "text": "Silence for 800 milliseconds, then one clean write."
+    },
+    {
+      "t": "00:12",
+      "text": "That pill is a state machine. Typing, saving, saved, offline, error."
+    },
+    {
+      "t": "00:18",
+      "text": "Users trust the pill more than the feature. Never let it lie."
+    },
+    {
+      "t": "00:21",
+      "text": "Offline, every edit joins a local queue. A badge counts what's waiting."
+    },
+    {
+      "t": "00:26",
+      "text": "Reconnect and the queue drains in order, oldest first."
+    },
+    {
+      "t": "00:29",
+      "text": "Two tabs, one document. Last write wins means someone's hour disappears."
+    },
+    {
+      "t": "00:34",
+      "text": "Merge the changes or warn. Never overwrite in silence."
+    },
+    {
+      "t": "00:38",
+      "text": "Closing with work unsaved, the browser blocks the tab and asks."
+    },
+    {
+      "t": "00:41",
+      "text": "One ugly dialog beats an afternoon retyped."
+    },
+    {
+      "t": "00:44",
+      "text": "Autosave is a system. Follow for more UX engineering. Now save this one manually."
+    }
+  ],
+  "on_screen_text": [
+    "\"Saved.\" It wasn't.",
+    "3 changes pending",
+    "3 edits never left this tab",
+    "DEBOUNCE: A timer between you and the server",
+    "800 ms of silence -> one clean write",
+    "STATUS: That pill is a state machine",
+    "Users trust the pill. Never let it lie.",
+    "OFFLINE QUEUE: Every edit waits in line",
+    "Reconnect -> drain in order. Oldest first.",
+    "CONFLICTS: Two tabs. One document.",
+    "Merge or warn — never overwrite in silence.",
+    "NAVIGATION GUARD: The browser asks first",
+    "One ugly dialog beats an afternoon retyped.",
+    "Autosave is a system.",
+    "DEBOUNCE · STATES · QUEUE · MERGE · GUARD"
+  ],
+  "ui_patterns": [
+    "Status Pill",
+    "Offline Badge",
+    "Local Queue List",
+    "Conflict Resolution UI",
+    "Navigation Guard Dialog"
+  ],
+  "design_principles": [
+    "Debouncing",
+    "State Machine UI",
+    "Offline Queuing",
+    "Conflict Management (Merge vs Warn)",
+    "Navigation Guards",
+    "System Transparency"
+  ],
+  "before_after": "A misleading 'Saved' label that hides sync failure versus a robust system that tracks pending edits and prevents data loss.",
+  "tags": [
+    "UX Engineering",
+    "UI Design",
+    "Autosave",
+    "Product Design",
+    "State Management",
+    "Data Integrity"
+  ],
+  "id": "1846879053403558",
+  "date": "2026-07-26",
+  "url": "https://www.facebook.com/reel/1846879053403558",
+  "file": "2026-07-26_1846879053403558.mp4"
+}

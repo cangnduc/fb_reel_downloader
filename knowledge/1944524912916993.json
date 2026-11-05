@@ -1,0 +1,115 @@
+{
+  "title": "Form UX Timing",
+  "summary": "This reel explains the importance of timing in form validation, demonstrating why validating on blur is superior to validating on submit or on every keystroke.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "The error fires while you're still typing."
+    },
+    {
+      "t": "00:01",
+      "text": "The timing is the whole thing."
+    },
+    {
+      "t": "00:02",
+      "text": "Validate only on submit and they fill 10 fields blind."
+    },
+    {
+      "t": "00:05",
+      "text": "Hit the button and everything turns red at once."
+    },
+    {
+      "t": "00:08",
+      "text": "Now they're scrolling up, hunting for what went wrong."
+    },
+    {
+      "t": "00:11",
+      "text": "Validate on every keystroke and you punish them mid-word."
+    },
+    {
+      "t": "00:14",
+      "text": "They type the first letter, you scream \"invalid email\"."
+    },
+    {
+      "t": "00:18",
+      "text": "Technically correct, completely cruel."
+    },
+    {
+      "t": "00:21",
+      "text": "Validate on blur. Wait until they leave the field, then check it."
+    },
+    {
+      "t": "00:24",
+      "text": "They've finished the thought, so the feedback lands as helpful, not nagging."
+    },
+    {
+      "t": "00:29",
+      "text": "Once a field is wrong, the rules change."
+    },
+    {
+      "t": "00:31",
+      "text": "Switch that one to live and clear the error the instant they fix it."
+    },
+    {
+      "t": "00:35",
+      "text": "Don't make them submit again to find out they're forgiven."
+    },
+    {
+      "t": "00:38",
+      "text": "A green check is feedback too."
+    },
+    {
+      "t": "00:40",
+      "text": "Confirm the field is right, don't only flag wrong."
+    },
+    {
+      "t": "00:43",
+      "text": "Silence after effort feels like the form is judging them."
+    },
+    {
+      "t": "00:46",
+      "text": "Follow for more form UX. Save this for your next build."
+    }
+  ],
+  "on_screen_text": [
+    "Still typing. Already wrong?",
+    "ON SUBMIT: Errors all at once",
+    "Too late.",
+    "ON KEYSTROKE: Wrong before they finish",
+    "Correct, but cruel.",
+    "ON BLUR: Check when they leave",
+    "Check on blur.",
+    "AFTER AN ERROR: Then escalate to live",
+    "After an error, go live.",
+    "ON SUCCESS: Confirm it, don't just flag wrong",
+    "Confirm right, not only wrong.",
+    "Silence feels judged. Confirm feels safe.",
+    "FORM UX - TIMING: Timing is the UX."
+  ],
+  "ui_patterns": [
+    "Input fields",
+    "Inline validation",
+    "Error messages",
+    "Success indicators",
+    "Submit button"
+  ],
+  "design_principles": [
+    "Avoid 'On Submit' validation to prevent overwhelming users with errors.",
+    "Avoid 'On Keystroke' validation for initial entry to prevent premature error messages.",
+    "Use 'On Blur' validation to provide feedback after a user completes a field.",
+    "Switch to live validation only after an error is detected to provide immediate resolution feedback.",
+    "Provide positive reinforcement with success states."
+  ],
+  "before_after": "Contrasts the frustration of 'On Submit' and 'On Keystroke' validation with the smoother experience of 'On Blur' and 'Live on Error' validation.",
+  "tags": [
+    "UX Design",
+    "Form Design",
+    "UI Design",
+    "Validation",
+    "Interaction Design"
+  ],
+  "id": "1944524912916993",
+  "date": "2026-07-01",
+  "url": "https://www.facebook.com/reel/1944524912916993",
+  "file": "2026-07-01_1944524912916993.mp4"
+}

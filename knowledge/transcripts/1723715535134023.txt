@@ -1,0 +1,16 @@
+# Mastering CSS z-index
+2026-04-22 · https://www.facebook.com/reel/1723715535134023
+
+[00:00] Your dropdown hides behind the modal.
+[00:02] Rule one, z-index only works on position elements: relative, absolute, fixed, or sticky.
+[00:08] Without position, your z-index is completely ignored by the browser.
+[00:12] Rule two, every stacking context is its own universe.
+[00:15] A child with z-index 9999 still sits below a sibling context with z-index 1.
+[00:21] The parent caps the child.
+[00:23] Rule three, use CSS isolation.
+[00:26] One line creates a new stacking context with no position required.
+[00:29] Perfect for reusable components that should never leak z-index into the rest of your app.
+[00:34] Rule four, stop guessing.
+[00:36] Chrome DevTools has a layers panel that shows every stacking context in three dimensions.
+[00:40] Debug visually instead of spraying z-index 9000 everywhere.
+[00:43] Save this for your next z-index bug. Follow for more front-end deep dives.

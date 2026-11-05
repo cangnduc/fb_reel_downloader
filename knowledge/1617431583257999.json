@@ -1,0 +1,107 @@
+{
+  "title": "Mastering CSS View Transitions",
+  "summary": "Learn how to create complex UI animations like card-to-page morphs, list reordering, and circular theme wipes using the CSS View Transitions API. This lesson demonstrates how a single CSS property can replace heavy animation libraries for both single-page and multi-page applications.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "A card becomes a page. One line of CSS, no animation library."
+    },
+    {
+      "t": "00:04",
+      "text": "Give the card image and the page header the same view-transition-name. The browser snapshots both states and morphs one into the other."
+    },
+    {
+      "t": "00:12",
+      "text": "Size, position, corners, all interpolated."
+    },
+    {
+      "t": "00:16",
+      "text": "In a single page app, one startViewTransition call wraps the DOM update."
+    },
+    {
+      "t": "00:21",
+      "text": "Reorder a list? Give every item its own unique name. Sort, filter, delete. Each row slides to its new spot for free."
+    },
+    {
+      "t": "00:30",
+      "text": "Two items with the same name, and the whole transition is skipped."
+    },
+    {
+      "t": "00:34",
+      "text": "Theme toggle. The whole page is one snapshot called root. Animate a clip-path circle on view-transition-new of root."
+    },
+    {
+      "t": "00:42",
+      "text": "Dark mode spreads out from the button you clicked."
+    },
+    {
+      "t": "00:45",
+      "text": "A modal that grows from its button. The button holds the name. On open, the name moves to the dialog."
+    },
+    {
+      "t": "00:51",
+      "text": "It expands out of the place you tapped instead of fading in from nowhere."
+    },
+    {
+      "t": "00:55",
+      "text": "It works across real page loads too. One @rule, navigation: auto on both pages."
+    },
+    {
+      "t": "01:01",
+      "text": "Multi-page site, no framework, same morph. Chrome and Safari ship it today."
+    },
+    {
+      "t": "01:07",
+      "text": "Without support, you get an instant swap. Nothing breaks."
+    },
+    {
+      "t": "01:11",
+      "text": "Four morphs. One property. Think like a senior UX designer."
+    }
+  ],
+  "on_screen_text": [
+    "VIEW TRANSITIONS",
+    "A card becomes a page.",
+    "view-transition-name: hero;",
+    "Same name. Two snapshots.",
+    "1 item = 1 name",
+    "each row slides",
+    "0 animation code",
+    "A theme toggle that spreads.",
+    "1 rule - circular wipe",
+    "A modal born from its button.",
+    "origin = button",
+    "Works across real page loads.",
+    "no SPA needed",
+    "@view-transition { navigation: auto; }",
+    "Four morphs. One property."
+  ],
+  "ui_patterns": [
+    "Card to page transition",
+    "List reordering",
+    "Theme toggle",
+    "Modal dialog",
+    "Multi-page navigation"
+  ],
+  "design_principles": [
+    "View Transitions API",
+    "State interpolation",
+    "Unique naming for transition elements",
+    "Circular wipe animation",
+    "Progressive enhancement",
+    "Native browser snapshots"
+  ],
+  "before_after": "Demonstrates the transition from static UI updates (instant swaps) to smooth, browser-native morphing animations for cards, lists, themes, and modals.",
+  "tags": [
+    "CSS",
+    "View Transitions",
+    "UX Design",
+    "Web Development",
+    "Animation",
+    "UI Patterns"
+  ],
+  "id": "1617431583257999",
+  "date": "2026-10-01",
+  "url": "https://www.facebook.com/reel/1617431583257999",
+  "file": "2026-10-01_1617431583257999.mp4"
+}

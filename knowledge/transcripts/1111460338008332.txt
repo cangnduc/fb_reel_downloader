@@ -1,0 +1,13 @@
+# Sheets are a System: 5 Rules for Better UX
+2026-10-03 · https://www.facebook.com/reel/1111460338008332
+
+[00:00] One action. Modal, bottom sheet, side drawer. Only one fits.
+[00:04] A sheet keeps the page visible. A modal hides it behind a scrim.
+[00:08] Need the order while you edit the address? Sheet.
+[00:12] Need a full stop, like deleting the account? Modal. That is the whole decision.
+[00:18] A sheet never sits at a random height. Three snap points: peek, half, full.
+[00:24] Peek shows a summary. Half gives you the form. Full takes over for long content. Let go between two, it springs to the nearest.
+[00:34] Drag to dismiss reads speed, not distance. A quick flick closes it from anywhere. A slow drag needs to cross the halfway line. Distance alone makes the sheet feel stuck.
+[00:45] On desktop, the sheet turns into a side drawer. Minimum 320 pixels or the form breaks. Maximum 40% of the screen or it becomes a page. The list stays readable next to it.
+[00:58] Never stack two sheets. Tapping a saved address inside a sheet? Replace the content, add a back arrow. One sheet, one swipe to leave.
+[01:07] Five rules. One container that keeps the page in view. Now make Claude Code think like a senior UX designer. UX Engine designs the screen before coding, audits what is broken, reviews the diff, and kills the AI look. Link in bio.

@@ -1,0 +1,14 @@
+# The 6 Rules of UI Cards
+2026-09-23 · https://www.facebook.com/reel/1638166994563234
+
+[00:00] Cards are a system. Border, shadow, or flat. The background decides.
+[00:05] A card is one entity. One title, one subject, one place to go.
+[00:11] Cards for everything is the AI-made tell. A form section is not a card.
+[00:16] Border on white, shadow on tinted, flat inside a panel. The background picks the treatment.
+[00:22] On white, a shadow barely reads. On grey, a border is noise.
+[00:27] A clickable card is clickable everywhere. One action, the whole surface.
+[00:32] Two buttons inside means it is not a card, it is a panel. Hover lifts the whole thing.
+[00:37] Never nest cards. A card inside a card is a box inside a box. Flatten the inner one. Dividers do the grouping.
+[00:45] Media inside cards keeps one aspect ratio across the grid. 16 by 9 on every card. Cropped, never stretched. One tall image and the row breaks.
+[00:56] Dark mode kills shadows. Borders come back. One step lighter than the surface. Elevation becomes surface tint.
+[01:04] Six decisions. One card that knows its background. Now make Claude Code think like a senior UX designer. UX Engine designs the screen before coding, audits what is broken, reviews the diff, and kills the AI look. Link in bio.

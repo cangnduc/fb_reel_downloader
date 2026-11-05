@@ -1,0 +1,11 @@
+# Mastering the CSS :has() Selector
+2026-09-10 · https://www.facebook.com/reel/1723838365576036
+
+[00:00] One line of CSS. The whole card reacts to its own checkbox.
+[00:04] The parent selector. .plan:has(:checked). For 20 years, CSS only looked down and forward. Now it looks up. Every browser since 2023.
+[00:13] .field:has(:user-invalid). The border, the label, the icon, all turn at once. No change handler. No error state in React. The browser already knows the email is wrong.
+[00:26] Form has user-invalid button. The pay button grays out with it.
+[00:31] App has aside. Render a sidebar. The grid grows a column. Remove it, the grid collapses. Layout follows the DOM, not a boolean prop.
+[00:41] Grid has nth-child 5. Four cards sit wide. A fifth arrives, all of them tighten. A quantity query in CSS. No counting in JavaScript.
+[00:52] Body has dialog open. Scroll locks. The page behind dims. The whole document reacts to one open modal. The dialog itself does nothing. Close it, everything comes back. No cleanup effect.
+[01:07] Five selectors. Zero JavaScript. For the rest of your UI, type /restyle. UX Engine, the Claude code plugin that kills the AI look. Link in bio.

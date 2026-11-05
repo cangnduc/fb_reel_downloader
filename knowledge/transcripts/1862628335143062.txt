@@ -1,0 +1,12 @@
+# Mastering Scroll State in UI Design
+2026-08-17 · https://www.facebook.com/reel/1862628335143062
+
+[00:00] You hit back and lost the exact post you scrolled down to.
+[00:03] Your single page app resets scroll to zero on every route change.
+[00:08] The browser used to remember for you. Your router forgot how.
+[00:12] Save the scroll position for each history entry, then put it back when the user returns, instead of dumping them at the very top.
+[00:20] Position is state too.
+[00:21] A sticky header hides the row you land on. Offset the restore by its height. Otherwise, you land close but wrong.
+[00:29] Jump links need scroll-margin-top, or every heading tucks up under the bar. The anchor lands and the title is invisible.
+[00:36] Infinite scroll pushes the footer one step further, forever. Your links, your contact, your terms all live down there. Nobody ever reaches them.
+[00:46] Scroll is state. Go to designmotionhq.com for more. Link in bio.

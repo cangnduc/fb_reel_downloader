@@ -1,0 +1,14 @@
+# 4 UI Fixes for Real Content
+2026-08-02 · https://www.facebook.com/reel/1051915977228458
+
+[00:00] This card looks fine until someone signs up with a real name.
+[00:03] Real content breaks layouts.
+[00:04] Your ellipsis never fires. A flex child refuses to shrink below its own text, so the name shoves the button off the card.
+[00:12] Set min-width to zero on the child that should shrink.
+[00:16] Cutting the end throws away the answer. A file name is its extension, an email is its domain.
+[00:23] Truncate the middle instead and both ends survive.
+[00:26] Live numbers make the row twitch. Proportional digits are different widths, so every update nudges the layout.
+[00:32] Tabular-nums locks them to one width. Dead still.
+[00:36] One long URL can blow out the whole card. Browsers never break inside a word, so the container stretches until your layout gives up.
+[00:44] Overflow-wrap anywhere gives it permission to break.
+[00:47] Follow for more UI systems. Save this before your next demo.

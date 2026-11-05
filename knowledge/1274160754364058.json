@@ -1,0 +1,101 @@
+{
+  "title": "5 Essential Navigation Patterns for UX",
+  "summary": "This reel explains when and how to use five common navigation patterns: bottom tabs, sidebars, hamburger menus, command palettes, and breadcrumbs. It provides specific rules for mobile versus desktop and highlights common pitfalls to avoid to ensure better user retention.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "5 nav patterns. Pick wrong, lose users."
+    },
+    {
+      "t": "00:03",
+      "text": "Bottom tabs. Mobile only. 3 to 5 top-level destinations max."
+    },
+    {
+      "t": "00:06",
+      "text": "Beyond 5, users can't parse what's there. Always visible, always thumb-reachable."
+    },
+    {
+      "t": "00:11",
+      "text": "Sidebar. Desktop only. Use it when content is hierarchical or when you have more than 5 sections."
+    },
+    {
+      "t": "00:16",
+      "text": "Persistent, collapsible, but never hidden behind a click."
+    },
+    {
+      "t": "00:21",
+      "text": "Hamburger. Mobile only. Secondary content. Settings, account, support."
+    },
+    {
+      "t": "00:25",
+      "text": "Never your primary navigation. Studies show 40% fewer users click hidden menus."
+    },
+    {
+      "t": "00:30",
+      "text": "Command palette. Power users only. Cmd K opens search-driven navigation."
+    },
+    {
+      "t": "00:34",
+      "text": "Linear, Notion, Raycast. Never your primary nav for new users. They don't know it exists."
+    },
+    {
+      "t": "00:41",
+      "text": "Breadcrumbs. Only when hierarchy goes deeper than 2 levels."
+    },
+    {
+      "t": "00:44",
+      "text": "They show position, not navigation. Don't ship them in a flat structure. They confuse more than they help."
+    },
+    {
+      "t": "00:50",
+      "text": "Mobile equals tabs. Desktop equals sidebar. Everything else has a specific job. Save this for your next IA decision."
+    }
+  ],
+  "on_screen_text": [
+    "5 NAV PATTERNS",
+    "Pick wrong, lose users.",
+    "Bottom tabs",
+    "3-5 destinations max",
+    "Hidden in a menu (AVOID)",
+    "Persistent sidebar",
+    "Persistent, never click-to-reveal",
+    "Collapsed by default (AVOID)",
+    "Hidden menu",
+    "Mobile only - secondary content",
+    "Desktop hamburger (AVOID)",
+    "Command palette",
+    "Power users only",
+    "Primary nav for new users (AVOID)",
+    "Breadcrumbs",
+    "Hierarchy depth > 2",
+    "Flat structure breadcrumbs (AVOID)",
+    "Mobile = tabs. Desktop = sidebar."
+  ],
+  "ui_patterns": [
+    "Bottom Tab Bar",
+    "Persistent Sidebar",
+    "Hamburger Menu",
+    "Command Palette",
+    "Breadcrumbs"
+  ],
+  "design_principles": [
+    "Limit bottom tabs to 3-5 items for mobile visibility and reachability.",
+    "Use sidebars for desktop when content is hierarchical or exceeds 5 sections.",
+    "Reserve hamburger menus for secondary content on mobile; avoid them for primary navigation.",
+    "Command palettes are shortcuts for power users, not a replacement for primary navigation.",
+    "Use breadcrumbs only for hierarchies deeper than 2 levels to show position, not as a primary navigation tool."
+  ],
+  "before_after": "",
+  "tags": [
+    "UX Design",
+    "UI Design",
+    "Navigation Patterns",
+    "Information Architecture",
+    "Mobile UX",
+    "Desktop UI"
+  ],
+  "id": "1274160754364058",
+  "date": "2026-05-01",
+  "url": "https://www.facebook.com/reel/1274160754364058",
+  "file": "2026-05-01_1274160754364058.mp4"
+}

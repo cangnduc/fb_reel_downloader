@@ -1,0 +1,11 @@
+# Designing Destructive Actions
+2026-07-17 · https://www.facebook.com/reel/1052845123926917
+
+[00:00] Hold to delete. Release early, nothing dies.
+[00:02] The ring is the confirmation. 300 milliseconds of commitment replace a dialog. Release early and the action never fires.
+[00:09] Pattern 02 - Labels. Name the action. 'Are you sure?' 'Yes.' Nobody reads that. Name the action: 'Delete project', 'Keep project'. The verb is the warning.
+[00:18] Pattern 03 - Placement. Off the happy path. Destructive buttons never sit where confirm lives. Muscle memory clicks primary spots blind. Move delete away and autopilot can't reach it.
+[00:27] Pattern 04 - The Red Budget. Red is a budget. Spend it on destruction only. A red logout button cries wolf, then delete looks routine.
+[00:34] Pattern 05 - Danger Zone. Bury it at the bottom. GitHub buries deletion in a danger zone. Bordered, labeled, last position on the page. Geography is friction.
+[00:41] Pattern 06 - Cooldown. The last line of defense. Some platforms add a cooldown. Deletion scheduled. 14 days to change your mind. Time is the last line of defense.
+[00:48] Destructive actions are a design language. Follow for more UX engineering. Save this before you ship a delete button.

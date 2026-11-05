@@ -1,0 +1,99 @@
+{
+  "title": "The 6 Rules of UI Cards",
+  "summary": "This lesson outlines a systematic approach to designing UI cards, focusing on treatment based on background, single-entity logic, and avoiding common pitfalls like nesting. It provides specific rules for clickability, aspect ratios in grids, and adapting card styles for dark mode.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Cards are a system. Border, shadow, or flat. The background decides."
+    },
+    {
+      "t": "00:05",
+      "text": "A card is one entity. One title, one subject, one place to go."
+    },
+    {
+      "t": "00:11",
+      "text": "Cards for everything is the AI-made tell. A form section is not a card."
+    },
+    {
+      "t": "00:16",
+      "text": "Border on white, shadow on tinted, flat inside a panel. The background picks the treatment."
+    },
+    {
+      "t": "00:22",
+      "text": "On white, a shadow barely reads. On grey, a border is noise."
+    },
+    {
+      "t": "00:27",
+      "text": "A clickable card is clickable everywhere. One action, the whole surface."
+    },
+    {
+      "t": "00:32",
+      "text": "Two buttons inside means it is not a card, it is a panel. Hover lifts the whole thing."
+    },
+    {
+      "t": "00:37",
+      "text": "Never nest cards. A card inside a card is a box inside a box. Flatten the inner one. Dividers do the grouping."
+    },
+    {
+      "t": "00:45",
+      "text": "Media inside cards keeps one aspect ratio across the grid. 16 by 9 on every card. Cropped, never stretched. One tall image and the row breaks."
+    },
+    {
+      "t": "00:56",
+      "text": "Dark mode kills shadows. Borders come back. One step lighter than the surface. Elevation becomes surface tint."
+    },
+    {
+      "t": "01:04",
+      "text": "Six decisions. One card that knows its background. Now make Claude Code think like a senior UX designer. UX Engine designs the screen before coding, audits what is broken, reviews the diff, and kills the AI look. Link in bio."
+    }
+  ],
+  "on_screen_text": [
+    "CARDS ARE A SYSTEM - 01",
+    "Cards are a system.",
+    "border, shadow, flat",
+    "One card, one entity.",
+    "1 card = 1 thing",
+    "x 3 cards, 0 entities",
+    "3 sections",
+    "The background picks the treatment.",
+    "white -> border",
+    "tinted -> shadow",
+    "panel -> flat",
+    "One surface, one action.",
+    "Never nest cards.",
+    "One ratio across the grid.",
+    "Dark mode kills shadows.",
+    "Six decisions. One card that knows its background."
+  ],
+  "ui_patterns": [
+    "Cards",
+    "Grids",
+    "Panels",
+    "Dividers",
+    "Hover States",
+    "Dark Mode",
+    "Form Sections"
+  ],
+  "design_principles": [
+    "Background-driven treatment selection",
+    "Single-entity principle (one title, one subject, one destination)",
+    "Single-action clickability (entire surface as a button)",
+    "Avoidance of card nesting (use dividers instead)",
+    "Consistent aspect ratios (16:9) to prevent grid row breaks",
+    "Dark mode elevation through tinting and borders rather than shadows"
+  ],
+  "before_after": "Shows the transformation of a complex panel with nested cards and multiple buttons into a clean, single-entity card with internal dividers and a single clickable surface.",
+  "tags": [
+    "UI Design",
+    "UX Design",
+    "Card Design",
+    "Design Systems",
+    "Dark Mode",
+    "Layout",
+    "Visual Hierarchy"
+  ],
+  "id": "1638166994563234",
+  "date": "2026-09-23",
+  "url": "https://www.facebook.com/reel/1638166994563234",
+  "file": "2026-09-23_1638166994563234.mp4"
+}

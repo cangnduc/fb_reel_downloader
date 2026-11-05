@@ -1,0 +1,84 @@
+{
+  "title": "Typography as a System",
+  "summary": "This lesson outlines seven critical decisions for building a professional typography system, focusing on hierarchy, readability, and technical implementation. It demonstrates how to move from arbitrary choices to a structured system using specific ratios, weights, and spacing rules.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Typography is a system. Same font, seven decisions between product and form."
+    },
+    {
+      "t": "00:05",
+      "text": "Five sizes max. One ratio, 1.25, never hand-picked pixels. 11 sizes collapsed to five."
+    },
+    {
+      "t": "00:13",
+      "text": "Three text colors do more than 10 sizes. Primary, secondary, muted. Color ranks inside a line, size ranks between blocks."
+    },
+    {
+      "t": "00:22",
+      "text": "Two weights do all the work. 400 and 600. When everything is bold, nothing is. Regular for reading, semi-bold for scanning."
+    },
+    {
+      "t": "00:30",
+      "text": "Line height moves opposite to size. 1.1 on headings, 1.5 on body. The same value everywhere is the AI-made tell."
+    },
+    {
+      "t": "00:39",
+      "text": "Letter spacing tightens above 24 pixels. -2%. Small uppercase labels open up instead. +5%."
+    },
+    {
+      "t": "00:48",
+      "text": "Body text stays between 45 and 75 characters per line. A paragraph stretched across 1400 pixels is unreadable. Cap the measure, not the container."
+    },
+    {
+      "t": "00:58",
+      "text": "Numbers in tables, prices, and timers use tabular figures. One CSS property: tabular-nums. Otherwise, the column wobbles on every update."
+    },
+    {
+      "t": "01:08",
+      "text": "Seven decisions. One font that reads like a product. Now make Claude Code think like a senior UX designer. UX Engine designs a screen before coding, audits what is broken, reviews the diff, and kills the AI look. Link in bio."
+    }
+  ],
+  "on_screen_text": [
+    "Typography is a system.",
+    "Five sizes, one ratio.",
+    "Three inks, not ten sizes.",
+    "Two weights, 400 and 600.",
+    "Leading moves against size.",
+    "Big tightens, small caps open.",
+    "Cap the measure, not the box.",
+    "Tabular figures, one property.",
+    "Seven decisions. One font.",
+    "Think like a senior UX designer."
+  ],
+  "ui_patterns": [
+    "Dashboard",
+    "Data Table",
+    "Stats Cards",
+    "Typography Scale",
+    "CLI / Code Editor"
+  ],
+  "design_principles": [
+    "Limit font sizes to 5 max",
+    "Use a 1.25 ratio for type scales",
+    "Use 3 text colors (primary, secondary, muted) for hierarchy",
+    "Use 2 weights (400 for reading, 600 for scanning)",
+    "Inverse leading: tighter for headings, looser for body",
+    "Adjust tracking: tighter for large text, looser for small caps",
+    "Limit measure to 45-75 characters per line",
+    "Use tabular-nums for numeric data in tables"
+  ],
+  "before_after": "A complex, unorganized typography set is refined into a strict system of 5 sizes, 3 colors, and 2 weights, improving readability and visual hierarchy.",
+  "tags": [
+    "Typography",
+    "UX Design",
+    "UI Design",
+    "Design Systems",
+    "Web Design",
+    "Product Design"
+  ],
+  "id": "1077130178294248",
+  "date": "2026-09-19",
+  "url": "https://www.facebook.com/reel/1077130178294248",
+  "file": "2026-09-19_1077130178294248.mp4"
+}

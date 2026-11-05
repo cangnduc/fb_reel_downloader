@@ -1,0 +1,104 @@
+{
+  "title": "Designing Better UI Filter Systems",
+  "summary": "This lesson explains how to design effective filter chips by managing states, logic, and mobile layouts. It emphasizes immediate feedback, clear exit strategies, and maintaining visibility of active filters to improve user experience.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "200 results, 3 taps, 12 left."
+    },
+    {
+      "t": "00:02",
+      "text": "A chip lives in three states: idle, active, disabled."
+    },
+    {
+      "t": "00:06",
+      "text": "If active looks like idle, the filter feels broken."
+    },
+    {
+      "t": "00:09",
+      "text": "Pick two colors and results grow. Add a size and they shrink."
+    },
+    {
+      "t": "00:13",
+      "text": "Or within a group and across the groups. More chips in one group widen the net. A new group narrows it."
+    },
+    {
+      "t": "00:15",
+      "text": "Every tap needs an answer. Update the result count the moment a chip flips."
+    },
+    {
+      "t": "00:20",
+      "text": "Silence makes users tap twice."
+    },
+    {
+      "t": "00:22",
+      "text": "Stacked filters trap people in a corner. One clear-all button resets the set."
+    },
+    {
+      "t": "00:27",
+      "text": "Pair it with a count so they know what it wipes. Always leave an exit."
+    },
+    {
+      "t": "00:31",
+      "text": "10 chips never fit a phone. Scroll them sideways in one row."
+    },
+    {
+      "t": "00:35",
+      "text": "Fade the edge so users feel there is more. Wrapping into a wall buries the results."
+    },
+    {
+      "t": "00:40",
+      "text": "Filters out of sight get forgotten. Keep the active ones pinned on top."
+    },
+    {
+      "t": "00:44",
+      "text": "Users should see why the list shrank."
+    },
+    {
+      "t": "00:46",
+      "text": "Follow for more UI systems. Save this for your next product page."
+    }
+  ],
+  "on_screen_text": [
+    "One chip, three states",
+    "Idle: Surface + border. Tappable, not chosen.",
+    "Active: Teal fill + check. Clearly selected.",
+    "Disabled: Dimmed. No results behind it.",
+    "How chips combine",
+    "OR within",
+    "AND across",
+    "Every tap needs an answer",
+    "One clear-all, always",
+    "10 chips, one phone",
+    "Wraps into a wall",
+    "One scrolling row",
+    "Pin active filters on top",
+    "Filters are a system."
+  ],
+  "ui_patterns": [
+    "Filter chips",
+    "Result count indicator",
+    "Horizontal scrolling row",
+    "Clear all button",
+    "Pinned active filters"
+  ],
+  "design_principles": [
+    "State differentiation (Idle vs Active vs Disabled)",
+    "Boolean logic (OR within groups, AND across groups)",
+    "Immediate feedback (Real-time count updates)",
+    "Mobile space optimization (Horizontal scroll vs wrapping)",
+    "Visibility of system status (Pinned active filters)"
+  ],
+  "before_after": "Demonstrates the transition from wrapping chips into a 'wall' that hides results to using a single horizontal scrolling row with an edge fade to preserve screen real estate.",
+  "tags": [
+    "UI Design",
+    "UX Design",
+    "Mobile Design",
+    "Filter Chips",
+    "Design Systems"
+  ],
+  "id": "1898356567528601",
+  "date": "2026-06-12",
+  "url": "https://www.facebook.com/reel/1898356567528601",
+  "file": "2026-06-12_1898356567528601.mp4"
+}

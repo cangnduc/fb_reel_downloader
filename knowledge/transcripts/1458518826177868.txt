@@ -1,0 +1,17 @@
+# Selection Controls: When to use what
+2026-10-09 · https://www.facebook.com/reel/1458518826177868
+
+[00:00] One setting. Checkbox, switch, radio. Only one matches what it does.
+[00:03] A switch acts the moment you flip it. No save button behind it, ever.
+[00:08] A checkbox waits. It means nothing until the user presses save.
+[00:13] Mix them in one form and nobody knows which settings are live.
+[00:17] Radio buttons pick one option out of a few. Up to five, all visible. No click to reveal them.
+[00:23] Past five, the list pushes the rest of the settings off screen. That is when it becomes a dropdown.
+[00:29] Two to four exclusive options that must stay in view? Segmented control.
+[00:34] Daily, weekly, monthly, side-by-side. One tap switches the view and every option stays one tap away.
+[00:41] A parent checkbox has three states, not two. All children on: checked. None on: empty. A mix: a dash.
+[00:50] Click the dash and every child turns on. Most apps skip it and show the parent as empty.
+[00:56] The label is part of the control. Tap the text and the box toggles.
+[01:00] The whole row is the target, at least 44 pixels tall. A 16-pixel box alone gets missed by every thumb.
+[01:08] Five controls. One question: does it act now or on save? Now make Claude Code think like a senior UX designer.
+[01:16] UX Engine designs the screen before coding, audits what is broken, reviews the diff, and kills the AI look. Link in bio.

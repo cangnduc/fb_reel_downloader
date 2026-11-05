@@ -1,0 +1,12 @@
+# 5 Rules for Better Error States
+2026-05-05 · https://www.facebook.com/reel/1011539707965282
+
+[00:00] Your error states are killing users. Five fixes.
+[00:03] Type the error first. Validation, network, server, permission. Each one needs a different visual pattern.
+[00:11] Don't show a 500 modal for a typo.
+[00:13] Every error needs a way out. Retry, refresh, contact us. A dead end is the worst experience you can ship.
+[00:21] Severity decides the surface. Inline for recoverable, toast for transient, modal only when nothing else works.
+[00:29] Most apps overuse modals.
+[00:31] Replace "An error occurred" with "Lost connection, reconnecting in 5 seconds". Humans read humans, not machines.
+[00:39] Inline validation kills 80% of errors before they happen. Disable submit until valid, show progress, catch problems early.
+[00:47] Prevent. Don't catch. Save this for your next error state. Follow for more UI systems.

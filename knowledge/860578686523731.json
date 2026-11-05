@@ -1,0 +1,111 @@
+{
+  "title": "Drag-and-Drop Interaction Patterns",
+  "summary": "This reel breaks down the essential feedback loops for a seamless drag-and-drop experience. It covers pick-up signals, drop zone indicators, snapping logic, and error recovery via undo toasts.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Grab a card. The board does the thinking."
+    },
+    {
+      "t": "00:02",
+      "text": "Three signals. One grab."
+    },
+    {
+      "t": "00:03",
+      "text": "Cursor changes. Card lifts. Background fades."
+    },
+    {
+      "t": "00:06",
+      "text": "Three signals say \"I'm holding this\". No signal feels stuck."
+    },
+    {
+      "t": "00:10",
+      "text": "Drop zones speak first."
+    },
+    {
+      "t": "00:11",
+      "text": "Hover a column, insertion line. Hover a zone, fill highlight."
+    },
+    {
+      "t": "00:16",
+      "text": "No preview equals blind drop."
+    },
+    {
+      "t": "00:19",
+      "text": "Snap matches structure. Free matches canvas."
+    },
+    {
+      "t": "00:20",
+      "text": "Kanban snaps to columns. Figma drops anywhere."
+    },
+    {
+      "t": "00:23",
+      "text": "Snap for structured lists. Free for canvas."
+    },
+    {
+      "t": "00:26",
+      "text": "Pick the wrong one and users fight your UI."
+    },
+    {
+      "t": "00:29",
+      "text": "Bad drop. Toast. Five seconds to undo."
+    },
+    {
+      "t": "00:31",
+      "text": "Happens. Toast pops. Moved to Done. Undo."
+    },
+    {
+      "t": "00:33",
+      "text": "Five seconds to take it back. Saves the panic."
+    },
+    {
+      "t": "00:36",
+      "text": "Follow for more interaction patterns. Save this for your next board."
+    }
+  ],
+  "on_screen_text": [
+    "Grab a card",
+    "Three signals. One grab.",
+    "Cursor changes",
+    "Card lifts",
+    "Background fades",
+    "Three signals = 'I'm holding this'",
+    "Drop zones speak first.",
+    "Between items -> line + Whole column -> fill",
+    "No preview = blind drop.",
+    "Snap matches structure. Free matches canvas.",
+    "Structured? Snap. | Canvas? Free.",
+    "Bad drop. Toast. Five seconds to undo.",
+    "Saves the panic",
+    "Follow for more interaction patterns."
+  ],
+  "ui_patterns": [
+    "Kanban Board",
+    "Cards",
+    "Drag and Drop",
+    "Toast Notification",
+    "Undo Button",
+    "Insertion Line",
+    "Drop Zone Highlight"
+  ],
+  "design_principles": [
+    "Visual Feedback",
+    "Affordance",
+    "Predictability",
+    "Context-Aware Constraints",
+    "Error Recovery"
+  ],
+  "before_after": "Contrasts a 'blind drop' (no feedback) with a 'previewed drop' (insertion lines and highlights), and 'stuck' movement with multi-signal feedback (cursor change, card lift, background fade).",
+  "tags": [
+    "UX Design",
+    "UI Design",
+    "Interaction Design",
+    "Drag and Drop",
+    "Kanban",
+    "Product Design"
+  ],
+  "id": "860578686523731",
+  "date": "2026-06-01",
+  "url": "https://www.facebook.com/reel/860578686523731",
+  "file": "2026-06-01_860578686523731.mp4"
+}

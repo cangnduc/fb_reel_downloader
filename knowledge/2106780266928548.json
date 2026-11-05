@@ -1,0 +1,81 @@
+{
+  "title": "The Anatomy of a Perfect Star Rating",
+  "summary": "This lesson covers essential UX improvements for star rating components, including hover previews, state management, and accurate data representation. It also demonstrates how micro-interactions like staggered animations and progress rings can enhance the user experience.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Your star rating is lying to your users."
+    },
+    {
+      "t": "00:02",
+      "text": "Hover should preview. Hover fills the stars before you click. Most widgets only react after the click. Show the user where they're about to land."
+    },
+    {
+      "t": "00:09",
+      "text": "Preview does not equal committed. Move the cursor away and it snaps back. Preview and selection are two different layers. Mix them up and the value flickers on every hover."
+    },
+    {
+      "t": "00:17",
+      "text": "A 4.4 average is not five full stars. Rounded up and you're lying to people. Render the real fraction with a clipped half star."
+    },
+    {
+      "t": "00:25",
+      "text": "The 30ms that feels alive. Fill them left to right, 30 milliseconds apart. That tiny stagger is the satisfying part. Pop them all at once and it feels dead."
+    },
+    {
+      "t": "00:33",
+      "text": "Pair the discrete stars with one continuous ring. The arc reads faster than any number. Stars to rate, a ring to summarize."
+    },
+    {
+      "t": "00:41",
+      "text": "Stop rounding up. Follow for more UI anatomy. Save this before you ship another rating."
+    }
+  ],
+  "on_screen_text": [
+    "Hover should preview",
+    "reacts on click",
+    "previews on hover",
+    "Preview != committed",
+    "PREVIEW LAYER follows the cursor",
+    "COMMITTED LAYER the real saved value",
+    "leaves -> snaps back to 3",
+    "broken: stuck at 4, value flickers",
+    "4.4 true average rating",
+    "what most apps show",
+    "4.4 rounded up to 5 full stars",
+    "the truth",
+    "4 full + one star filled 44%",
+    "The 30ms that feels alive",
+    "all at once: 0ms delay — flat, lifeless",
+    "30ms stagger: fills left to right — satisfying",
+    "Stars to rate, a ring to summarize.",
+    "Stop rounding up."
+  ],
+  "ui_patterns": [
+    "Star Rating Widget",
+    "Circular Progress Bar / Progress Ring",
+    "Hover States",
+    "Staggered Animation",
+    "Rating Summary Card"
+  ],
+  "design_principles": [
+    "Immediate Feedback (Hover Preview)",
+    "State Separation (Preview vs. Committed)",
+    "Data Accuracy (Avoid rounding up ratings)",
+    "Visual Polish (Staggered animations for delight)",
+    "Redundant Coding (Using both stars and a ring for faster comprehension)"
+  ],
+  "before_after": "Transforms a basic, static star rating into an interactive, accurate, and polished component with hover previews and staggered animations.",
+  "tags": [
+    "UI Design",
+    "UX Design",
+    "Micro-interactions",
+    "Star Rating",
+    "Animation",
+    "Data Visualization"
+  ],
+  "id": "2106780266928548",
+  "date": "2026-06-03",
+  "url": "https://www.facebook.com/reel/2106780266928548",
+  "file": "2026-06-03_2106780266928548.mp4"
+}

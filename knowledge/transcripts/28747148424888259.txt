@@ -1,0 +1,11 @@
+# UI Numbers: 5 Tips for Better Data Display
+2026-08-25 · https://www.facebook.com/reel/28747148424888259
+
+[00:00] Pro numbers line up, amateur numbers dance.
+[00:03] Default fonts give every digit its own width. A one is thin, a zero is wide. Columns wobble.
+[00:10] Tabular figures lock every digit to the same width. Turn them on and the decimals snap into a straight column.
+[00:17] Right-align numbers, left-align text. The eye compares magnitude by the last digit, not the first.
+[00:24] A thousand becomes 1K, a million becomes 1M. Full precision waits on hover.
+[00:29] 14:32 means nothing to a human. 2 hours ago means everything. Relative for recent, absolute for old.
+[00:37] Keep the currency symbol out of the number column. Align the decimals, not the dollar signs.
+[00:43] Numbers, formatted like a system. More UI systems at designmotionhq.com. Link in bio. Save this for your next dashboard.

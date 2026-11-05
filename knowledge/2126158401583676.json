@@ -1,0 +1,91 @@
+{
+  "title": "Undo UX: Designing for Reversibility",
+  "summary": "This lesson explains why providing an 'Undo' option is superior to 'Are you sure?' confirmation dialogs for most user actions. It covers soft deletes, matching friction to the cost of irreversible actions, and using grace periods to prevent common mistakes.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Deleted. You have 5 seconds."
+    },
+    {
+      "t": "00:01",
+      "text": "One mistake. Two designs."
+    },
+    {
+      "t": "00:02",
+      "text": "Are you sure punishes everyone for one person's mistake."
+    },
+    {
+      "t": "00:05",
+      "text": "Undo punishes nobody. The action happens instantly, and regret gets a second chance."
+    },
+    {
+      "t": "00:10",
+      "text": "The file left your screen, not the database. A deleted flag, 30 days in trash, then it's gone for real. Deletion is a state, not an event."
+    },
+    {
+      "t": "00:18",
+      "text": "Some actions have no way back. That's where friction belongs. GitHub makes you type the repo name before it deletes. Earn the irreversible."
+    },
+    {
+      "t": "00:27",
+      "text": "One undo is a toast. A stack is a time machine. Command-Z walks back through every step in order. Figma remembers everything you did. Your app can too."
+    },
+    {
+      "t": "00:38",
+      "text": "Gmail holds your email for 10 seconds after send. The delay is the feature. You catch the typo, the wrong recipient, the reply-all disaster."
+    },
+    {
+      "t": "00:46",
+      "text": "Design for regret. Follow for more UX patterns. Save this before you delete something."
+    }
+  ],
+  "on_screen_text": [
+    "Reversibility beats confirmation.",
+    "UNDO BEATS CONFIRM",
+    "One mistake. Two designs.",
+    "3 clicks - every time vs 1 click - regret optional",
+    "Punish the 1%, or protect them.",
+    "SOFT DELETE",
+    "Off the screen, not the database",
+    "Deletion is a state, not an event.",
+    "TYPE TO CONFIRM",
+    "Earn the irreversible",
+    "Match friction to the cost.",
+    "THE UNDO STACK",
+    "A stack is a time machine",
+    "DELAYED SEND",
+    "The 10-second grace period",
+    "The delay is the feature.",
+    "Design for regret."
+  ],
+  "ui_patterns": [
+    "Toast notification with Undo button",
+    "Confirmation Modal",
+    "Soft Delete Database Flag",
+    "Trash Lifecycle Timeline",
+    "Type-to-confirm Input",
+    "Undo History Stack",
+    "Grace Period Progress Bar"
+  ],
+  "design_principles": [
+    "Reversibility beats confirmation",
+    "Undo punishes nobody; confirmation punishes everyone",
+    "Deletion is a state, not an event",
+    "Match friction to the cost of the action",
+    "Earn the irreversible",
+    "The delay is the feature (Grace Periods)"
+  ],
+  "before_after": "Comparison between a high-friction 'Confirm' dialog requiring 3 clicks every time versus an 'Undo' pattern requiring only 1 click with optional regret.",
+  "tags": [
+    "UX Design",
+    "UI Design",
+    "Product Design",
+    "Interaction Design",
+    "Reversibility",
+    "Undo Pattern"
+  ],
+  "id": "2126158401583676",
+  "date": "2026-07-10",
+  "url": "https://www.facebook.com/reel/2126158401583676",
+  "file": "2026-07-10_2126158401583676.mp4"
+}

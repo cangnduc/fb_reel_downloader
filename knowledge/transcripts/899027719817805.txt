@@ -1,0 +1,19 @@
+# 5 Animation Timing Secrets for UI
+2026-05-06 · https://www.facebook.com/reel/899027719817805
+
+[00:00] Entrances lie between 200 and 300 milliseconds.
+[00:04] Faster feels broken, slower feels heavy.
+[00:07] Page transitions, modals, panels.
+[00:10] Exits are faster than entrances.
+[00:13] 150 to 200 milliseconds. Snappier.
+[00:16] The user already decided. Don't make them wait.
+[00:20] Feedback animation stays under 100 milliseconds.
+[00:24] Button press, hover, toggle.
+[00:26] Anything slower feels laggy, not responsive.
+[00:30] Attention animations need 5 to 800 milliseconds with bounce.
+[00:34] Errors, notifications. The wiggle.
+[00:37] Slow enough to notice, fast enough to not annoy.
+[00:41] List stagger by 50 milliseconds per item.
+[00:44] Not 30, not 100.
+[00:46] The sweet spot where motion guides the eye.
+[00:49] Save these numbers for every animation you ship.

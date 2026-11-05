@@ -1,0 +1,68 @@
+{
+  "title": "Mastering UI Toggles",
+  "summary": "This lesson breaks down the anatomy, animation, and accessibility of a high-quality toggle switch. It covers geometric ratios, multi-property transitions, and optimistic UI patterns for a better user experience.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Two toggles. One snaps. One morphs."
+    },
+    {
+      "t": "00:02",
+      "text": "Rail width is knob diameter times two. Padding equals knob radius. These ratios make the knob feel anchored."
+    },
+    {
+      "t": "00:09",
+      "text": "Don't snap. Morph four properties at once. Rail color, knob slide, knob shadow, label crossfade, all in 250 milliseconds, ease out."
+    },
+    {
+      "t": "00:20",
+      "text": "Spacebar toggles, visible focus ring, ARIA announces the state change. Skip these and it's a fake button. Real switches work without a mouse."
+    },
+    {
+      "t": "00:29",
+      "text": "Flip first. Spinner in the knob. Server says no, roll back. The user never waits for the network."
+    },
+    {
+      "t": "00:37",
+      "text": "Follow for more UI components. Save this for your next switch."
+    }
+  ],
+  "on_screen_text": [
+    "SNAP vs MORPH",
+    "Width = 2x knob",
+    "Padding = knob radius",
+    "Don't snap. Morph 4 properties.",
+    "Rail color, Knob slide, Knob shadow, Label",
+    "250ms - ease-out",
+    "Space toggles. Focus rings. ARIA reads.",
+    "Flip first. Spinner in the knob. Roll back if it fails."
+  ],
+  "ui_patterns": [
+    "Toggle Switch",
+    "Focus Ring",
+    "Loading Spinner",
+    "Error Toast",
+    "Optimistic UI"
+  ],
+  "design_principles": [
+    "Geometric Proportions",
+    "Multi-property Animation",
+    "Keyboard Accessibility",
+    "ARIA Compliance",
+    "Optimistic Updates",
+    "Error Handling & Rollback"
+  ],
+  "before_after": "A basic 'snapping' toggle compared to a polished 'morphing' toggle with smooth transitions and accessibility features.",
+  "tags": [
+    "UI Design",
+    "UX Design",
+    "Animation",
+    "Accessibility",
+    "Frontend",
+    "Design Systems"
+  ],
+  "id": "27114469058187838",
+  "date": "2026-05-30",
+  "url": "https://www.facebook.com/reel/27114469058187838",
+  "file": "2026-05-30_27114469058187838.mp4"
+}

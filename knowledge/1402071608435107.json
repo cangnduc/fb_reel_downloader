@@ -1,0 +1,92 @@
+{
+  "title": "The Zeigarnik Effect in UX",
+  "summary": "This lesson explains the Zeigarnik Effect, a psychological principle where unfinished tasks stay in active memory longer than completed ones. It demonstrates how to use 'open loops' in onboarding and profile completion to drive user retention, while cautioning that it only works for outcomes users actually value.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "This bar pulls you in, this one doesn't. Here's why."
+    },
+    {
+      "t": "00:02",
+      "text": "Your brain treats unfinished tasks as open loops."
+    },
+    {
+      "t": "00:05",
+      "text": "They stay in active memory up to twice as long as completed ones."
+    },
+    {
+      "t": "00:08",
+      "text": "This is the Zeigarnik Effect."
+    },
+    {
+      "t": "00:10",
+      "text": "That's why every successful onboarding shows a checklist with one or two items unchecked."
+    },
+    {
+      "t": "00:15",
+      "text": "The incomplete state pulls you back to finish it."
+    },
+    {
+      "t": "00:17",
+      "text": "100% complete? You forget. 80%? It nags."
+    },
+    {
+      "t": "00:21",
+      "text": "LinkedIn knows. Your profile says add three more skills."
+    },
+    {
+      "t": "00:24",
+      "text": "For years, that's not a suggestion. That's a deliberate Zeigarnik trigger keeping you in the app."
+    },
+    {
+      "t": "00:29",
+      "text": "But the rule has a catch. It only works for tasks the user actually wants to finish."
+    },
+    {
+      "t": "00:33",
+      "text": "A 30% bar on a marketing email isn't motivation. It's friction."
+    },
+    {
+      "t": "00:37",
+      "text": "Use it on outcomes, not chores."
+    },
+    {
+      "t": "00:40",
+      "text": "Save this for your next onboarding. Follow for more design psychology."
+    }
+  ],
+  "on_screen_text": [
+    "ZEIGARNIK EFFECT",
+    "Unfinished tasks hold weight.",
+    "INCOMPLETE = 2x memory weight",
+    "Leave 1 box unchecked.",
+    "100% complete? You forget. 80%? It nags.",
+    "BIG TECH RUNS ON THIS",
+    "Outcomes, not chores.",
+    "Don't close the loop. Leave it open."
+  ],
+  "ui_patterns": [
+    "Progress bars",
+    "Onboarding checklists",
+    "Profile strength indicators",
+    "Gamification elements"
+  ],
+  "design_principles": [
+    "Zeigarnik Effect",
+    "Open Loops",
+    "User Motivation Alignment",
+    "Goal Gradient Effect"
+  ],
+  "before_after": "A comparison between a fully completed onboarding checklist (100%) which leads to user forgetfulness, and an incomplete checklist (80%) which creates a psychological 'pull' for the user to return.",
+  "tags": [
+    "UX Design",
+    "Psychology",
+    "Onboarding",
+    "User Retention",
+    "Zeigarnik Effect"
+  ],
+  "id": "1402071608435107",
+  "date": "2026-05-11",
+  "url": "https://www.facebook.com/reel/1402071608435107",
+  "file": "2026-05-11_1402071608435107.mp4"
+}

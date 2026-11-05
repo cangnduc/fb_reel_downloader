@@ -1,0 +1,109 @@
+{
+  "title": "Mastering the Golden Ratio in UI",
+  "summary": "This lesson demonstrates how to apply the golden ratio (1.618) to spacing, layout, and typography to create visual harmony. By using this mathematical constant, designers can replace random values with a structured rhythm used by leading tech brands like Apple and Stripe.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "1.618, the golden ratio."
+    },
+    {
+      "t": "00:03",
+      "text": "Applied to spacing. Start with 8 pixels."
+    },
+    {
+      "t": "00:06",
+      "text": "Multiply by 1.618. 13, 21, 34."
+    },
+    {
+      "t": "00:11",
+      "text": "Every gap follows this natural scale. Random padding becomes rhythm."
+    },
+    {
+      "t": "00:16",
+      "text": "Now layout. Split your screen at 61.8 to 38.2."
+    },
+    {
+      "t": "00:21",
+      "text": "Content on the large side, actions on the small side."
+    },
+    {
+      "t": "00:25",
+      "text": "This is why Apple product pages feel so effortless."
+    },
+    {
+      "t": "00:28",
+      "text": "Now typography. Body text at 16."
+    },
+    {
+      "t": "00:31",
+      "text": "Subheading 26, heading 42, display 68."
+    },
+    {
+      "t": "00:36",
+      "text": "Each step times 1.618."
+    },
+    {
+      "t": "00:39",
+      "text": "Stripe, Linear, Airbnb. They all use this exact scale."
+    },
+    {
+      "t": "00:44",
+      "text": "Follow for more design rules. Save this for your next project."
+    }
+  ],
+  "on_screen_text": [
+    "1.618 THE GOLDEN RATIO",
+    "SECRET 01 SPACING SCALE",
+    "Multiply by 1.618",
+    "8 base",
+    "13 small x1.618",
+    "21 medium x1.618",
+    "34 large x1.618",
+    "55 x-large",
+    "RANDOM",
+    "GOLDEN",
+    "SECRET 02 LAYOUT PROPORTIONS",
+    "Split at the golden ratio",
+    "61.8% CONTENT",
+    "38.2% ACTIONS",
+    "SECRET 03 TYPE SCALE",
+    "Each step multiplied by 1.618",
+    "16px BODY",
+    "26px SUBHEADING",
+    "42px HEADING",
+    "68px DISPLAY",
+    "Stripe",
+    "Linear",
+    "Airbnb",
+    "Follow for more design rules",
+    "Save this for your next project"
+  ],
+  "ui_patterns": [
+    "Spacing Scale",
+    "Dashboard Layout",
+    "Sidebar",
+    "Typography Hierarchy",
+    "Content Cards"
+  ],
+  "design_principles": [
+    "Golden Ratio (1.618)",
+    "Visual Rhythm",
+    "Proportional Layout",
+    "Typographic Hierarchy",
+    "Mathematical Spacing"
+  ],
+  "before_after": "A comparison between 'Random' padding and 'Golden' spacing based on the 1.618 multiplier.",
+  "tags": [
+    "UI Design",
+    "UX Design",
+    "Golden Ratio",
+    "Typography",
+    "Layout Design",
+    "Design Systems",
+    "Visual Hierarchy"
+  ],
+  "id": "1242263874610523",
+  "date": "2026-04-10",
+  "url": "https://www.facebook.com/reel/1242263874610523",
+  "file": "2026-04-10_1242263874610523.mp4"
+}

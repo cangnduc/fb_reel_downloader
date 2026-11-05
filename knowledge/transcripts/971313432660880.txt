@@ -1,0 +1,11 @@
+# Chat UI is a System
+2026-09-16 · https://www.facebook.com/reel/971313432660880
+
+[00:00] Chat UI is a system. Six decisions, same thread, half the noise.
+[00:05] Same sender, under two minutes, one group, one avatar. 4 pixel gap inside, 16 between groups. The reader scans people, not lines.
+[00:14] No time on every bubble. A date divider when the date changes. The exact time only on hover. Precision on demand, never in the way.
+[00:23] Hit enter, the bubble is there. Sent state fades in after. Failed shows a red retry, inline, on the message. Never a spinner between you and your own words.
+[00:34] New message while you read? The list does not jump, a pill counts them. Tap it, you slide to the bottom. Anchoring only when you are already there.
+[00:43] The typing indicator lives in the flow, where the next message lands. Three dots, avatar attached. It leaves without moving anything else.
+[00:52] The composer grows to five lines then scrolls. Enter sends, shift-enter breaks. Attachments preview above the text, never inside.
+[01:01] Six decisions. One thread that reads. Now make Claude code think like a senior UX designer.

@@ -1,0 +1,81 @@
+{
+  "title": "5 Rules for Better Error States",
+  "summary": "This reel provides five actionable tips to improve UX by properly handling error states. It covers matching error types to UI patterns, providing recovery paths, and using live validation to prevent errors before they occur.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Your error states are killing users. Five fixes."
+    },
+    {
+      "t": "00:03",
+      "text": "Type the error first. Validation, network, server, permission. Each one needs a different visual pattern."
+    },
+    {
+      "t": "00:11",
+      "text": "Don't show a 500 modal for a typo."
+    },
+    {
+      "t": "00:13",
+      "text": "Every error needs a way out. Retry, refresh, contact us. A dead end is the worst experience you can ship."
+    },
+    {
+      "t": "00:21",
+      "text": "Severity decides the surface. Inline for recoverable, toast for transient, modal only when nothing else works."
+    },
+    {
+      "t": "00:29",
+      "text": "Most apps overuse modals."
+    },
+    {
+      "t": "00:31",
+      "text": "Replace \"An error occurred\" with \"Lost connection, reconnecting in 5 seconds\". Humans read humans, not machines."
+    },
+    {
+      "t": "00:39",
+      "text": "Inline validation kills 80% of errors before they happen. Disable submit until valid, show progress, catch problems early."
+    },
+    {
+      "t": "00:47",
+      "text": "Prevent. Don't catch. Save this for your next error state. Follow for more UI systems."
+    }
+  ],
+  "on_screen_text": [
+    "Error 500",
+    "Lost connection.",
+    "Same error. Better recovery.",
+    "4 errors. 4 patterns.",
+    "RECOVERY: Every error needs an exit.",
+    "HIERARCHY: Severity -> Surface.",
+    "COPY: Words do most of the work.",
+    "PREVENTION: Inline validation kills 80% of errors.",
+    "5 RULES"
+  ],
+  "ui_patterns": [
+    "Modals",
+    "Toasts",
+    "Inline validation",
+    "Input fields",
+    "Action buttons (Retry, Refresh)",
+    "Progress indicators"
+  ],
+  "design_principles": [
+    "Match the error type to the surface",
+    "Always offer a way out (recovery actions)",
+    "Severity drives surface selection",
+    "Write human-readable copy",
+    "Prevent errors with live validation"
+  ],
+  "before_after": "A generic 'Error 500' modal with an 'OK' button is transformed into a contextual 'Lost connection' toast with 'Try again' and 'Refresh' options.",
+  "tags": [
+    "UX Design",
+    "UI Design",
+    "Error States",
+    "Form Validation",
+    "Product Design",
+    "User Experience"
+  ],
+  "id": "1011539707965282",
+  "date": "2026-05-05",
+  "url": "https://www.facebook.com/reel/1011539707965282",
+  "file": "2026-05-05_1011539707965282.mp4"
+}

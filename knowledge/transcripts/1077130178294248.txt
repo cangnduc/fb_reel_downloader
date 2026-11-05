@@ -1,0 +1,12 @@
+# Typography as a System
+2026-09-19 · https://www.facebook.com/reel/1077130178294248
+
+[00:00] Typography is a system. Same font, seven decisions between product and form.
+[00:05] Five sizes max. One ratio, 1.25, never hand-picked pixels. 11 sizes collapsed to five.
+[00:13] Three text colors do more than 10 sizes. Primary, secondary, muted. Color ranks inside a line, size ranks between blocks.
+[00:22] Two weights do all the work. 400 and 600. When everything is bold, nothing is. Regular for reading, semi-bold for scanning.
+[00:30] Line height moves opposite to size. 1.1 on headings, 1.5 on body. The same value everywhere is the AI-made tell.
+[00:39] Letter spacing tightens above 24 pixels. -2%. Small uppercase labels open up instead. +5%.
+[00:48] Body text stays between 45 and 75 characters per line. A paragraph stretched across 1400 pixels is unreadable. Cap the measure, not the container.
+[00:58] Numbers in tables, prices, and timers use tabular figures. One CSS property: tabular-nums. Otherwise, the column wobbles on every update.
+[01:08] Seven decisions. One font that reads like a product. Now make Claude Code think like a senior UX designer. UX Engine designs a screen before coding, audits what is broken, reviews the diff, and kills the AI look. Link in bio.

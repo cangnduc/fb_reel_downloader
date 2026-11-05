@@ -1,0 +1,11 @@
+# Credit Card Input UX Tips
+2026-06-10 · https://www.facebook.com/reel/4388536218092850
+
+[00:00] Type 16 digits. Watch them become a card.
+[00:02] Raw digits are a blur. Group them four by four as they type. 16 numbers turn into a card you can read.
+[00:08] The first digit names the brand. 4 is Visa, 5 is Mastercard. Show the logo the instant it's known.
+[00:15] Insert a space and the cursor jumps back. Smart fields hold the caret where the finger left it. Nothing feels worse than retyping.
+[00:22] Don't flag an error on the first keystroke. Validate on blur, forgive while they type. Red means done and wrong, not unfinished.
+[00:31] Someone pastes a number full of dashes. Strip the noise and reformat it. Never reject a value you could clean yourself.
+[00:37] Format what they see. Store the raw digits underneath. The mask is for humans, the value is for code.
+[00:44] Follow for more form UX. Save this for your next checkout.

@@ -1,0 +1,85 @@
+{
+  "title": "Mastering the CSS :has() Selector",
+  "summary": "This lesson showcases five powerful use cases for the CSS :has() selector, demonstrating how to handle complex UI logic without JavaScript. It covers parent styling, form validation, dynamic layouts, quantity queries, and global document reactions.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "One line of CSS. The whole card reacts to its own checkbox."
+    },
+    {
+      "t": "00:04",
+      "text": "The parent selector. .plan:has(:checked). For 20 years, CSS only looked down and forward. Now it looks up. Every browser since 2023."
+    },
+    {
+      "t": "00:13",
+      "text": ".field:has(:user-invalid). The border, the label, the icon, all turn at once. No change handler. No error state in React. The browser already knows the email is wrong."
+    },
+    {
+      "t": "00:26",
+      "text": "Form has user-invalid button. The pay button grays out with it."
+    },
+    {
+      "t": "00:31",
+      "text": "App has aside. Render a sidebar. The grid grows a column. Remove it, the grid collapses. Layout follows the DOM, not a boolean prop."
+    },
+    {
+      "t": "00:41",
+      "text": "Grid has nth-child 5. Four cards sit wide. A fifth arrives, all of them tighten. A quantity query in CSS. No counting in JavaScript."
+    },
+    {
+      "t": "00:52",
+      "text": "Body has dialog open. Scroll locks. The page behind dims. The whole document reacts to one open modal. The dialog itself does nothing. Close it, everything comes back. No cleanup effect."
+    },
+    {
+      "t": "01:07",
+      "text": "Five selectors. Zero JavaScript. For the rest of your UI, type /restyle. UX Engine, the Claude code plugin that kills the AI look. Link in bio."
+    }
+  ],
+  "on_screen_text": [
+    "ONE LINE OF CSS - 01",
+    "The card reacts to its checkbox.",
+    ".plan:has(:checked) { border-color: var(--accent) }",
+    "SELECTOR 01 - THE PARENT",
+    "CSS looks up now.",
+    "SELECTOR 02 - VALIDATION",
+    "The whole field knows.",
+    ".field:has(:user-invalid) { border-color: var(--error) }",
+    "SELECTOR 03 - LAYOUT",
+    "Layout follows the DOM.",
+    ".app:has(aside) { grid-template-columns: 280px 1fr }",
+    "SELECTOR 04 - QUANTITY",
+    "The grid counts its children.",
+    ".plans:has(> :nth-child(n + 5)) { --density: compact }",
+    "SELECTOR 05 - DIALOG",
+    "The document reacts to the modal.",
+    "body:has(dialog[open]) { overflow: hidden }",
+    "0 lines of JavaScript"
+  ],
+  "ui_patterns": [
+    "Pricing Cards",
+    "Radio Buttons",
+    "Form Validation",
+    "Sidebar Layout",
+    "Modal Dialog",
+    "Dynamic Grid"
+  ],
+  "design_principles": [
+    "Parent Selection",
+    "Native Browser Validation",
+    "DOM-driven Layout",
+    "Quantity Queries",
+    "Declarative UI Styling"
+  ],
+  "before_after": "Transitioning from JavaScript-heavy state management (React hooks, event handlers) to pure CSS logic for interactive UI components.",
+  "tags": [
+    "CSS",
+    "Web Development",
+    "UI Design",
+    "Frontend",
+    "Coding Tips"
+  ],
+  "id": "1723838365576036",
+  "date": "2026-09-10",
+  "url": "https://www.facebook.com/reel/1723838365576036",
+  "file": "2026-09-10_1723838365576036.mp4"
+}

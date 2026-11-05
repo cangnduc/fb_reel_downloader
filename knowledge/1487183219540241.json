@@ -1,0 +1,71 @@
+{
+  "title": "Search Bar Design System",
+  "summary": "This lesson breaks down search as a five-part system rather than a single input field. It covers optimizing placeholders, recent searches, autocomplete ranking, keyboard accessibility, and zero-results recovery.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Search is a system. Five parts. Most apps skip them."
+    },
+    {
+      "t": "00:03",
+      "text": "Placeholder copy is your first onboarding. 'Search' tells nothing. 'Search by name, SKU, or brand' tells everything."
+    },
+    {
+      "t": "00:10",
+      "text": "Empty state isn't empty. Recent searches load when users focus. One click fills the bar. Friction drops to zero."
+    },
+    {
+      "t": "00:18",
+      "text": "Autocomplete ranks results by clicks, not alphabet. Each option shows a category badge. Three results beat ten."
+    },
+    {
+      "t": "00:25",
+      "text": "Arrow keys navigate results. Enter selects, Escape closes. The focus ring must stay visible."
+    },
+    {
+      "t": "00:33",
+      "text": "Zero results shouldn't be a dead end. Suggest alternatives: popular searches or category jumps. Bad empty states lose users at the worst moment."
+    },
+    {
+      "t": "00:42",
+      "text": "Follow for more UI systems. Save this for your next search bar. The best UI feels invisible until it fails."
+    }
+  ],
+  "on_screen_text": [
+    "Search is a system.",
+    "01 - PLACEHOLDER Your first onboarding.",
+    "02 - RECENT Empty state isn't empty.",
+    "03 - AUTOCOMPLETE Rank by clicks, not alphabet.",
+    "04 - KEYBOARD Keep focus visible.",
+    "05 - ZERO RESULTS Never a dead end.",
+    "Save for your next search bar."
+  ],
+  "ui_patterns": [
+    "Search Input",
+    "Placeholder Text",
+    "Recent Searches List",
+    "Autocomplete Suggestions",
+    "Category Badges",
+    "Focus Ring",
+    "Zero Results / Empty State"
+  ],
+  "design_principles": [
+    "Onboarding through microcopy (What, How, Scope)",
+    "Friction reduction via one-tap reuse",
+    "Popularity-based ranking over alphabetical sorting",
+    "Keyboard accessibility (WCAG 2.4.7 compliance)",
+    "Recovery paths for zero-result states"
+  ],
+  "before_after": "Transforms a basic 'Search' input into a comprehensive system including recent history, ranked suggestions, and recovery options for failed queries.",
+  "tags": [
+    "UX Design",
+    "UI Design",
+    "Search Bar",
+    "Accessibility",
+    "Interaction Design"
+  ],
+  "id": "1487183219540241",
+  "date": "2026-05-16",
+  "url": "https://www.facebook.com/reel/1487183219540241",
+  "file": "2026-05-16_1487183219540241.mp4"
+}

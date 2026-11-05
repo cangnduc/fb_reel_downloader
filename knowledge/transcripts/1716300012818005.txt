@@ -1,0 +1,17 @@
+# One Tap, One Charge: Optimizing Action Buttons
+2026-08-23 · https://www.facebook.com/reel/1716300012818005
+
+[00:00] The moment it's tapped, the button disables itself instantly.
+[00:03] A slow network shouldn't let you buy a second time.
+[00:06] One intent, one request.
+[00:09] Swap the label for a spinner inside the same button.
+[00:12] With the width locked, so nothing around it jumps.
+[00:15] Layout shift reads as broken.
+[00:18] Disabling the UI isn't enough on its own.
+[00:20] Guard the handler directly in your own code.
+[00:23] Hand the server a real idempotency key.
+[00:26] On success, morph the spinner into a check for a full beat before moving the user along.
+[00:30] On error, snap back and say why, right there on the button.
+[00:34] Re-enable only after the real request resolves.
+[00:37] Not on a timer, not on a guess.
+[00:40] Go to designmotionhq.com for more, link in bio.

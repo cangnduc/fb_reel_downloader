@@ -1,0 +1,87 @@
+{
+  "title": "4 UI Fixes for Real Content",
+  "summary": "This reel demonstrates how to prevent UI layouts from breaking when faced with real-world data like long names or URLs. It covers four essential CSS fixes: min-width for flexbox, middle truncation, tabular numbers, and overflow wrapping.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "This card looks fine until someone signs up with a real name."
+    },
+    {
+      "t": "00:03",
+      "text": "Real content breaks layouts."
+    },
+    {
+      "t": "00:04",
+      "text": "Your ellipsis never fires. A flex child refuses to shrink below its own text, so the name shoves the button off the card."
+    },
+    {
+      "t": "00:12",
+      "text": "Set min-width to zero on the child that should shrink."
+    },
+    {
+      "t": "00:16",
+      "text": "Cutting the end throws away the answer. A file name is its extension, an email is its domain."
+    },
+    {
+      "t": "00:23",
+      "text": "Truncate the middle instead and both ends survive."
+    },
+    {
+      "t": "00:26",
+      "text": "Live numbers make the row twitch. Proportional digits are different widths, so every update nudges the layout."
+    },
+    {
+      "t": "00:32",
+      "text": "Tabular-nums locks them to one width. Dead still."
+    },
+    {
+      "t": "00:36",
+      "text": "One long URL can blow out the whole card. Browsers never break inside a word, so the container stretches until your layout gives up."
+    },
+    {
+      "t": "00:44",
+      "text": "Overflow-wrap anywhere gives it permission to break."
+    },
+    {
+      "t": "00:47",
+      "text": "Follow for more UI systems. Save this before your next demo."
+    }
+  ],
+  "on_screen_text": [
+    "Real content breaks layouts.",
+    "01 the ellipsis that never fires",
+    "min-width: 0, or no ellipsis.",
+    "02 cut the middle, not the end",
+    "Both ends carry meaning.",
+    "03 numbers that twitch",
+    "Digits should never move.",
+    "04 one word, no break",
+    "Long strings need permission.",
+    "THE FOUR FIXES"
+  ],
+  "ui_patterns": [
+    "User Cards",
+    "File Lists",
+    "Metric Dashboards",
+    "Message Bubbles",
+    "Flexbox Layouts"
+  ],
+  "design_principles": [
+    "Flexbox min-width behavior",
+    "Context-aware truncation",
+    "Tabular vs Proportional numerals",
+    "Word breaking for long strings"
+  ],
+  "before_after": "Shows UI components breaking under long or dynamic content, then fixed with specific CSS properties like min-width: 0 and tabular-nums.",
+  "tags": [
+    "UI Design",
+    "CSS",
+    "Frontend Development",
+    "UX Design",
+    "Responsive Design"
+  ],
+  "id": "1051915977228458",
+  "date": "2026-08-02",
+  "url": "https://www.facebook.com/reel/1051915977228458",
+  "file": "2026-08-02_1051915977228458.mp4"
+}

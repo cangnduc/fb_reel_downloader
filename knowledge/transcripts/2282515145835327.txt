@@ -1,0 +1,15 @@
+# Mastering Notification Systems
+2026-05-28 · https://www.facebook.com/reel/2282515145835327
+
+[00:00] Notifications are a system. Pick wrong, users tune out.
+[00:03] Toast slides in the corner. Banner takes the full top. Modal blocks everything. Badge just sits there.
+[00:09] Same content. Four different volumes. Pick the volume that matches the message.
+[00:12] A new message? Toast. Server is degraded? Banner. Card declined? Modal. Three unread comments? Badge.
+[00:21] Severity picks the surface.
+[00:23] How they live and die. Toast auto-dismiss in four seconds.
+[00:25] Add an undo for destructive actions. Banners stay until users click X.
+[00:30] Modals demand a choice before anything else moves. Badges wait quietly until cleared.
+[00:34] Persistence is part of the contract. Three toasts? They breathe in a stack.
+[00:37] Three modals? Train wreck. Mixed surfaces by severity, never by habit.
+[00:43] Wrong surface equals zero attention.
+[00:46] Follow for more UI systems. Save this for your next dashboard.

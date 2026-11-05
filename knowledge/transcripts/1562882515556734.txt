@@ -1,0 +1,15 @@
+# Multiplayer UX Engineering
+2026-07-20 · https://www.facebook.com/reel/1562882515556734
+
+[00:00] Three cursors land on your canvas. None of them are yours.
+[00:03] The server sends 10 positions a second. Your screen draws 60.
+[00:06] Interpolation fills the gaps, so cursors glide instead of teleporting.
+[00:10] Every user gets a color, hashed from their ID.
+[00:13] Same person, same color—every session. Identity you can track from the corner of your eye.
+[00:19] Avatars stack before anyone speaks. Three faces, then a plus five counter.
+[00:24] You feel the room before you read a single name.
+[00:27] Sarah grabs a card. It glows in her color. Locked.
+[00:31] Two people editing one shape is a corrupted shape. The lock prevents the conflict before it exists.
+[00:37] Click an avatar and your viewport follows theirs. Their pans, their zooms—live.
+[00:42] A design review without a screen share.
+[00:44] Multiplayer is a system. Follow for more UX engineering. Save this for your next collab feature.

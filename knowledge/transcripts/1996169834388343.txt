@@ -1,0 +1,17 @@
+# Designing for Touch vs. Mouse
+2026-08-05 · https://www.facebook.com/reel/1996169834388343
+
+[00:00] Hover the card, actions appear. Tap it, nothing.
+[00:03] Touch has no hover, so the browser fakes one.
+[00:06] The first tap becomes a hover and the actions freeze there.
+[00:09] They stay lit until your user taps somewhere else.
+[00:12] Guard it with a media query, not a device sniff.
+[00:15] Hover. Hover asks about the pointer, so a tablet with a mouse still gets the full treatment.
+[00:20] Pair it with pointer: coarse when your targets need to grow.
+[00:24] Anything you hide behind hover is gone on mobile.
+[00:27] Move those actions into the card, a swipe, or a bottom sheet.
+[00:31] Hover reveals extras, never the primary action.
+[00:34] Tap targets need 44 pixels.
+[00:37] Your 20 pixel icon passes design review and misses the thumb.
+[00:41] Pad the hit area and keep the icon small.
+[00:44] Follow for more UX systems. Save this for your next mobile pass.

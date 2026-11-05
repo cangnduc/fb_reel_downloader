@@ -1,0 +1,10 @@
+# De-AI Your UI: Pricing Page Optimization
+2026-09-21 · https://www.facebook.com/reel/1361704646040572
+
+[00:00] Three identical tiers, a badge on each, 12 checkmarks. AI made, five tells.
+[00:05] Tell one: Only one tier gets the highlight. Three equal cards is no recommendation. The middle one lifts, the others step back. The top tier exists to make it feel fair.
+[00:16] Tell two: Most popular on one tier. A badge on every card is a badge on none. The rest get nothing, not a smaller badge. Silence is what makes the label work.
+[00:26] Tell three: List what changes between tiers, not 12 checkmarks that repeat. Everything in Starter, plus and three lines. 12 identical checks are a wall, not a comparison.
+[00:37] Tell four: One primary button on the page. Gradient buttons on all three is the AI signature. Filled on the picked, outlined on the rest. The eye lands on one click.
+[00:48] Tell five: Annual toggle with the saving written in money. $98 off beats 17% off. Nobody computes percent at checkout. The monthly price stays, struck through.
+[01:00] Five tells fixed. One tier that sells. Now make Claude Code think like a senior UX designer. UX Engine designs a screen before coding, audits what is broken, reviews the diff, and kills the AI look. Link in bio.

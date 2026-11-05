@@ -1,0 +1,12 @@
+# Mastering Notification Badges
+2026-08-29 · https://www.facebook.com/reel/1738722907177807
+
+[00:00] That red dot is a system.
+[00:02] One unread shows a single dot. 200 shows 99+. The cap keeps the shape stable.
+[00:08] The badge pins to the top corner. One digit or three, the icon never moves under it.
+[00:13] Red means act now. Green means online. A counting badge and a status dot are not the same object.
+[00:20] A dot says something changed. A number says how much. Showing both is noise.
+[00:26] It clears the second you open the view. A badge that lingers after you've looked trains people to ignore every badge.
+[00:32] When the count climbs, it ticks up. It never resets to zero on screen. That flash reads as a bug.
+[00:40] Badge only what needs a decision. Badge everything and the color stops meaning anything.
+[00:45] More UI systems at designmotionhq.com. Link in bio. Save this for your next build.

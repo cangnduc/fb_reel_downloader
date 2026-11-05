@@ -1,0 +1,101 @@
+{
+  "title": "The Serial Position Effect in UI Design",
+  "summary": "This lesson explains how the serial position effect causes users to remember the first and last items in a sequence best. It provides actionable tips for organizing navbars, landing pages, and onboarding flows to maximize impact.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Your memory is U-shaped."
+    },
+    {
+      "t": "00:01",
+      "text": "The first item benefits from primacy, the last from recency."
+    },
+    {
+      "t": "00:04",
+      "text": "Items 2 through 8, they vanish."
+    },
+    {
+      "t": "00:07",
+      "text": "This is the serial position effect."
+    },
+    {
+      "t": "00:09",
+      "text": "Apply to your navbar: Logo first, conversion CTA last."
+    },
+    {
+      "t": "00:13",
+      "text": "The five items between them, most users won't recall them."
+    },
+    {
+      "t": "00:17",
+      "text": "So put your weakest links in the middle, your strongest at the edges."
+    },
+    {
+      "t": "00:20",
+      "text": "Apply it to landing pages: Lead with your strongest unique value prop."
+    },
+    {
+      "t": "00:23",
+      "text": "End with your strongest proof: testimonial, logo wall, case study."
+    },
+    {
+      "t": "00:28",
+      "text": "The middle is the skipping zone. Don't bury the gold there."
+    },
+    {
+      "t": "00:31",
+      "text": "Apply it to onboarding flows: Slide 1 hooks, Slide N pays off."
+    },
+    {
+      "t": "00:36",
+      "text": "The slides between get scrolled past."
+    },
+    {
+      "t": "00:38",
+      "text": "Move your filler to the middle, your magic to the bookends."
+    },
+    {
+      "t": "00:41",
+      "text": "Save this for your next layout. Follow for more design psychology."
+    }
+  ],
+  "on_screen_text": [
+    "Memory is U-shaped.",
+    "PRIMACY - #1",
+    "MIDDLE - #2-#8",
+    "RECENCY - #9",
+    "Logo first. CTA last.",
+    "Strongest links -> edges -> weakest -> middle",
+    "Strongest USP first. Strongest proof last.",
+    "SKIP ZONE: Filler. Necessary. Not memorable.",
+    "Don't bury the gold in the middle.",
+    "Slide 1 hooks. Slide N pays off.",
+    "Magic at the bookends. Filler in the middle.",
+    "Strongest first. Strongest last."
+  ],
+  "ui_patterns": [
+    "Navbar",
+    "Call to Action (CTA)",
+    "Landing Page",
+    "Testimonial",
+    "Logo Wall",
+    "Onboarding Carousel"
+  ],
+  "design_principles": [
+    "Serial Position Effect",
+    "Primacy Effect",
+    "Recency Effect"
+  ],
+  "before_after": "Optimizing the placement of critical UI elements (logos, CTAs, USPs) to the start and end of sequences to maximize user recall.",
+  "tags": [
+    "UX Design",
+    "UI Design",
+    "Psychology",
+    "Serial Position Effect",
+    "Conversion Optimization"
+  ],
+  "id": "1159162060607416",
+  "date": "2026-05-09",
+  "url": "https://www.facebook.com/reel/1159162060607416",
+  "file": "2026-05-09_1159162060607416.mp4"
+}

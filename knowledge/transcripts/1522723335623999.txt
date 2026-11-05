@@ -1,0 +1,26 @@
+# Settings is a System
+2026-07-29 · https://www.facebook.com/reel/1522723335623999
+
+[00:00] Most of it is harmless.
+[00:01] The bottom deletes everything.
+[00:02] Settings is a system.
+[00:03] Instant. Or explicit.
+[00:04] Toggles apply instantly. Flip, done.
+[00:06] Identity fields don't.
+[00:08] They get a save bar and a cancel.
+[00:10] Match the model to the blast radius.
+[00:12] Forty settings and one list reads like a phone book.
+[00:15] Group by task.
+[00:16] Hide advanced behind one click.
+[00:18] Stripe splits by job: payments, billing, team.
+[00:22] Power users never scroll. They search.
+[00:24] One input finds any setting buried three levels deep.
+[00:27] Highlight the match, show the path.
+[00:30] Every changed setting shows a dot and a reset.
+[00:33] VS Code marks every override with a colored bar.
+[00:36] Users experiment when undo is one click away.
+[00:40] Destructive actions live in quarantine.
+[00:42] Red border, bottom of the page.
+[00:44] Deleting means typing the name first.
+[00:46] The button stays dead until the name matches.
+[00:49] Settings is a system. Follow for more UI engineering. Save this for your next project.

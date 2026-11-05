@@ -1,0 +1,15 @@
+# Mastering the Golden Ratio in UI
+2026-04-10 · https://www.facebook.com/reel/1242263874610523
+
+[00:00] 1.618, the golden ratio.
+[00:03] Applied to spacing. Start with 8 pixels.
+[00:06] Multiply by 1.618. 13, 21, 34.
+[00:11] Every gap follows this natural scale. Random padding becomes rhythm.
+[00:16] Now layout. Split your screen at 61.8 to 38.2.
+[00:21] Content on the large side, actions on the small side.
+[00:25] This is why Apple product pages feel so effortless.
+[00:28] Now typography. Body text at 16.
+[00:31] Subheading 26, heading 42, display 68.
+[00:36] Each step times 1.618.
+[00:39] Stripe, Linear, Airbnb. They all use this exact scale.
+[00:44] Follow for more design rules. Save this for your next project.

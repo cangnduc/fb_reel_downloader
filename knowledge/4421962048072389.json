@@ -1,0 +1,84 @@
+{
+  "title": "Focus is a Feature: Keyboard Accessibility",
+  "summary": "This lesson covers the critical importance of focus states for keyboard accessibility, detailing how to style focus rings, manage tab order, and implement focus traps. It emphasizes that accessibility is a legal and functional requirement, not just a stylistic choice.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Press Tab. Where did the focus go?"
+    },
+    {
+      "t": "00:02",
+      "text": "Outline none is not a style choice. It's a lawsuit."
+    },
+    {
+      "t": "00:06",
+      "text": "A ring needs two pixels, an offset, and contrast on every background. If you kill the default, ship a better one."
+    },
+    {
+      "t": "00:12",
+      "text": "Mouse users never asked for a ring. Keyboard users can't work without one. :focus-visible tells them apart. Click, no ring. Tab, ring. Both sides win."
+    },
+    {
+      "t": "00:23",
+      "text": "Focus follows the DOM, not your layout. Reorder columns with CSS and tab starts teleporting across the page. Visual order and DOM order have to match."
+    },
+    {
+      "t": "00:32",
+      "text": "A modal opens. Focus must lock inside. Tab cycles through the dialogue and wraps around. Escape closes it and hands focus back to the button that opened it."
+    },
+    {
+      "t": "00:42",
+      "text": "40 links stand between tab and your content. A skip link jumps past all of them in one press. Invisible until focused. First element on the page."
+    },
+    {
+      "t": "00:52",
+      "text": "Focus is a feature. Follow for more UX engineering. Save this for your next accessibility pass."
+    }
+  ],
+  "on_screen_text": [
+    "Press Tab. Where's the focus?",
+    "Your keyboard users see nothing.",
+    "THE FOCUS RING: Don't kill the ring.",
+    "WCAG 2.4.7 FAIL",
+    "2px width, 2px offset, 3:1 contrast",
+    "Kill it? Ship a better one.",
+    ":FOCUS-VISIBLE: Ring for those who need it.",
+    "TAB ORDER: Focus follows the DOM.",
+    "Visual order = DOM order",
+    "FOCUS TRAP: Lock focus inside.",
+    "Escape hands focus back.",
+    "SKIP LINK: Jump the header in one press.",
+    "Invisible until focused.",
+    "UX ENGINEERING - A11Y",
+    "Focus is a feature."
+  ],
+  "ui_patterns": [
+    "Focus Ring",
+    "Input Fields",
+    "Buttons",
+    "Modals",
+    "Skip Links",
+    "Dashboard Grid"
+  ],
+  "design_principles": [
+    "WCAG 2.4.7 Compliance",
+    "3:1 Contrast Ratio",
+    "Focus-Visible Pseudo-class",
+    "DOM Order Consistency",
+    "Focus Trapping",
+    "Skip Navigation"
+  ],
+  "before_after": "A checkout form with invisible focus states is transformed into one with clear, accessible focus rings; a dashboard with chaotic tab order is corrected to follow logical DOM flow.",
+  "tags": [
+    "Accessibility",
+    "A11Y",
+    "UX Design",
+    "Web Design",
+    "CSS",
+    "UI Patterns"
+  ],
+  "id": "4421962048072389",
+  "date": "2026-07-08",
+  "url": "https://www.facebook.com/reel/4421962048072389",
+  "file": "2026-07-08_4421962048072389.mp4"
+}

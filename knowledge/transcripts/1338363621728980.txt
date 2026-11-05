@@ -1,0 +1,14 @@
+# Automated UX Audits with Claude Code
+2026-05-27 · https://www.facebook.com/reel/1338363621728980
+
+[00:00] I made Claude Code audit its own UI.
+[00:03] Inside one plugin, six UX skills, two sub-agents, three commands.
+[00:08] The skills auto-fire when Claude builds UI: intent discovery, information hierarchy, state completeness, form UX, feedback and affordance, UX auditor.
+[00:19] Two agents: a designer that returns wireframes, a reviewer that audits pull requests.
+[00:24] And three slash commands you call directly, pointed at any file.
+[00:28] slash UX audit, SRC slash dashboard. It infers user intent, finds every UX gap, ranks them by severity.
+[00:36] Here's what it found in a real dashboard: four P0 issues, critical, blocking ship, three P1s, two P2s.
+[00:44] Each issue with the exact code to fix it. No vague design feedback, just the diff.
+[00:50] Like this delete button: solid primary blue, same weight as the add user button.
+[00:54] The audit shows the two-line fix: ghost variant, destructive prop, shipped.
+[01:00] This is UX Engine, a Claude Code plugin for Senior UX. Link in bio.

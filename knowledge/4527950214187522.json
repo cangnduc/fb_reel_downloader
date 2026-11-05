@@ -1,0 +1,157 @@
+{
+  "title": "Dark Mode Design System",
+  "summary": "This lesson covers essential principles for creating a professional dark mode UI, moving beyond simple black and white. It teaches techniques for depth, elevation, text legibility, and handling accents and images.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Black background. White text."
+    },
+    {
+      "t": "00:02",
+      "text": "That's not dark mode. That's a terminal."
+    },
+    {
+      "t": "00:05",
+      "text": "Near black, not black."
+    },
+    {
+      "t": "00:06",
+      "text": "Pure black saves OLED battery. It also kills depth."
+    },
+    {
+      "t": "00:09",
+      "text": "Nothing sits lower than black, so every surface fights for one plane."
+    },
+    {
+      "t": "00:13",
+      "text": "Start near black. Now your layers have room."
+    },
+    {
+      "t": "00:17",
+      "text": "Lightness is elevation. Shadows die on dark."
+    },
+    {
+      "t": "00:19",
+      "text": "Black on black is invisible. So your card floats nowhere."
+    },
+    {
+      "t": "00:23",
+      "text": "Raise it with lightness. The higher the surface, the lighter it gets."
+    },
+    {
+      "t": "00:28",
+      "text": "Three tiers of white. Pure white text vibrates."
+    },
+    {
+      "t": "00:30",
+      "text": "Full contrast on a dark surface burns after one paragraph."
+    },
+    {
+      "t": "00:34",
+      "text": "Drop it to 87%. Secondary at 60. Disabled at 38."
+    },
+    {
+      "t": "00:40",
+      "text": "Three tiers, one variable."
+    },
+    {
+      "t": "00:43",
+      "text": "Calm the accent. Your brand blue bleeds."
+    },
+    {
+      "t": "00:45",
+      "text": "Saturated color on a dark surface glows past its edges and outshines your content."
+    },
+    {
+      "t": "00:49",
+      "text": "Lighten it. Desaturate it. Same hue, less weight."
+    },
+    {
+      "t": "00:55",
+      "text": "Alpha hairlines. Edges need a hairline."
+    },
+    {
+      "t": "00:56",
+      "text": "One pixel of white at 8% alpha reads on any surface."
+    },
+    {
+      "t": "01:00",
+      "text": "Use alpha, not a fixed gray. The line adapts as the surface lightens."
+    },
+    {
+      "t": "01:05",
+      "text": "Dim the photos. Photos glare on dark."
+    },
+    {
+      "t": "01:07",
+      "text": "A bright image on a dim page pulls every eye."
+    },
+    {
+      "t": "01:10",
+      "text": "Dim it to 90% brightness."
+    },
+    {
+      "t": "01:12",
+      "text": "Illustrations get a dark variant, not a filter."
+    },
+    {
+      "t": "01:15",
+      "text": "Dark mode is a system."
+    }
+  ],
+  "on_screen_text": [
+    "DARK MODE - 01 SURFACE",
+    "Near black, not black.",
+    "saves OLED battery",
+    "kills depth",
+    "DARK MODE - 02 ELEVATION",
+    "Lightness is elevation.",
+    "Raise with lightness, not shadow",
+    "DARK MODE - 03 TEXT",
+    "Three tiers of white.",
+    "Never pure white",
+    "DARK MODE - 04 ACCENT",
+    "Calm the accent.",
+    "Saturated glows past its edges",
+    "Same hue - lighter - softer",
+    "DARK MODE - 05 HAIRLINE",
+    "Alpha hairlines.",
+    "Alpha adapts. Hex doesn't.",
+    "DARK MODE - 06 IMAGES",
+    "Dim the photos.",
+    "Bright image, stolen attention",
+    "Dark mode is a system."
+  ],
+  "ui_patterns": [
+    "Dashboard",
+    "Cards",
+    "Chips",
+    "Modals",
+    "Menus",
+    "Buttons",
+    "Search bars",
+    "Data visualization",
+    "Illustrations"
+  ],
+  "design_principles": [
+    "Use near-black instead of pure black for depth",
+    "Use lightness to indicate elevation",
+    "Avoid pure white text to reduce eye strain",
+    "Use alpha transparency for text hierarchy",
+    "Desaturate accent colors",
+    "Use alpha for borders/hairlines",
+    "Dim images and redraw illustrations for dark mode"
+  ],
+  "before_after": "A flat, high-contrast black and white dashboard is transformed into a layered, accessible, and visually balanced dark mode interface.",
+  "tags": [
+    "UI Design",
+    "Dark Mode",
+    "Accessibility",
+    "Color Theory",
+    "Visual Hierarchy"
+  ],
+  "id": "4527950214187522",
+  "date": "2026-08-31",
+  "url": "https://www.facebook.com/reel/4527950214187522",
+  "file": "2026-08-31_4527950214187522.mp4"
+}

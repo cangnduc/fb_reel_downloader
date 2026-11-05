@@ -1,0 +1,82 @@
+{
+  "title": "Toasts done right.",
+  "summary": "This reel teaches five essential rules for designing toast notifications: optimal positioning, severity-based timing, stacking limits, user-controlled dismissibility, and accessible color coding. It emphasizes creating non-intrusive, informative UI elements that respect user workflow.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Most toasts break three of these five rules."
+    },
+    {
+      "t": "00:02",
+      "text": "Rule 1: Position. Desktop toasts live bottom-right. Mobile goes top. Never center. Center blocks what users are actually doing."
+    },
+    {
+      "t": "00:10",
+      "text": "Rule 2: Timing. Info dismisses at 4 seconds. Warnings hold 7. Errors stay until the user acknowledges. A fixed timer is a bug."
+    },
+    {
+      "t": "00:19",
+      "text": "Rule 3: Stacking. Maximum three visible. New ones push old ones up with spring physics. Damping 20, stiffness 180. Anything else feels cheap."
+    },
+    {
+      "t": "00:28",
+      "text": "Rule 4: Always dismissible. A close button, swipe on mobile, pause on hover. If users can't escape your toast, it's not a toast, it's a modal."
+    },
+    {
+      "t": "00:36",
+      "text": "Rule 5: Color coding. Each type needs an icon plus a left border color. Background tint alone isn't enough. 6% of users can't distinguish it."
+    },
+    {
+      "t": "00:44",
+      "text": "Five rules. Zero excuses. Follow for more design details. Save this for your next toast implementation."
+    }
+  ],
+  "on_screen_text": [
+    "Toasts done right.",
+    "Rule 01 Position",
+    "Desktop - Bottom-right",
+    "Mobile - Top",
+    "Center - Blocks content",
+    "Rule 02 Timing",
+    "4s - Auto-dismiss",
+    "7s - Holds longer",
+    "Until acknowledged",
+    "Rule 03 Stacking",
+    "Damping: 20",
+    "Stiffness: 180",
+    "Max 3 visible",
+    "Rule 04 Dismissible",
+    "Close button",
+    "Swipe to dismiss",
+    "Hover to pause",
+    "Rule 05 Color coding",
+    "6% of users can't tell them apart",
+    "Five rules. Zero excuses."
+  ],
+  "ui_patterns": [
+    "Toast Notifications",
+    "Snackbars",
+    "Close Buttons",
+    "Icons",
+    "Notification Stacks"
+  ],
+  "design_principles": [
+    "Context-aware positioning",
+    "Severity-based timing",
+    "User control and freedom",
+    "Accessibility through redundant coding",
+    "Natural motion with spring physics"
+  ],
+  "before_after": "Contrasts centered toasts (which block content) with corner or top-aligned toasts that remain non-intrusive.",
+  "tags": [
+    "UI Design",
+    "UX Design",
+    "Notifications",
+    "Accessibility",
+    "Design Systems"
+  ],
+  "id": "2149760112506033",
+  "date": "2026-04-18",
+  "url": "https://www.facebook.com/reel/2149760112506033",
+  "file": "2026-04-18_2149760112506033.mp4"
+}

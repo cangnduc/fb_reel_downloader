@@ -1,0 +1,17 @@
+# The Serial Position Effect in UI Design
+2026-05-09 · https://www.facebook.com/reel/1159162060607416
+
+[00:00] Your memory is U-shaped.
+[00:01] The first item benefits from primacy, the last from recency.
+[00:04] Items 2 through 8, they vanish.
+[00:07] This is the serial position effect.
+[00:09] Apply to your navbar: Logo first, conversion CTA last.
+[00:13] The five items between them, most users won't recall them.
+[00:17] So put your weakest links in the middle, your strongest at the edges.
+[00:20] Apply it to landing pages: Lead with your strongest unique value prop.
+[00:23] End with your strongest proof: testimonial, logo wall, case study.
+[00:28] The middle is the skipping zone. Don't bury the gold there.
+[00:31] Apply it to onboarding flows: Slide 1 hooks, Slide N pays off.
+[00:36] The slides between get scrolled past.
+[00:38] Move your filler to the middle, your magic to the bookends.
+[00:41] Save this for your next layout. Follow for more design psychology.

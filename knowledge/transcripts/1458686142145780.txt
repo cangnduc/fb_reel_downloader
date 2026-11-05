@@ -1,0 +1,20 @@
+# The Peak-End Rule in UX Design
+2026-05-14 · https://www.facebook.com/reel/1458686142145780
+
+[00:00] Same UX, different memory. Here is why.
+[00:02] Your brain doesn't average experiences.
+[00:04] It only remembers the peak moment and the end.
+[00:06] This is the Peak-End Rule.
+[00:08] Two-second flow or two-day vacation, same wiring.
+[00:11] 60 seconds, identical form, identical loading.
+[00:13] But one ends with a confetti animation.
+[00:16] The other just stops.
+[00:17] Same time spent, but the first one rates 40% higher in memory.
+[00:21] Now design intentional peaks.
+[00:23] The aha moment when filters click, the shipping date that beats expectation.
+[00:27] One delight beats five neutral interactions.
+[00:29] But the rule cuts both ways.
+[00:31] A perfect onboarding that ends with a payment error?
+[00:34] Users only remember the error.
+[00:36] The 99% that worked? Gone.
+[00:38] Forget the average. Polish the end.

@@ -1,0 +1,151 @@
+{
+  "title": "Settings is a System",
+  "summary": "This reel teaches how to design a robust settings system by categorizing actions based on their impact. It covers the use of instant vs. explicit save models, task-based grouping, search functionality, and high-friction 'danger zones' for destructive actions.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Most of it is harmless."
+    },
+    {
+      "t": "00:01",
+      "text": "The bottom deletes everything."
+    },
+    {
+      "t": "00:02",
+      "text": "Settings is a system."
+    },
+    {
+      "t": "00:03",
+      "text": "Instant. Or explicit."
+    },
+    {
+      "t": "00:04",
+      "text": "Toggles apply instantly. Flip, done."
+    },
+    {
+      "t": "00:06",
+      "text": "Identity fields don't."
+    },
+    {
+      "t": "00:08",
+      "text": "They get a save bar and a cancel."
+    },
+    {
+      "t": "00:10",
+      "text": "Match the model to the blast radius."
+    },
+    {
+      "t": "00:12",
+      "text": "Forty settings and one list reads like a phone book."
+    },
+    {
+      "t": "00:15",
+      "text": "Group by task."
+    },
+    {
+      "t": "00:16",
+      "text": "Hide advanced behind one click."
+    },
+    {
+      "t": "00:18",
+      "text": "Stripe splits by job: payments, billing, team."
+    },
+    {
+      "t": "00:22",
+      "text": "Power users never scroll. They search."
+    },
+    {
+      "t": "00:24",
+      "text": "One input finds any setting buried three levels deep."
+    },
+    {
+      "t": "00:27",
+      "text": "Highlight the match, show the path."
+    },
+    {
+      "t": "00:30",
+      "text": "Every changed setting shows a dot and a reset."
+    },
+    {
+      "t": "00:33",
+      "text": "VS Code marks every override with a colored bar."
+    },
+    {
+      "t": "00:36",
+      "text": "Users experiment when undo is one click away."
+    },
+    {
+      "t": "00:40",
+      "text": "Destructive actions live in quarantine."
+    },
+    {
+      "t": "00:42",
+      "text": "Red border, bottom of the page."
+    },
+    {
+      "t": "00:44",
+      "text": "Deleting means typing the name first."
+    },
+    {
+      "t": "00:46",
+      "text": "The button stays dead until the name matches."
+    },
+    {
+      "t": "00:49",
+      "text": "Settings is a system. Follow for more UI engineering. Save this for your next project."
+    }
+  ],
+  "on_screen_text": [
+    "Settings is a system.",
+    "APPLY MODEL: Instant. Or explicit.",
+    "instant for preferences • explicit for identity",
+    "low stakes -> instant",
+    "identity -> explicit",
+    "STRUCTURE: Forty settings, zero map",
+    "one flat list",
+    "grouped by task",
+    "group by task, not by table",
+    "SEARCH: Nobody scrolls to row 40.",
+    "type to filter • enter to jump",
+    "MODIFIED STATE: Changed. Visibly.",
+    "undo is one click away",
+    "DANGER ZONE: Quarantine the destructive.",
+    "friction scales with severity",
+    "danger pinned last",
+    "Instant vs explicit",
+    "Group by task",
+    "Searchable",
+    "Reset per setting",
+    "Danger zone"
+  ],
+  "ui_patterns": [
+    "Toggle switches",
+    "Input fields",
+    "Save/Cancel bars",
+    "Grouped lists",
+    "Search/Filter",
+    "Modified state indicators",
+    "Reset buttons",
+    "Danger zones",
+    "Confirmation modals"
+  ],
+  "design_principles": [
+    "Match the save model to the blast radius (low stakes = instant, high stakes = explicit)",
+    "Group settings by task or user intent rather than database tables",
+    "Provide search for large settings lists to support power users",
+    "Visually indicate modified states to encourage experimentation and easy undoing",
+    "Increase friction for destructive actions using quarantine zones and confirmation typing"
+  ],
+  "before_after": "Transforms a flat, unorganized list of 40 settings into a structured, searchable system with clear visual feedback and safety measures for destructive actions.",
+  "tags": [
+    "UI Design",
+    "UX Design",
+    "Settings Page",
+    "Product Design",
+    "UI Engineering"
+  ],
+  "id": "1522723335623999",
+  "date": "2026-07-29",
+  "url": "https://www.facebook.com/reel/1522723335623999",
+  "file": "2026-07-29_1522723335623999.mp4"
+}

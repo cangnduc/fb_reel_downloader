@@ -1,0 +1,113 @@
+{
+  "title": "The Power of UX Writing",
+  "summary": "This reel demonstrates how microcopy impacts conversion and user experience. It provides actionable tips for improving button labels, error messages, empty states, and brand voice through human-centric writing.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Same form, different words, one converts."
+    },
+    {
+      "t": "00:03",
+      "text": "Submit is a chore. It tells you nothing about what happens next."
+    },
+    {
+      "t": "00:06",
+      "text": "Create my free account is a promise. That label is the last thing they read before committing. Make it the payoff."
+    },
+    {
+      "t": "00:13",
+      "text": "Invalid input helps no one. It names the problem and walks away."
+    },
+    {
+      "t": "00:17",
+      "text": "That email's taken — want to log in? Hands them the fix. A good error is a detour sign, not a dead end."
+    },
+    {
+      "t": "00:23",
+      "text": "An empty inbox isn't a blank screen. It's your best chance to teach the first action."
+    },
+    {
+      "t": "00:28",
+      "text": "Show one button, one next step, instead of a void that looks like a bug."
+    },
+    {
+      "t": "00:33",
+      "text": "Placeholder text is not a label. It vanishes the moment they start typing, taking the question with it."
+    },
+    {
+      "t": "00:38",
+      "text": "Now they're staring at an answer with no idea what it was for."
+    },
+    {
+      "t": "00:42",
+      "text": "Write like a person, not a server. No real human ever said \"operation failed\" or \"invalid entry\"."
+    },
+    {
+      "t": "00:48",
+      "text": "Your words carry the brand louder than the color palette ever will."
+    },
+    {
+      "t": "00:51",
+      "text": "Words ship conversion. Follow for more UX writing. Save this for your next form."
+    }
+  ],
+  "on_screen_text": [
+    "SAME FORM. ONE WORD.",
+    "The words convert.",
+    "LABELS: The button is a chore",
+    "Submit",
+    "last thing they read before committing",
+    "LABELS: The button is a promise",
+    "Create my free account",
+    "Make it the payoff + conversion",
+    "ERROR MESSAGES: Name the problem, or walk away",
+    "Invalid input",
+    "A detour, not a dead end",
+    "ERROR MESSAGES: Name the problem, or hand the fix",
+    "That email's taken — want to log in?",
+    "EMPTY STATES: A void, or a blank",
+    "EMPTY STATES: A void, or a first step",
+    "No messages yet",
+    "Compose",
+    "Teach the first action",
+    "PLACEHOLDERS: A placeholder is not a label",
+    "the question vanished the moment they typed",
+    "PLACEHOLDERS: A placeholder is a kept label",
+    "the question stays put",
+    "Keep the label pinned",
+    "TONE OF VOICE: Write like a person",
+    "ERROR: operation failed",
+    "Hmm, that didn't go through — try again?",
+    "Words carry the brand",
+    "Words ship conversion."
+  ],
+  "ui_patterns": [
+    "Sign-up form",
+    "Call to Action (CTA) Button",
+    "Inline validation / Error messages",
+    "Empty state",
+    "Input fields",
+    "Floating labels",
+    "System alerts"
+  ],
+  "design_principles": [
+    "Action-oriented labels (Payoff vs. Chore)",
+    "Helpful error handling (Detour vs. Dead end)",
+    "Actionable empty states",
+    "Persistent labeling (Labels vs. Placeholders)",
+    "Human-centric tone of voice"
+  ],
+  "before_after": "Contrasts generic, technical microcopy (e.g., 'Submit', 'Invalid input', 'Operation failed') with specific, helpful, and human-sounding copy (e.g., 'Create my free account', 'Want to log in?', 'Hmm, that didn't go through').",
+  "tags": [
+    "UX Writing",
+    "Microcopy",
+    "Conversion Rate Optimization",
+    "UI Design",
+    "Product Design",
+    "UX Design"
+  ],
+  "id": "1496755651597876",
+  "date": "2026-07-03",
+  "url": "https://www.facebook.com/reel/1496755651597876",
+  "file": "2026-07-03_1496755651597876.mp4"
+}

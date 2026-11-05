@@ -1,0 +1,12 @@
+# Maintaining Design Consistency with UX Engine
+2026-08-04 · https://www.facebook.com/reel/895404883181820
+
+[00:00] Ten AI-built pricing pages. One of them used UX Engine.
+[00:04] Three screens. Three blues, three button styles.
+[00:07] Nothing carries between generations, so every screen decides alone and your product stops looking like one product.
+[00:14] Use the design-system skill on your project. It writes one file at the root, and every other skill then reads it.
+[00:20] Rule zero: it reads your Tailwind config, your CSS variables, then your most reused component, because if you already made those decisions, the system already exists.
+[00:31] Eleven tokens extracted, none invented, each carrying the one line reason it's there.
+[00:37] After that, a new blue gets stopped and replaced by the closest token. Extensions are allowed, but they get written down with their reason, because silent invention is how drift starts.
+[00:47] Coherent still isn't distinctive. The other new skill forces one decision per axis. Type, colour, space, finish, and it refuses to let you ship a default.
+[00:58] UX Engine 2.0. Eight skills, two of them new, two sub-agents, four commands for Claude Code. $79 instead of $99 until Thursday night. Link in bio.

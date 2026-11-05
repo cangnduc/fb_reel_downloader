@@ -1,0 +1,11 @@
+# 6 Decisions for Better Data Tables
+2026-09-04 · https://www.facebook.com/reel/1268917731967815
+
+[00:00] Your table is a spreadsheet in disguise. Six decisions fix that.
+[00:04] Amounts centered. Digits never line up, so the eye can't compare. Numbers right, tabular figures on. Text left. A column of amounts now reads like a receipt.
+[00:15] Zebra stripes fight the content. Every other row screams for nothing. One hairline between rows. Hover lights the row you're on. Stripes earn their place on wide rows only.
+[00:26] Row height is a decision, not a padding. Compact 40, default 48, comfortable 56. Three modes, one toggle. Dense for ops, airy for review.
+[00:38] 12 columns, the screen shows six. Scroll right and you lose the row's name. Pin the first column. Pin the header on vertical scroll. Context never leaves the screen.
+[00:49] An empty cell is a question. Missing, zero, or loading? Use a dash. Long text wraps and the row explodes. Truncate, tooltip on hover. Numbers never truncate.
+[01:01] An action column on every row is noise. 50 rows, 50 pencils. Reveal on hover or focus. Touch gets a kebab. Sort arrows only on the active column.
+[01:13] Follow for more UI systems. Save this before your next dashboard.

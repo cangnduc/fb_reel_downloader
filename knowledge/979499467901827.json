@@ -1,0 +1,116 @@
+{
+  "title": "Mastering UI Tab Systems",
+  "summary": "This lesson details five essential rules for designing high-quality tab systems, focusing on smooth animations, accessibility, and mobile responsiveness. It covers everything from indicator motion and overflow handling to keyboard navigation and content transitions.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Stop letting your tabs jump. Tabs are a system."
+    },
+    {
+      "t": "00:03",
+      "text": "01 Indicator. The underline slides. The underline never teleports, it slides."
+    },
+    {
+      "t": "00:06",
+      "text": "Spring config matches the content fade. Slow in, fast out."
+    },
+    {
+      "t": "00:11",
+      "text": "02 Overflow. 8 tabs, 1 screen. Don't wrap to a second line."
+    },
+    {
+      "t": "00:14",
+      "text": "Scroll horizontal. Edge fades show what's coming. Chevron buttons on desktop."
+    },
+    {
+      "t": "00:20",
+      "text": "03 Keyboard. Arrows. Home. End. Tab. Arrows move between tabs."
+    },
+    {
+      "t": "00:23",
+      "text": "Home jumps first. End jumps last. Tab moves to the next focusable group."
+    },
+    {
+      "t": "00:27",
+      "text": "Focus ring and active state never share a color."
+    },
+    {
+      "t": "00:30",
+      "text": "04 Mobile. Mobile is different. On mobile tabs collapse."
+    },
+    {
+      "t": "00:32",
+      "text": "Segmented control under 5. Bottom sheet over 5. Never just scale down the desktop version."
+    },
+    {
+      "t": "00:37",
+      "text": "05 Content. Content needs to breathe. Content never cuts, fade out."
+    },
+    {
+      "t": "00:40",
+      "text": "Pause 80 milliseconds. Fade in. Match the height to avoid layout shift."
+    },
+    {
+      "t": "00:45",
+      "text": "Your brain reads the transition as one motion. Follow for more UI systems."
+    }
+  ],
+  "on_screen_text": [
+    "HARD CUT - 0MS",
+    "SMOOTH SLIDE - 280MS",
+    "01 INDICATOR",
+    "The underline slides",
+    "spring {{ damping: 22, stiffness: 200 }}",
+    "EASE OUT - Slow in. Fast out.",
+    "02 OVERFLOW",
+    "DON'T WRAP TO 2 LINES",
+    "SCROLL HORIZONTAL",
+    "EDGE FADES",
+    "CHEVRONS ON DESKTOP",
+    "03 KEYBOARD",
+    "FOCUS never the same as ACTIVE",
+    "04 MOBILE",
+    "TOUCH TARGETS >= 44PX",
+    "THUMB ZONE FIRST",
+    "05 CONTENT",
+    "Content needs to breathe.",
+    "FADE OUT 80MS - 80MS PAUSE - FADE IN 80MS",
+    "MATCH THE HEIGHT",
+    "CONTAINER HEIGHT INTERPOLATES — NO LAYOUT SHIFT"
+  ],
+  "ui_patterns": [
+    "Tabs",
+    "Underline Indicator",
+    "Horizontal Scroll",
+    "Edge Fades/Gradients",
+    "Chevron Buttons",
+    "Focus Rings",
+    "Segmented Controls",
+    "Bottom Sheets"
+  ],
+  "design_principles": [
+    "Smooth motion over instant state changes",
+    "Ease-out timing (Slow in, Fast out)",
+    "Avoid multi-line wrapping for navigation",
+    "Keyboard accessibility (Arrow, Home, End keys)",
+    "Visual distinction between Focus and Active states",
+    "Mobile-first touch targets (>= 44px)",
+    "Thumb-zone optimization",
+    "Prevention of Layout Shift (CLS) through height interpolation",
+    "Fade-Pause-Fade content transitions"
+  ],
+  "before_after": "Hard-cut tab indicators and content jumping vs. smooth sliding indicators and interpolated container heights with fade transitions.",
+  "tags": [
+    "UI Design",
+    "UX Design",
+    "Tabs",
+    "Animation",
+    "Accessibility",
+    "Mobile Design",
+    "Dashboard Design"
+  ],
+  "id": "979499467901827",
+  "date": "2026-05-22",
+  "url": "https://www.facebook.com/reel/979499467901827",
+  "file": "2026-05-22_979499467901827.mp4"
+}

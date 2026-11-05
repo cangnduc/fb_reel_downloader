@@ -1,0 +1,16 @@
+# Success is a System: Designing Better Done Screens
+2026-09-25 · https://www.facebook.com/reel/1386079209898048
+
+[00:00] Success is a system. Three done screens. Only one keeps the user.
+[00:04] Say what happened. Success tells you nothing. Invoice sent to Northwind Labs, due October 12th.
+[00:11] Specifics are the proof it worked. A vague success feels like a maybe.
+[00:16] Every success screen offers the next action. Send an invoice? View it or send another.
+[00:22] A checkmark with no button is a dead end. The user closes the tab right there.
+[00:27] Dismissal follows stakes. A saved setting gets a toast that leaves in four seconds.
+[00:32] A payment gets a page that stays, with a receipt and an email. Nobody screenshots a toast.
+[00:38] Success is not the end. Leave one open loop. Track the payment, share the report, invite the team.
+[00:46] A finished task with a thread to pull brings people back.
+[00:49] Celebration scales with rarity. Confetti on every save trains people to ignore it.
+[00:54] Save it for the first invoice paid. Rare joy lands. Constant joy is noise.
+[01:00] Five decisions. One success state that keeps the user moving.
+[01:04] Now make Claude Code think like a senior UX designer. UX Engine designs the screen before coding, audits what is broken, reviews the diff, and kills the AI look. Link in bio.

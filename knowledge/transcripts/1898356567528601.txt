@@ -1,0 +1,17 @@
+# Designing Better UI Filter Systems
+2026-06-12 · https://www.facebook.com/reel/1898356567528601
+
+[00:00] 200 results, 3 taps, 12 left.
+[00:02] A chip lives in three states: idle, active, disabled.
+[00:06] If active looks like idle, the filter feels broken.
+[00:09] Pick two colors and results grow. Add a size and they shrink.
+[00:13] Or within a group and across the groups. More chips in one group widen the net. A new group narrows it.
+[00:15] Every tap needs an answer. Update the result count the moment a chip flips.
+[00:20] Silence makes users tap twice.
+[00:22] Stacked filters trap people in a corner. One clear-all button resets the set.
+[00:27] Pair it with a count so they know what it wipes. Always leave an exit.
+[00:31] 10 chips never fit a phone. Scroll them sideways in one row.
+[00:35] Fade the edge so users feel there is more. Wrapping into a wall buries the results.
+[00:40] Filters out of sight get forgotten. Keep the active ones pinned on top.
+[00:44] Users should see why the list shrank.
+[00:46] Follow for more UI systems. Save this for your next product page.

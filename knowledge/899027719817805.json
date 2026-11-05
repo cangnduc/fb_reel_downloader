@@ -1,0 +1,113 @@
+{
+  "title": "5 Animation Timing Secrets for UI",
+  "summary": "This lesson provides specific duration guidelines for different types of UI animations to ensure a responsive and professional user experience. It covers optimal timing for entrances, exits, feedback, attention-grabbing elements, and staggered lists.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Entrances lie between 200 and 300 milliseconds."
+    },
+    {
+      "t": "00:04",
+      "text": "Faster feels broken, slower feels heavy."
+    },
+    {
+      "t": "00:07",
+      "text": "Page transitions, modals, panels."
+    },
+    {
+      "t": "00:10",
+      "text": "Exits are faster than entrances."
+    },
+    {
+      "t": "00:13",
+      "text": "150 to 200 milliseconds. Snappier."
+    },
+    {
+      "t": "00:16",
+      "text": "The user already decided. Don't make them wait."
+    },
+    {
+      "t": "00:20",
+      "text": "Feedback animation stays under 100 milliseconds."
+    },
+    {
+      "t": "00:24",
+      "text": "Button press, hover, toggle."
+    },
+    {
+      "t": "00:26",
+      "text": "Anything slower feels laggy, not responsive."
+    },
+    {
+      "t": "00:30",
+      "text": "Attention animations need 5 to 800 milliseconds with bounce."
+    },
+    {
+      "t": "00:34",
+      "text": "Errors, notifications. The wiggle."
+    },
+    {
+      "t": "00:37",
+      "text": "Slow enough to notice, fast enough to not annoy."
+    },
+    {
+      "t": "00:41",
+      "text": "List stagger by 50 milliseconds per item."
+    },
+    {
+      "t": "00:44",
+      "text": "Not 30, not 100."
+    },
+    {
+      "t": "00:46",
+      "text": "The sweet spot where motion guides the eye."
+    },
+    {
+      "t": "00:49",
+      "text": "Save these numbers for every animation you ship."
+    }
+  ],
+  "on_screen_text": [
+    "SECRET 01 ENTRANCE",
+    "200-300ms is the sweet spot",
+    "SECRET 02 EXIT",
+    "Faster than entrance",
+    "Exits are 30% faster",
+    "SECRET 03 FEEDBACK",
+    "The Doherty threshold",
+    "SECRET 04 ATTENTION",
+    "500-800ms with bounce",
+    "SECRET 05 STAGGER",
+    "50ms between items",
+    "CHEAT SHEET"
+  ],
+  "ui_patterns": [
+    "Modals",
+    "Page transitions",
+    "Panels",
+    "Buttons",
+    "Toggles",
+    "Error alerts",
+    "Notifications",
+    "Staggered lists"
+  ],
+  "design_principles": [
+    "Entrance animations should be 200-300ms.",
+    "Exit animations should be roughly 30% faster than entrances (150-200ms).",
+    "Interactive feedback (hover/press) should be under 100ms (Doherty Threshold).",
+    "Attention-grabbing animations should be 500-800ms with a bounce to be noticeable but not annoying.",
+    "Staggered list items should have a 50ms delay between each item."
+  ],
+  "before_after": "Compares 'Too Fast', 'Perfect', and 'Too Slow' timings for each animation category to demonstrate the ideal feel.",
+  "tags": [
+    "UI Design",
+    "UX Design",
+    "Motion Design",
+    "Animation Timing",
+    "Interaction Design"
+  ],
+  "id": "899027719817805",
+  "date": "2026-05-06",
+  "url": "https://www.facebook.com/reel/899027719817805",
+  "file": "2026-05-06_899027719817805.mp4"
+}

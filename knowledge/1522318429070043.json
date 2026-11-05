@@ -1,0 +1,117 @@
+{
+  "title": "UX Engine: Improving AI-Generated Interfaces",
+  "summary": "This reel introduces UX Engine, a tool for Claude Code that transforms generic 'database-shaped' AI outputs into user-centric interfaces. It emphasizes intent discovery, state completeness, and automated UX auditing to create safer, more professional designs.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "Your AI ships database-shaped interfaces."
+    },
+    {
+      "t": "00:02",
+      "text": "12 columns, every field in the schema. Delete sits next to edit on every row."
+    },
+    {
+      "t": "00:07",
+      "text": "No empty state, no loading state. One misclick from disaster."
+    },
+    {
+      "t": "00:11",
+      "text": "This one gets rebuilt live. One command."
+    },
+    {
+      "t": "00:13",
+      "text": "It asks who uses this page and what's the worst mistake they could make."
+    },
+    {
+      "t": "00:17",
+      "text": "Support team, wrong account deletes. So delete moves behind a type confirmation."
+    },
+    {
+      "t": "00:23",
+      "text": "Search becomes the primary action. 5 columns, not 12."
+    },
+    {
+      "t": "00:27",
+      "text": "It specs every state before writing code. Loading, empty, error, success, offline, partial."
+    },
+    {
+      "t": "00:34",
+      "text": "The skeleton matches the final layout."
+    },
+    {
+      "t": "00:36",
+      "text": "Already shipped? Point the auditor at any screen."
+    },
+    {
+      "t": "00:39",
+      "text": "You get a severity-ranked fix list, not advice."
+    },
+    {
+      "t": "00:42",
+      "text": "Six skills, two sub-agents, three commands. Senior designer reasoning on every prompt."
+    },
+    {
+      "t": "00:47",
+      "text": "It's called UX Engine built for Claude Code. Link in bio, save this before your next build."
+    }
+  ],
+  "on_screen_text": [
+    "Database-shaped.",
+    "The AI default",
+    "Built for the database",
+    "12 columns",
+    "One misclick from disaster",
+    "no empty state",
+    "no loading state",
+    "1 click - no confirm",
+    "/UX-DESIGN",
+    "It asks before it builds",
+    "ux-engine - intent discovery",
+    "THE REBUILD",
+    "Rebuilt for intent",
+    "5 columns",
+    "Destructive actions earn friction",
+    "STATE COMPLETENESS",
+    "Six states, specced first",
+    "1:1 - matches layout",
+    "/UX-AUDIT",
+    "Audit what you shipped",
+    "Ranked. Actionable. Shippable.",
+    "THE SYSTEM",
+    "What's inside",
+    "On every prompt. Automatically.",
+    "UX Engine",
+    "A plugin for Claude Code"
+  ],
+  "ui_patterns": [
+    "Data Table",
+    "Search Bar",
+    "Confirmation Modal",
+    "Skeleton Screens",
+    "Empty State",
+    "Error State",
+    "Success Notification",
+    "Action Menu"
+  ],
+  "design_principles": [
+    "Intent-driven design",
+    "Information hierarchy",
+    "Friction for destructive actions",
+    "State completeness",
+    "Skeleton screen layout matching",
+    "UX Auditing"
+  ],
+  "before_after": "A cluttered 12-column table with immediate delete buttons is transformed into a streamlined 5-column table with search-first navigation and confirmation-guarded destructive actions.",
+  "tags": [
+    "UX Design",
+    "AI Tools",
+    "UI Design",
+    "Claude Code",
+    "Product Design",
+    "Design Systems"
+  ],
+  "id": "1522318429070043",
+  "date": "2026-07-24",
+  "url": "https://www.facebook.com/reel/1522318429070043",
+  "file": "2026-07-24_1522318429070043.mp4"
+}

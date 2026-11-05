@@ -1,0 +1,17 @@
+# 7 Steps to Responsive Tables
+2026-09-06 · https://www.facebook.com/reel/1074809841592221
+
+[00:00] Your table on a phone. Don't shrink it, restructure it.
+[00:03] Six columns, three fit on one line. Which three? Not the leftmost. Rank by use: identity, value, state.
+[00:12] The ID leaves first. Nobody reads it on a phone.
+[00:15] Horizontal scroll hides half the row. Stack instead. Two lines per row. Name left, amount right. Status and due date underneath.
+[00:23] The row reads as one unit, thumb-sized.
+[00:26] Cards kill comparison. Amounts drift under names. Nothing lines up.
+[00:31] One slot for the amount. Top right every card, tabular figures. A list of cards is still a column of numbers.
+[00:38] No header row on a card. So label the ambiguous. March 4th alone means nothing. Due March 4th does.
+[00:46] A dollar amount needs no label. Sorting moves to a control.
+[00:51] Hidden isn't deleted. Tap the row. Invoice ID, notes, actions slide in.
+[00:57] Two fields, expand in place. A full record, bottom sheet. Never a new page for a glance.
+[01:03] The breakpoint belongs to the table, not the screen. Six columns need 700 pixels. Below that, cards.
+[01:10] One container query. Same table in a desktop side panel, cards too.
+[01:15] Six moves, done. Or type /restyle. UX Engine, the Claude code plugin that kills the AI look. Link in bio.

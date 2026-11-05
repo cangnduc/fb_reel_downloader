@@ -1,0 +1,114 @@
+{
+  "title": "Mastering Pagination UX",
+  "summary": "This lesson explores essential pagination strategies for data tables, including choosing the right pattern for user needs and solving technical issues like data drift. It covers cursor-based pagination, UI truncation, scroll restoration, and URL state management.",
+  "transcript": [
+    {
+      "t": "00:00",
+      "text": "10,000 rows. Jump straight to page 500."
+    },
+    {
+      "t": "00:03",
+      "text": "Offset pagination hides a bug. Add one row at the top and every page shifts down."
+    },
+    {
+      "t": "00:07",
+      "text": "People see the same item twice."
+    },
+    {
+      "t": "00:10",
+      "text": "Cursors fix the drift. Paginate by after this ID, not skip 500."
+    },
+    {
+      "t": "00:14",
+      "text": "The list stays stable as data changes."
+    },
+    {
+      "t": "00:17",
+      "text": "Three patterns. Each one fits a different job."
+    },
+    {
+      "t": "00:20",
+      "text": "Numbered for jumping, load more for control, infinite for feeds."
+    },
+    {
+      "t": "00:24",
+      "text": "Each one fits a different job."
+    },
+    {
+      "t": "00:26",
+      "text": "Do not render 500 page links. Truncate."
+    },
+    {
+      "t": "00:30",
+      "text": "First, a gap, the current pages, a gap, the last. Always keep first and last reachable."
+    },
+    {
+      "t": "00:36",
+      "text": "Get back from a detail page. Land on the row you left, not at the top."
+    },
+    {
+      "t": "00:40",
+      "text": "Restore scroll, or you lose your place."
+    },
+    {
+      "t": "00:42",
+      "text": "Put the page number in the URL. Page 500 becomes a link you can share or refresh."
+    },
+    {
+      "t": "00:48",
+      "text": "State lives in the address bar."
+    },
+    {
+      "t": "00:50",
+      "text": "Follow for more UI systems. Save this for your next data table."
+    }
+  ],
+  "on_screen_text": [
+    "10,000 ROWS",
+    "OFFSET PAGINATION",
+    "New row inserted at top — everything shifts down",
+    "The same item shows up twice.",
+    "OFFSET VS CURSOR",
+    "cursor = stable",
+    "THREE PATTERNS Each one fits a different job.",
+    "Numbered: Jump to any page",
+    "Load more: User stays in control",
+    "Infinite scroll: Best for feeds",
+    "DON'T RENDER 500 LINKS",
+    "Keep first and last always reachable.",
+    "BACK FROM A DETAIL PAGE",
+    "Restore scroll or lose your place",
+    "STATE LIVES IN THE URL",
+    "Refresh keeps page 500",
+    "Refresh resets to page 1"
+  ],
+  "ui_patterns": [
+    "Data Table",
+    "Numbered Pagination",
+    "Load More Button",
+    "Infinite Scroll",
+    "Pagination Truncation",
+    "Scroll Restoration",
+    "URL Query Parameters"
+  ],
+  "design_principles": [
+    "Use cursor-based pagination to prevent item duplication and drift in dynamic lists.",
+    "Select pagination patterns based on user goals: Numbered for specific access, Load More for manual control, and Infinite Scroll for discovery.",
+    "Truncate long pagination ranges to avoid UI overflow while keeping the first and last pages accessible.",
+    "Implement scroll restoration to maintain user context when navigating back from detail views.",
+    "Sync UI state with the URL to enable deep linking and persistent views across refreshes."
+  ],
+  "before_after": "Demonstrates the transition from buggy offset pagination to stable cursor pagination, and from cluttered link lists to clean, truncated navigation with URL state persistence.",
+  "tags": [
+    "UX Design",
+    "UI Design",
+    "Pagination",
+    "Data Tables",
+    "Frontend Development",
+    "Web Design"
+  ],
+  "id": "4488595424803425",
+  "date": "2026-06-19",
+  "url": "https://www.facebook.com/reel/4488595424803425",
+  "file": "2026-06-19_4488595424803425.mp4"
+}

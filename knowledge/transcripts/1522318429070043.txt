@@ -1,0 +1,16 @@
+# UX Engine: Improving AI-Generated Interfaces
+2026-07-24 · https://www.facebook.com/reel/1522318429070043
+
+[00:00] Your AI ships database-shaped interfaces.
+[00:02] 12 columns, every field in the schema. Delete sits next to edit on every row.
+[00:07] No empty state, no loading state. One misclick from disaster.
+[00:11] This one gets rebuilt live. One command.
+[00:13] It asks who uses this page and what's the worst mistake they could make.
+[00:17] Support team, wrong account deletes. So delete moves behind a type confirmation.
+[00:23] Search becomes the primary action. 5 columns, not 12.
+[00:27] It specs every state before writing code. Loading, empty, error, success, offline, partial.
+[00:34] The skeleton matches the final layout.
+[00:36] Already shipped? Point the auditor at any screen.
+[00:39] You get a severity-ranked fix list, not advice.
+[00:42] Six skills, two sub-agents, three commands. Senior designer reasoning on every prompt.
+[00:47] It's called UX Engine built for Claude Code. Link in bio, save this before your next build.

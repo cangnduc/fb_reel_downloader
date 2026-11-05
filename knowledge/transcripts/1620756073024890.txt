@@ -1,0 +1,11 @@
+# Mastering Border Radius Systems
+2026-09-02 · https://www.facebook.com/reel/1620756073024890
+
+[00:00] Every corner rounded. Still looks off. Corners are a system.
+[00:04] Same radius inside and out. The inner corner bulges. Inner equals outer minus padding. 12 outside, 8 of padding, 4 inside. Now the corners are concentric.
+[00:15] 8 pixels on everything. A chip and a modal don't share a corner. Radius follows size. Small 4, medium 8, large 16. One scale, every element on it.
+[00:27] Full radius isn't a number, it's a shape. A pill fits one line. Chips, avatars, toggles. On a card, the corners swallow the content. Multi-line gets a real number.
+[00:38] A sheet docked to the bottom. The top corners round, the bottom ones hit zero. A corner means space beyond it. Touching an edge? No corner.
+[00:48] A selection ring drawn as its own box, two pixels out. Inherit the radius and the corners pinch. Flip the formula: outer equals inner plus the gap. Eight in, ten out.
+[00:59] Edge-to-edge image in a rounded card. Its square corners poke through. Let the card clip it. Inset image? Subtract the padding. Same rule.
+[01:09] Follow for more UI systems. Save this before your next card.

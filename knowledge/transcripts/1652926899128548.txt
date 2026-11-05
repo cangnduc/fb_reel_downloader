@@ -1,0 +1,14 @@
+# Password UX Best Practices
+2026-06-23 · https://www.facebook.com/reel/1652926899128548
+
+[00:00] 8 characters, 1 symbol. Still weak.
+[00:02] Passes the rules. Still weak.
+[00:03] Capital P, at sign, zero. Passes every rule. Cracks in 2 hours.
+[00:07] Strength is entropy, not checkboxes. Length beats symbols.
+[00:11] Rules revealed after submit? Rage.
+[00:14] Show the checklist while they type. Each requirement ticks live. Green before they hit the button.
+[00:21] A red bar says weak, a growing bar says almost. Strength meters coach in real time. Errors only punish after the fact.
+[00:29] Masked dots cause typos. Give them the eye toggle. And never block paste.
+[00:35] Password managers type stronger passwords than humans.
+[00:39] The strongest pattern: offer the password. Built into iOS, Android and every modern browser. One tap. Generated, unique, saved. Zero typing, zero weak choices, zero reuse.
+[00:51] Follow for more form UX and save this for your next signup flow.

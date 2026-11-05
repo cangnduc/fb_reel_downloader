@@ -1,0 +1,20 @@
+# Form UX Timing
+2026-07-01 · https://www.facebook.com/reel/1944524912916993
+
+[00:00] The error fires while you're still typing.
+[00:01] The timing is the whole thing.
+[00:02] Validate only on submit and they fill 10 fields blind.
+[00:05] Hit the button and everything turns red at once.
+[00:08] Now they're scrolling up, hunting for what went wrong.
+[00:11] Validate on every keystroke and you punish them mid-word.
+[00:14] They type the first letter, you scream "invalid email".
+[00:18] Technically correct, completely cruel.
+[00:21] Validate on blur. Wait until they leave the field, then check it.
+[00:24] They've finished the thought, so the feedback lands as helpful, not nagging.
+[00:29] Once a field is wrong, the rules change.
+[00:31] Switch that one to live and clear the error the instant they fix it.
+[00:35] Don't make them submit again to find out they're forgiven.
+[00:38] A green check is feedback too.
+[00:40] Confirm the field is right, don't only flag wrong.
+[00:43] Silence after effort feels like the form is judging them.
+[00:46] Follow for more form UX. Save this for your next build.
